@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 17
+Sheet 1 22
 Title ""
 Date ""
 Rev ""
@@ -81,7 +81,7 @@ F0 "blinky" 50
 F1 "blinky.sch" 50
 $EndSheet
 $Sheet
-S 8150 2200 500  400 
+S 7850 2200 500  400 
 U 5CDAB997
 F0 "power" 50
 F1 "power.sch" 50
@@ -93,9 +93,39 @@ F0 "button" 50
 F1 "button.sch" 50
 $EndSheet
 $Sheet
-S 4000 2150 500  400 
+S 4050 2200 500  400 
 U 5CDABC82
 F0 "sdio" 50
 F1 "sdio.sch" 50
+$EndSheet
+$Sheet
+S 1800 2650 500  400 
+U 5CDB1CFA
+F0 "ADC" 50
+F1 "ADC.sch" 50
+$EndSheet
+$Sheet
+S 2450 2650 500  400 
+U 5CDB1D8D
+F0 "PWM" 50
+F1 "PWM.sch" 50
+$EndSheet
+$Sheet
+S 1150 3800 500  400 
+U 5CDB1F71
+F0 "SIM800C24M" 50
+F1 "SIM800C24M.sch" 50
+$EndSheet
+$Sheet
+S 2450 3800 500  400 
+U 5CDB1F8F
+F0 "NEO-6M-0-001" 50
+F1 "NEO-6M-0-001.sch" 50
+$EndSheet
+$Sheet
+S 2450 4400 500  400 
+U 5CDB211F
+F0 "lora" 50
+F1 "lora.sch" 50
 $EndSheet
 $EndSCHEMATC
