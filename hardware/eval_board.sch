@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:eval_board-cache
+LIBS:bb-ch340t-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 22
+Sheet 1 20
 Title ""
 Date ""
 Rev ""
@@ -69,12 +70,6 @@ F0 "sheet5CDAB83A" 50
 F1 "spi.sch" 50
 $EndSheet
 $Sheet
-S 4750 2200 500  400 
-U 5CDAB84E
-F0 "can_bus" 50
-F1 "can_bus.sch" 50
-$EndSheet
-$Sheet
 S 1150 3200 500  400 
 U 5CDAB850
 F0 "blinky" 50
@@ -127,5 +122,11 @@ S 2450 4400 500  400
 U 5CDB211F
 F0 "lora" 50
 F1 "lora.sch" 50
+$EndSheet
+$Sheet
+S 1150 4650 500  400 
+U 5CDBA822
+F0 "test_points" 50
+F1 "test_points.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:eval_board-cache
+LIBS:bb-ch340t-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 22
+Sheet 16 20
 Title ""
 Date ""
 Rev ""
@@ -15,5 +16,5 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 650  950  0    50   ~ 0
-debug led\nPC13
+sdcard
 $EndSCHEMATC

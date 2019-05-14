@@ -15001,89 +15001,22 @@ F 3 "" H 3450 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 3750 4100 3750
+	5100 3750 4250 3750
 Wire Wire Line
 	3350 4250 3550 4250
 Connection ~ 3550 3750
-$Comp
-L bb-ch340t-rescue:C C?
-U 1 1 55069C71
-P 4900 4000
-F 0 "C?" H 4925 4100 50  0000 L CNN
-F 1 "10nF" H 4925 3900 50  0000 L CNN
-F 2 "kicad_wrk:C_0603" H 4938 3850 30  0001 C CNN
-F 3 "" H 4900 4000 60  0000 C CNN
-	1    4900 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L bb-ch340t-rescue:C C?
-U 1 1 55069CF9
-P 3800 4000
-F 0 "C?" H 3825 4100 50  0000 L CNN
-F 1 "2.2uF" H 3825 3900 50  0000 L CNN
-F 2 "kicad_wrk:C_0603" H 3838 3850 30  0001 C CNN
-F 3 "" H 3800 4000 60  0000 C CNN
-	1    3800 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L bb-ch340t-rescue:C C?
-U 1 1 55069D14
-P 4100 4000
-F 0 "C?" H 4125 4100 50  0000 L CNN
-F 1 "100nF" H 4125 3900 50  0000 L CNN
-F 2 "kicad_wrk:C_0603" H 4138 3850 30  0001 C CNN
-F 3 "" H 4100 4000 60  0000 C CNN
-	1    4100 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 4150 4100 4150
 Wire Wire Line
 	4900 3850 5100 3850
-Wire Wire Line
-	3800 3850 3800 3750
 Connection ~ 3800 3750
-Wire Wire Line
-	4100 3850 4100 3750
-Connection ~ 4100 3750
 Connection ~ 4100 4150
-Connection ~ 4900 4150
-$Comp
-L bb-ch340t-rescue:C C?
-U 1 1 55069DA1
-P 4150 5550
-F 0 "C?" H 4175 5650 50  0000 L CNN
-F 1 "22p" H 4175 5450 50  0000 L CNN
-F 2 "kicad_wrk:C_0603" H 4188 5400 30  0001 C CNN
-F 3 "" H 4150 5550 60  0000 C CNN
-	1    4150 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L bb-ch340t-rescue:C C?
-U 1 1 55069DD0
-P 4900 5550
-F 0 "C?" H 4925 5650 50  0000 L CNN
-F 1 "22p" H 4925 5450 50  0000 L CNN
-F 2 "kicad_wrk:C_0603" H 4938 5400 30  0001 C CNN
-F 3 "" H 4900 5550 60  0000 C CNN
-	1    4900 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5100 4650 4150 4650
 Wire Wire Line
 	4150 4650 4150 4850
 Wire Wire Line
-	4900 5400 4900 5300
-Wire Wire Line
-	4150 5700 4150 5750
-Wire Wire Line
 	4150 5750 4550 5750
-Wire Wire Line
-	4900 5750 4900 5700
 Wire Wire Line
 	4550 5750 4550 5800
 Connection ~ 4550 5750
@@ -15130,7 +15063,6 @@ Wire Wire Line
 	6900 3650 6950 3650
 Wire Wire Line
 	4900 3350 6700 3350
-Connection ~ 4900 3850
 Wire Wire Line
 	3550 3150 7400 3150
 Wire Wire Line
@@ -15205,17 +15137,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 3350 7200 3350
 $Comp
-L bb-ch340t-rescue:R_Small R?
-U 1 1 55937607
-P 6800 3650
-F 0 "R?" V 6700 3550 50  0000 L CNN
-F 1 "1K" V 6950 3650 50  0000 L CNN
-F 2 "" H 6800 3650 60  0000 C CNN
-F 3 "" H 6800 3650 60  0000 C CNN
-	1    6800 3650
-	0    1    1    0   
-$EndComp
-$Comp
 L bb-ch340t-rescue:D_Schottky_Small D?
 U 1 1 55937694
 P 6500 3750
@@ -15251,13 +15172,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 3750 3550 3750
 Wire Wire Line
-	4100 3750 3800 3750
-Wire Wire Line
-	4100 4150 4900 4150
-Wire Wire Line
-	4900 4150 5100 4150
-Wire Wire Line
-	4150 5300 4150 5400
+	4100 4150 4250 4150
 Wire Wire Line
 	4550 5750 4650 5750
 Wire Wire Line
@@ -15354,4 +15269,100 @@ Connection ~ 4900 5300
 Connection ~ 4900 4850
 Wire Wire Line
 	4900 4850 5100 4850
+$Comp
+L taobao-c:C225,0603 C?
+U 1 1 5CE7979B
+P 3800 4000
+F 0 "C?" H 3900 4050 50  0000 L CNN
+F 1 "C225,0603" H 3900 4000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3800 4000 50  0001 C CNN
+F 3 "~" H 3800 4000 50  0001 C CNN
+	1    3800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3750 3800 3900
+Wire Wire Line
+	3800 4100 3800 4150
+$Comp
+L taobao-c:C225,0603 C?
+U 1 1 5CE7CBB6
+P 4250 4000
+F 0 "C?" H 4350 4050 50  0000 L CNN
+F 1 "C225,0603" H 4350 4000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4250 4000 50  0001 C CNN
+F 3 "~" H 4250 4000 50  0001 C CNN
+	1    4250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3750 4250 3900
+Connection ~ 4250 3750
+Wire Wire Line
+	4250 4100 4250 4150
+Connection ~ 4250 4150
+Wire Wire Line
+	3800 3750 4250 3750
+$Comp
+L taobao-c:C103,0603 C?
+U 1 1 5CE8154D
+P 4900 4000
+F 0 "C?" H 5000 4050 50  0000 L CNN
+F 1 "C103,0603" H 5000 4000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4900 4000 50  0001 C CNN
+F 3 "~" H 4900 4000 50  0001 C CNN
+	1    4900 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4150 4900 4150
+Wire Wire Line
+	4900 3850 4900 3900
+Connection ~ 4900 3850
+Wire Wire Line
+	4900 4100 4900 4150
+Connection ~ 4900 4150
+Wire Wire Line
+	4900 4150 5100 4150
+$Comp
+L taobao-c:C22pf,0603 C?
+U 1 1 5CE8611F
+P 4150 5550
+F 0 "C?" H 4250 5600 50  0000 L CNN
+F 1 "C22pf,0603" H 4250 5550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4150 5550 50  0001 C CNN
+F 3 "~" H 4150 5550 50  0001 C CNN
+	1    4150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C22pf,0603 C?
+U 1 1 5CE863C8
+P 4900 5550
+F 0 "C?" H 5000 5600 50  0000 L CNN
+F 1 "C22pf,0603" H 5000 5550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4900 5550 50  0001 C CNN
+F 3 "~" H 4900 5550 50  0001 C CNN
+	1    4900 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5300 4150 5450
+Wire Wire Line
+	4150 5650 4150 5750
+Wire Wire Line
+	4900 5300 4900 5450
+Wire Wire Line
+	4900 5650 4900 5750
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5CE8F8C3
+P 6800 3650
+F 0 "R?" V 6550 3650 50  0000 C CNN
+F 1 "R103,0603" V 6650 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6800 3650 50  0001 C CNN
+F 3 "~" H 6800 3650 50  0001 C CNN
+	1    6800 3650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
