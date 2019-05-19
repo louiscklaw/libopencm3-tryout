@@ -1,11 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:eval_board-cache
-LIBS:bb-ch340t-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 20
+Sheet 18 22
 Title ""
 Date ""
 Rev ""

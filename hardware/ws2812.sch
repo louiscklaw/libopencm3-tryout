@@ -1,11 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:eval_board-cache
-LIBS:bb-ch340t-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 20
+Sheet 8 22
 Title ""
 Date ""
 Rev ""
@@ -3459,10 +3458,10 @@ A4 85 38 81 E0 DE C9 A0 A3 70 56 83 D2 5A 6B AD E3 38 46 57 15 21 44 B6 D0 63 26
 EndData
 $EndBitmap
 $Comp
-L LED:WS2812 D?
+L LED:WS2812 D1
 U 1 1 5CE91B05
 P 3650 3050
-F 0 "D?" H 4000 3100 50  0000 L CNN
+F 0 "D1" H 4000 3100 50  0000 L CNN
 F 1 "WS2812" H 4000 3050 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 3700 2750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 3750 2675 50  0001 L TNN
