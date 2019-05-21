@@ -41,8 +41,8 @@ $EndSheet
 $Sheet
 S 6300 2800 500  400 
 U 5CDAB7C1
-F0 "uart" 50
-F1 "uart.sch" 50
+F0 "CH340T" 50
+F1 "CH340T.sch" 50
 $EndSheet
 $Sheet
 S 6300 3400 500  400 

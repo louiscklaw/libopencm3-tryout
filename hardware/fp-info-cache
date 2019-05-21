@@ -1,4 +1,4 @@
-19421121789866355
+19473439487005240
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44072,6 +44072,13 @@ JST PH series connector, B2B-PH-KL
 2
 2
 footprint-lib
+b2b-xh-2.54,temperature_terminal
+JST XH series connector, JST_B2B-XH-A
+connector jst xh
+0
+2
+2
+footprint-lib
 b3b-ph-kl,end_stop
 JST PH series connector, B3B-PH-KL
 
@@ -44079,9 +44086,23 @@ JST PH series connector, B3B-PH-KL
 3
 3
 footprint-lib
+b3b-xh-2.54,end_stop
+JST XH series connector, JST_B3B-XH-A
+connector jst xh
+0
+3
+3
+footprint-lib
 b4b-ph-kl,stepper_terminal
 JST PH series connector, B4B-PH-KL
 
+0
+4
+4
+footprint-lib
+b4b-xh-2.54,stepper_terminal
+JST XH series connector, JST_B4B-XH-A
+connector jst xh
 0
 4
 4
@@ -44177,6 +44198,13 @@ flow_mpt_0,5%2f5-2,54
 5
 5
 footprint-lib
+friendlyarm_nano_pi_duo2
+
+
+0
+32
+32
+footprint-lib
 Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder
 Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator
 resistor handsolder
@@ -44260,6 +44288,27 @@ HLT1160
 0
 7
 3
+footprint-lib
+KF141V141R_Straight_1x02_Pitch2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+KF141V141R 1x02
+0
+4
+2
+footprint-lib
+KF141V141R_Straight_1x03_Pitch2.54mm
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+KF141V141R_Straight_1x03_Pitch2.54mm
+0
+6
+3
+footprint-lib
+KF141V141R_Straight_1x04_Pitch2.54mm
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+KF141V141R_Straight_1x04_Pitch2.54mm
+0
+8
+4
 footprint-lib
 KF141V141R_Straight_1x08_Pitch2.54mm
 Through hole straight pin header, 1x08, 2.54mm pitch, single row
@@ -44365,6 +44414,13 @@ mouse-bite-2mm-slot
 0
 0
 0
+footprint-lib
+MP1584,SOIC-8_3.9x4.9mm_P1.27mm,thermal_via
+MP1584
+MP1584 SOIC-8
+0
+20
+9
 footprint-lib
 MP2303,SOIC-8_3.9x4.9mm_P1.27mm,thermal_via
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf)
@@ -45199,7 +45255,7 @@ JST PH series connector, S4B-PH-KL
 4
 4
 footprint-lib
-s4b-ph-kl,stepper_motor_terminal
+s4b-ph-kl,stepper_terminal
 JST PH series connector, S4B-PH-KL
 
 0
@@ -49300,6 +49356,132 @@ solder jumper open
 0
 5
 3
+kicad-jst-xh.pretty
+JST_B2B-XH-A-2.54
+JST XH series connector, JST_B2B-XH-A
+connector jst xh
+0
+2
+2
+kicad-jst-xh.pretty
+JST_B3B-XH-A-2.54
+JST XH series connector, JST_B3B-XH-A
+connector jst xh
+0
+3
+3
+kicad-jst-xh.pretty
+JST_B4B-XH-A-2.54
+JST XH series connector, JST_B4B-XH-A
+connector jst xh
+0
+4
+4
+kicad-jst-xh.pretty
+JST_B5B-XH-A-2.54
+JST XH series connector, JST_B5B-XH-A
+connector jst xh
+0
+5
+5
+kicad-jst-xh.pretty
+JST_B6B-XH-A-2.54
+JST XH series connector, JST_B6B-XH-A
+connector jst xh
+0
+6
+6
+kicad-jst-xh.pretty
+JST_B7B-XH-A-2.54
+JST XH series connector, JST_B7B-XH-A
+connector jst xh
+0
+7
+7
+kicad-jst-xh.pretty
+JST_B8B-XH-A-2.54
+JST XH series connector, JST_B8B-XH-A
+connector jst xh
+0
+8
+8
+kicad-jst-xh.pretty
+JST_B9B-XH-A-2.54
+JST XH series connector, JST_B9B-XH-A
+connector jst xh
+0
+9
+9
+kicad-jst-xh.pretty
+JST_B10B-XH-A-2.54
+JST XH series connector, JST_B10B-XH-A
+connector jst xh
+0
+10
+10
+kicad-jst-xh.pretty
+JST_B11B-XH-A-2.54
+JST XH series connector, JST_B11B-XH-A
+connector jst xh
+0
+11
+11
+kicad-jst-xh.pretty
+JST_B12B-XH-A-2.54
+JST XH series connector, JST_B12B-XH-A
+connector jst xh
+0
+12
+12
+kicad-jst-xh.pretty
+JST_B13B-XH-A-2.54
+JST XH series connector, JST_B13B-XH-A
+connector jst xh
+0
+13
+13
+kicad-jst-xh.pretty
+JST_B14B-XH-A-2.54
+JST XH series connector, JST_B14B-XH-A
+connector jst xh
+0
+14
+14
+kicad-jst-xh.pretty
+JST_B15B-XH-A-2.54
+JST XH series connector, JST_B15B-XH-A
+connector jst xh
+0
+15
+15
+kicad-jst-xh.pretty
+JST_B16B-XH-A-2.54
+JST XH series connector, JST_B16B-XH-A
+connector jst xh
+0
+16
+16
+kicad-jst-xh.pretty
+JST_B17B-XH-A-2.54
+JST XH series connector, JST_B17B-XH-A
+connector jst xh
+0
+17
+17
+kicad-jst-xh.pretty
+JST_B18B-XH-A-2.54
+JST XH series connector, JST_B18B-XH-A
+connector jst xh
+0
+18
+18
+kicad-jst-xh.pretty
+JST_B20B-XH-A-2.54
+JST XH series connector, JST_B20B-XH-A
+connector jst xh
+0
+20
+20
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
