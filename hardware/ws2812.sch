@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 21
+Sheet 6 20
 Title ""
 Date ""
 Rev ""
@@ -3466,6 +3466,28 @@ F 1 "WS2812" H 4000 3050 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 3700 2750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 3750 2675 50  0001 L TNN
 	1    3650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812 D?
+U 1 1 5CF2390D
+P 4550 3050
+F 0 "D?" H 4900 3100 50  0000 L CNN
+F 1 "WS2812" H 4900 3050 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 4600 2750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 4650 2675 50  0001 L TNN
+	1    4550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812 D?
+U 1 1 5CF23CE3
+P 5400 3050
+F 0 "D?" H 5750 3100 50  0000 L CNN
+F 1 "WS2812" H 5750 3050 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5450 2750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 5500 2675 50  0001 L TNN
+	1    5400 3050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

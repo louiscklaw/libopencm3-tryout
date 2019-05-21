@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 21
+Sheet 1 20
 Title ""
 Date ""
 Rev ""
@@ -37,12 +37,6 @@ S 6300 2800 500  400
 U 5CDAB7C1
 F0 "CH340T" 50
 F1 "CH340T.sch" 50
-$EndSheet
-$Sheet
-S 6300 3400 500  400 
-U 5CDAB7F1
-F0 "usb" 50
-F1 "usb.sch" 50
 $EndSheet
 $Sheet
 S 6300 4000 500  400 
