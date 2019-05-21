@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 21
+Sheet 11 21
 Title ""
 Date ""
 Rev ""
@@ -236,7 +236,7 @@ AR Path="/5CDAB997/5CDD808A" Ref="D2"  Part="1"
 AR Path="/5CE8F13F/5CDD808A" Ref="D?"  Part="1" 
 F 0 "D2" H 2100 3800 50  0000 C CNN
 F 1 "5V_STATUS" H 2100 3900 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2100 3650 50  0001 C CNN
+F 2 "footprint-lib:LED_0603_1608Metric" V 2100 3650 50  0001 C CNN
 F 3 "" V 2100 3650 50  0001 C CNN
 	1    2100 3650
 	-1   0    0    1   
@@ -281,7 +281,7 @@ AR Path="/5CDAB997/5CDDC8B3" Ref="D3"  Part="1"
 AR Path="/5CE8F13F/5CDDC8B3" Ref="D?"  Part="1" 
 F 0 "D3" H 2100 4400 50  0000 C CNN
 F 1 "3V3_STATUS" H 2100 4500 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2100 4250 50  0001 C CNN
+F 2 "footprint-lib:LED_0603_1608Metric" V 2100 4250 50  0001 C CNN
 F 3 "" V 2100 4250 50  0001 C CNN
 	1    2100 4250
 	-1   0    0    1   
