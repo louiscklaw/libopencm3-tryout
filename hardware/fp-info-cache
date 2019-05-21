@@ -1,4 +1,4 @@
-19490582591071240
+19492141034682240
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44117,6 +44117,13 @@ footprint-lib
 conn_01_04_board_splitter
 
 
+0
+4
+4
+footprint-lib
+CONN_I2C_SSD1306
+pinsocket for SSD1306 in i2c interface
+SSD1306 I2C
 0
 4
 4
