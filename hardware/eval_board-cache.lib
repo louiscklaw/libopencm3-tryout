@@ -1425,4 +1425,42 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# taobao-varistor_VAR_3V3,0805
+#
+DEF taobao-varistor_VAR_3V3,0805 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-varistor_VAR_3V3,0805" 30 -40 50 H V L CNN
+F2 "footprint-lib:VAR_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0805*
+$ENDFPLIST
+DRAW
+T 0 -70 -80 50 0 0 0 U Normal 0 C C
+S -40 -100 40 100 0 1 10 N
+P 3 0 1 0 -75 100 -75 50 75 -50 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-varistor_VAR_5V6,0805
+#
+DEF taobao-varistor_VAR_5V6,0805 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-varistor_VAR_5V6,0805" 30 -40 50 H V L CNN
+F2 "footprint-lib:VAR_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0805*
+$ENDFPLIST
+DRAW
+T 0 -70 -80 50 0 0 0 U Normal 0 C C
+S -40 -100 40 100 0 1 10 N
+P 3 0 1 0 -75 100 -75 50 75 -50 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
