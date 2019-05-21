@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 22 22
+Sheet 21 21
 Title ""
 Date ""
 Rev ""
@@ -11099,8 +11099,8 @@ L Device:L_Small L1
 U 1 1 5CC8D1E6
 P 2300 6900
 F 0 "L1" H 2350 6950 50  0000 L CNN
-F 1 "L_Small" H 2350 6900 50  0000 L CNN
-F 2 "w_smd_inductors:inductor_smd_0603" H 2300 6900 50  0001 C CNN
+F 1 "L_2R2,1210" H 2350 6900 50  0000 L CNN
+F 2 "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 2300 6900 50  0001 C CNN
 F 3 "~" H 2300 6900 50  0001 C CNN
 	1    2300 6900
 	1    0    0    -1  

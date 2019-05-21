@@ -1,4 +1,4 @@
-19473439487005240
+19490582591071240
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44324,6 +44324,41 @@ LCC110P1570X1760X250-42N
 42
 42
 footprint-lib
+LED_0402_1005Metric
+LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+footprint-lib
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+footprint-lib
+LED_0805_2012Metric
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode
+0
+2
+2
+footprint-lib
+LED_1206_3216Metric
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+footprint-lib
+LED_1210_3225Metric
+LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+footprint-lib
 LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
 https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
 LED RGB NeoPixel
@@ -44369,6 +44404,13 @@ footprint-lib
 L_CD127_shielded
 Choke, SMD, 12x12mm 8mm height
 Choke SMD
+0
+2
+2
+footprint-lib
+L_SMD_ALL
+Inductor, Wuerth Elektronik, Wuerth_HCI-1040, 10.2mmx10.2mm
+inductor Wuerth hci smd
 0
 2
 2
@@ -44421,6 +44463,13 @@ MP1584 SOIC-8
 0
 20
 9
+footprint-lib
+MP1584_buck_module
+
+
+0
+8
+4
 footprint-lib
 MP2303,SOIC-8_3.9x4.9mm_P1.27mm,thermal_via
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf)
@@ -44518,6 +44567,13 @@ Miniature Crystal Clock Oscillator Abracon ASE series, http://www.abracon.com/Os
 SMD SMT crystal oscillator hand-soldering 3225
 0
 4
+4
+footprint-lib
+osc_debug
+Crystal, HC-49/SMD, 3225
+QUARTZ HC-49 SMD 3225
+0
+8
 4
 footprint-lib
 PC_FAN_s4b-ph-kl
@@ -45513,6 +45569,27 @@ LQFP-128
 0
 129
 129
+footprint-lib
+VAR_0402
+varistor 0402
+varistor 0402
+0
+2
+2
+footprint-lib
+VAR_0603
+varistor 0603
+varistor 0603
+0
+2
+2
+footprint-lib
+VAR_0805
+varistor 0805
+varistor 0805
+0
+2
+2
 footprint-lib
 waveshare-swd-pinsocket
 Through hole straight socket strip, 2x04, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated

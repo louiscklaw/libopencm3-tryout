@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 22
+Sheet 1 21
 Title ""
 Date ""
 Rev ""
@@ -25,12 +25,6 @@ S 7150 2800 500  400
 U 5CDAB73D
 F0 "esp8266" 50
 F1 "esp8266.sch" 50
-$EndSheet
-$Sheet
-S 7150 3450 500  400 
-U 5CDAB772
-F0 "arduino_uno" 50
-F1 "arduino_uno.sch" 50
 $EndSheet
 $Sheet
 S 6300 2200 500  400 
