@@ -322,17 +322,6 @@ $EndComp
 Wire Wire Line
 	9150 5950 9150 6050
 $Comp
-L taobao-osc:O_EPSON_32.768K Y?
-U 1 1 5BCBF11C
-P 14700 7500
-F 0 "Y?" V 14654 7588 50  0000 L CNN
-F 1 "O32.768K" V 14745 7588 50  0000 L CNN
-F 2 "footprint-lib.pretty:MC-306" H 14700 7500 50  0001 C CNN
-F 3 "~" H 14700 7500 50  0001 C CNN
-	1    14700 7500
-	0    1    1    0   
-$EndComp
-$Comp
 L taobao-c:C20pf C17
 U 1 1 5BCBF1ED
 P 14500 7300
@@ -418,17 +407,6 @@ F 3 "~" H 14500 6850 50  0001 C CNN
 	1    14500 6850
 	0    1    1    0   
 $EndComp
-$Comp
-L taobao-osc:O8M Y?
-U 1 1 5BCC6C8D
-P 14700 6700
-F 0 "Y?" V 14654 6788 50  0000 L CNN
-F 1 "O8M" V 14745 6788 50  0000 L CNN
-F 2 "w_crystal:hc-49_smd" H 14700 6700 50  0001 C CNN
-F 3 "~" H 14700 6700 50  0001 C CNN
-	1    14700 6700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	14600 6550 14700 6550
 Wire Wire Line
@@ -454,8 +432,6 @@ Wire Wire Line
 	14150 6700 14300 6700
 Wire Wire Line
 	14300 6700 14300 6550
-Wire Wire Line
-	14300 6550 14400 6550
 Wire Wire Line
 	14300 6700 14300 6850
 Wire Wire Line
@@ -1336,4 +1312,35 @@ Text Label 13550 4650 3    50   ~ 0
 PC13
 Wire Wire Line
 	13550 4650 13550 4900
+$Comp
+L taobao-components:O_EPSON_32.768K Y?
+U 1 1 5BCBF11C
+P 14700 7500
+F 0 "Y?" V 14654 7588 50  0000 L CNN
+F 1 "O32.768K" V 14745 7588 50  0000 L CNN
+F 2 "footprint-lib.pretty:MC-306" H 14700 7500 50  0001 C CNN
+F 3 "~" H 14700 7500 50  0001 C CNN
+	1    14700 7500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14300 6550 14350 6550
+$Comp
+L taobao-osc:O_8M,3225 Y?
+U 1 1 5BCC6C8D
+P 14700 6700
+F 0 "Y?" V 14654 6788 50  0000 L CNN
+F 1 "O8M" V 14745 6788 50  0000 L CNN
+F 2 "w_crystal:hc-49_smd" H 14700 6700 50  0001 C CNN
+F 3 "~" H 14700 6700 50  0001 C CNN
+	1    14700 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14350 6550 14350 6700
+Wire Wire Line
+	14350 6700 14550 6700
+Connection ~ 14350 6550
+Wire Wire Line
+	14350 6550 14400 6550
 $EndSCHEMATC
