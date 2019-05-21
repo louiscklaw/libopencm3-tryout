@@ -3490,4 +3490,15 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 5500 2675 50  0001 L
 	1    5400 3050
 	1    0    0    -1  
 $EndComp
+$Comp
+L 74xGxx:74AHCT1G125 U?
+U 1 1 5CFAEDA6
+P 2450 3000
+F 0 "U?" H 2450 2750 50  0001 C CNN
+F 1 "74AHCT1G125" H 2450 2800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2450 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2450 3000 50  0001 C CNN
+	1    2450 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
