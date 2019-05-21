@@ -1190,17 +1190,6 @@ Wire Wire Line
 	3400 3950 3400 3000
 Connection ~ 3400 3000
 $Comp
-L Device:R_Pack04 RN?
-U 1 1 5CF47585
-P 2500 3350
-F 0 "RN?" H 2200 3400 50  0000 R CNN
-F 1 "R_Pack04" H 2200 3350 50  0000 R CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2775 3350 50  0001 C CNN
-F 3 "~" H 2500 3350 50  0001 C CNN
-	1    2500 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR?
 U 1 1 5CF48820
 P 2350 2900
@@ -1215,12 +1204,6 @@ Wire Wire Line
 	2350 2900 2350 3000
 Wire Wire Line
 	2350 3000 2300 3000
-Wire Wire Line
-	2300 3000 2300 3150
-Wire Wire Line
-	2400 3150 2400 3000
-Wire Wire Line
-	2400 3000 2350 3000
 Connection ~ 2350 3000
 Wire Wire Line
 	2300 3550 2300 3950
@@ -1241,15 +1224,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 3000 5100 3000
 Wire Wire Line
-	2400 3000 2500 3000
-Wire Wire Line
-	2500 3000 2500 3150
-Connection ~ 2400 3000
-Wire Wire Line
-	2500 3000 2600 3000
-Wire Wire Line
 	2600 3000 2600 3150
-Connection ~ 2500 3000
 Wire Wire Line
 	2500 3550 2500 3750
 Connection ~ 2500 3750
@@ -1260,4 +1235,66 @@ Wire Wire Line
 Connection ~ 2600 4050
 Wire Wire Line
 	2600 4050 2950 4050
+Connection ~ 2500 3000
+Wire Wire Line
+	2500 3000 2600 3000
+Connection ~ 2400 3000
+Wire Wire Line
+	2400 3000 2500 3000
+Wire Wire Line
+	2400 3000 2350 3000
+Wire Wire Line
+	2500 3000 2500 3150
+Wire Wire Line
+	2400 3150 2400 3000
+Wire Wire Line
+	2300 3000 2300 3150
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5CF47585
+P 2500 3350
+F 0 "RN?" H 2200 3400 50  0000 R CNN
+F 1 "R_Pack04" H 2200 3350 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2775 3350 50  0001 C CNN
+F 3 "~" H 2500 3350 50  0001 C CNN
+	1    2500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CF93293
+P 4050 2700
+F 0 "#PWR?" H 4050 2550 50  0001 C CNN
+F 1 "+3V3" V 4100 2850 50  0000 L CNN
+F 2 "" H 4050 2700 50  0001 C CNN
+F 3 "" H 4050 2700 50  0001 C CNN
+	1    4050 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CF93299
+P 4550 2700
+F 0 "#PWR?" H 4550 2450 50  0001 C CNN
+F 1 "GND" V 4600 2550 50  0000 R CNN
+F 2 "" H 4550 2700 50  0001 C CNN
+F 3 "" H 4550 2700 50  0001 C CNN
+	1    4550 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-c:C106,0805 C?
+U 1 1 5CF9329F
+P 4300 2700
+F 0 "C?" V 4050 2700 50  0000 C CNN
+F 1 "C106,0805" V 4150 2700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 2700 50  0001 C CNN
+F 3 "~" H 4300 2700 50  0001 C CNN
+	1    4300 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 2700 4200 2700
+Wire Wire Line
+	4400 2700 4550 2700
 $EndSCHEMATC
