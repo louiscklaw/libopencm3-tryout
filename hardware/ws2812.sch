@@ -3469,10 +3469,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 3750 2675 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812 D?
+L LED:WS2812 D8
 U 1 1 5CF2390D
 P 4550 3050
-F 0 "D?" H 4900 3100 50  0000 L CNN
+F 0 "D8" H 4900 3100 50  0000 L CNN
 F 1 "WS2812" H 4900 3050 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 4600 2750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 4650 2675 50  0001 L TNN
@@ -3480,10 +3480,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 4650 2675 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812 D?
+L LED:WS2812 D9
 U 1 1 5CF23CE3
 P 5400 3050
-F 0 "D?" H 5750 3100 50  0000 L CNN
+F 0 "D9" H 5750 3100 50  0000 L CNN
 F 1 "WS2812" H 5750 3050 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5450 2750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 5500 2675 50  0001 L TNN
@@ -3491,10 +3491,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 5500 2675 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xGxx:74AHCT1G125 U?
+L 74xGxx:74AHCT1G125 U7
 U 1 1 5CFAEDA6
 P 2450 3000
-F 0 "U?" H 2450 2750 50  0001 C CNN
+F 0 "U7" H 2450 2750 50  0001 C CNN
 F 1 "74AHCT1G125" H 2450 2800 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2450 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2450 3000 50  0001 C CNN
