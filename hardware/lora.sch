@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 20
+Sheet 17 20
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Bitmap
-Pos -1500 1500
+Pos -1150 1700
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 EE 00 00 01 FC 08 02 00 00 00 01 89 BD 
@@ -2735,4 +2735,61 @@ B0 25 09 8B 26 F3 A2 74 1C C7 71 9C F5 18 1F B9 36 33 20 EE B8 0E 1B 95 32 F7 F9
 D6 E3 CE 9C 12 3B 5B 7B 01 C0 FF 07 B3 2E 64 F0 46 93 E9 28 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L taobao-board:lora_debug U?
+U 1 1 5CE484BF
+P 2800 1850
+F 0 "U?" H 3200 1900 50  0000 L CNN
+F 1 "lora_debug" H 3200 1850 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 3050 1800 50  0001 C CNN
+F 3 "https://detail.tmall.com/item.htm?spm=a230r.1.14.6.5e09526a9EJQaf&id=581909209210&cm_id=140105335569ed55e27b&abbucket=4" H 3050 1800 50  0001 C CNN
+	1    2800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CE48901
+P 2400 2300
+F 0 "#PWR?" H 2400 2050 50  0001 C CNN
+F 1 "GND" H 2450 2100 50  0000 C CNN
+F 2 "" H 2400 2300 50  0001 C CNN
+F 3 "" H 2400 2300 50  0001 C CNN
+	1    2400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2300 2400 2000
+Wire Wire Line
+	2400 2000 2600 2000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CE48DF1
+P 2550 2250
+F 0 "#PWR?" H 2550 2100 50  0001 C CNN
+F 1 "+3V3" H 2550 2450 50  0000 C CNN
+F 2 "" H 2550 2250 50  0001 C CNN
+F 3 "" H 2550 2250 50  0001 C CNN
+	1    2550 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 2250 2550 2100
+Wire Wire Line
+	2550 2100 2600 2100
+Text HLabel 2250 1600 0    50   Input ~ 0
+LORA_MD0
+Text HLabel 2250 1700 0    50   Input ~ 0
+LORA_AUX
+Text HLabel 2250 1800 0    50   Input ~ 0
+LORA_RXD
+Text HLabel 2250 1900 0    50   Input ~ 0
+LORA_TXD
+Wire Wire Line
+	2250 1600 2600 1600
+Wire Wire Line
+	2250 1700 2600 1700
+Wire Wire Line
+	2250 1800 2600 1800
+Wire Wire Line
+	2250 1900 2600 1900
 $EndSCHEMATC

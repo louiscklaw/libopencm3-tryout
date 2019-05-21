@@ -385,6 +385,24 @@ X R1.2 8 -200 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_R_Variable
+#
+DEF Device_R_Variable R 0 0 N Y 1 F N
+F0 "R" 100 -100 50 V V L CNN
+F1 "Device_R_Variable" -100 -50 50 V V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+P 5 0 1 0 100 60 100 100 60 100 100 100 -80 -80 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Jumper_Jumper_3_Bridged12
 #
 DEF Jumper_Jumper_3_Bridged12 JP 0 0 Y N 1 F N
@@ -559,6 +577,22 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# taobao-board_UBLOX-NEO-6M_DEBUG
+#
+DEF taobao-board_UBLOX-NEO-6M_DEBUG U 0 40 Y Y 1 F N
+F0 "U" 0 -350 50 H V C CNN
+F1 "taobao-board_UBLOX-NEO-6M_DEBUG" 0 -450 50 H V C CNN
+F2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" 150 -150 50 H I C CNN
+F3 "" 150 -150 50 H I C CNN
+DRAW
+S 0 250 350 -250 0 0 0 f
+X VCC 1 -200 150 200 R 50 50 1 1 I
+X TX 2 -200 50 200 R 50 50 1 1 I
+X RX 3 -200 -50 200 R 50 50 1 1 I
+X GND 4 -200 -150 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # taobao-board_bluepill-stm32f103c8t6
 #
 DEF taobao-board_bluepill-stm32f103c8t6 U 0 40 Y Y 1 F N
@@ -613,6 +647,41 @@ X PC15 ~ 700 -850 200 L 50 50 1 1 I
 X SWCLK/PA14 ~ -50 -1450 200 U 50 50 1 1 I
 X SWDIO/PA13 ~ 50 -1450 200 U 50 50 1 1 I
 X VBAT ~ 700 -1150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# taobao-board_lora_debug
+#
+DEF taobao-board_lora_debug U 0 40 Y Y 1 F N
+F0 "U" 0 -500 50 H V C CNN
+F1 "taobao-board_lora_debug" 0 -600 50 H V C CNN
+F2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" 250 -50 50 H I C CNN
+F3 "" 250 -50 50 H I C CNN
+DRAW
+S 0 350 350 -350 0 1 0 f
+X MD0 1 -200 250 200 R 50 50 1 1 I
+X AUX 2 -200 150 200 R 50 50 1 1 I
+X RXD 3 -200 50 200 R 50 50 1 1 I
+X TXD 4 -200 -50 200 R 50 50 1 1 I
+X GND 5 -200 -150 200 R 50 50 1 1 I
+X VCC 6 -200 -250 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# taobao-button_SW_RESET,2_leg,SMD
+#
+DEF taobao-button_SW_RESET,2_leg,SMD SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "taobao-button_SW_RESET,2_leg,SMD" 0 -60 50 H V C CNN
+F2 "footprint-lib:SW_SPST_CK_RS282G05A3" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -697,6 +766,24 @@ ENDDEF
 DEF taobao-c_C105,0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "taobao-c_C105,0603" 10 -80 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_0603*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-c_C106,0603
+#
+DEF taobao-c_C106,0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "taobao-c_C106,0603" 10 -80 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1209,6 +1296,38 @@ X TX TX 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# taobao-components_Thermistor_NTC,0805
+#
+DEF taobao-components_Thermistor_NTC,0805 TH 0 0 N Y 1 F N
+F0 "TH" -175 0 50 V V C CNN
+F1 "taobao-components_Thermistor_NTC,0805" 125 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+$ENDFPLIST
+DRAW
+A -126 88 7 -265 818 0 1 0 N -120 85 -125 95
+A -110 85 10 1800 -900 0 1 0 N -120 85 -110 75
+A -110 85 10 -900 0 0 1 0 N -110 75 -100 85
+A -110 110 10 0 900 0 1 0 N -100 110 -110 120
+A -110 110 10 900 1800 0 1 0 N -110 120 -120 110
+A -110 110 10 1800 -900 0 1 0 N -120 110 -110 100
+A -104 119 20 -1075 -253 0 1 0 N -110 100 -85 110
+S -40 100 40 -100 0 1 10 N
+P 2 0 1 0 -100 85 -100 110 N
+P 4 0 1 0 -70 100 -70 60 70 -60 70 -100 N
+P 6 0 1 0 -100 -145 -100 -55 -110 -85 -90 -85 -100 -55 -100 -65 F
+P 6 0 1 0 -70 -55 -70 -145 -80 -115 -60 -115 -70 -145 -70 -135 F
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # taobao-components_USB_B_Mini_1
 #
 DEF taobao-components_USB_B_Mini_1 J 0 40 Y Y 1 F N
@@ -1460,6 +1579,23 @@ ENDDEF
 DEF taobao-r_R220,0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "taobao-r_R220,0603" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0603*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-r_R223,0603
+#
+DEF taobao-r_R223,0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-r_R223,0603" 30 -40 50 H V L CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
