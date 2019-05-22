@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 20
+Sheet 1 22
 Title ""
 Date ""
 Rev ""
@@ -127,5 +127,17 @@ S 7150 4600 500  400
 U 5CE045BC
 F0 "STM32F103V8T6" 50
 F1 "STM32F103V8T6.sch" 50
+$EndSheet
+$Sheet
+S 2450 5150 500  400 
+U 5CE4AEFB
+F0 "buzzer" 50
+F1 "buzzer.sch" 50
+$EndSheet
+$Sheet
+S 7150 5200 500  400 
+U 5CE535D6
+F0 "arduino_nano" 50
+F1 "arduino_nano.sch" 50
 $EndSheet
 $EndSCHEMATC

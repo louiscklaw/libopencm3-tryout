@@ -1,4 +1,4 @@
-19493699476032240
+19496817599051240
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44380,6 +44380,13 @@ LED RGB NeoPixel
 4
 4
 footprint-lib
+logo
+
+
+0
+0
+0
+footprint-lib
 louislabs_qr_logo
 
 
@@ -44610,6 +44617,13 @@ phoenix_contact connector MCV_01x03_G_5.08mm
 0
 3
 3
+footprint-lib
+PinHeader_1x02_P2.54mm_power_output_terminal
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
 footprint-lib
 PinHeader_2x03_P2.54mm_Vertical_with_soldering_jumper
 Through hole straight pin header, 2x03, 2.54mm pitch, double rows
