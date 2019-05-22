@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 20
+Sheet 6 21
 Title ""
 Date ""
 Rev ""
@@ -3471,23 +3471,23 @@ $EndComp
 $Comp
 L LED:WS2812 D8
 U 1 1 5CF2390D
-P 4550 3050
-F 0 "D8" H 4900 3100 50  0000 L CNN
-F 1 "WS2812" H 4900 3050 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 4600 2750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 4650 2675 50  0001 L TNN
-	1    4550 3050
+P 5900 3050
+F 0 "D8" H 6250 3100 50  0000 L CNN
+F 1 "WS2812" H 6250 3050 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5950 2750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 6000 2675 50  0001 L TNN
+	1    5900 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812 D9
 U 1 1 5CF23CE3
-P 5400 3050
-F 0 "D9" H 5750 3100 50  0000 L CNN
-F 1 "WS2812" H 5750 3050 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5450 2750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 5500 2675 50  0001 L TNN
-	1    5400 3050
+P 7950 3050
+F 0 "D9" H 8300 3100 50  0000 L CNN
+F 1 "WS2812" H 8300 3050 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 8000 2750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812.pdf" H 8050 2675 50  0001 L TNN
+	1    7950 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3499,6 +3499,39 @@ F 1 "74AHCT1G125" H 2450 2800 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2450 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2450 3000 50  0001 C CNN
 	1    2450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C106,0805 C?
+U 1 1 5CE4C478
+P 3050 3000
+F 0 "C?" H 3150 3050 50  0000 L CNN
+F 1 "C106,0805" H 3150 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 3000 50  0001 C CNN
+F 3 "~" H 3050 3000 50  0001 C CNN
+	1    3050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C106,0805 C?
+U 1 1 5CE4D2A2
+P 5400 3050
+F 0 "C?" H 5500 3100 50  0000 L CNN
+F 1 "C106,0805" H 5500 3050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5400 3050 50  0001 C CNN
+F 3 "~" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C106,0805 C?
+U 1 1 5CE4D6A6
+P 7400 3050
+F 0 "C?" H 7500 3100 50  0000 L CNN
+F 1 "C106,0805" H 7500 3050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7400 3050 50  0001 C CNN
+F 3 "~" H 7400 3050 50  0001 C CNN
+	1    7400 3050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
