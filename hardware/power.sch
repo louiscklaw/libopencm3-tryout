@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:eval_board-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 8500 5500
 encoding utf-8
 Sheet 10 22
 Title ""
