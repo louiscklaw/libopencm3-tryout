@@ -2,9 +2,9 @@ EESchema Schematic File Version 4
 LIBS:eval_board-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 8500 5500
 encoding utf-8
-Sheet 13 22
+Sheet 9 22
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 650  950  0    50   ~ 0
-debug led\nPC13
 $Bitmap
-Pos -800 1150
+Pos -700 2250
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 78 00 00 01 4C 08 02 00 00 00 4E 14 30 
@@ -592,4 +590,47 @@ BE 02 00 00 0D E8 68 0B 00 A0 DD FF 01 33 8A 11 DE 9C 74 F2 B5 00 00 00 00 49 45
 82 
 EndData
 $EndBitmap
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CE6E1A4
+P 2550 1750
+F 0 "#PWR?" H 2550 1600 50  0001 C CNN
+F 1 "+3V3" H 2600 1950 50  0000 C CNN
+F 2 "" H 2550 1750 50  0001 C CNN
+F 3 "" H 2550 1750 50  0001 C CNN
+	1    2550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R471,0603 R?
+U 1 1 5CE6E5A4
+P 2550 2100
+F 0 "R?" H 2650 2150 50  0000 L CNN
+F 1 "R471,0603" H 2650 2100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2550 2100 50  0001 C CNN
+F 3 "~" H 2550 2100 50  0001 C CNN
+	1    2550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_GREEN,0603 D?
+U 1 1 5CE6E983
+P 2550 2400
+F 0 "D?" V 2600 2300 50  0000 R CNN
+F 1 "LED_GREEN,0603" V 2550 2300 50  0000 R CNN
+F 2 "footprint-lib:LED_0603_1608Metric" V 2550 2400 50  0001 C CNN
+F 3 "" V 2550 2400 50  0001 C CNN
+	1    2550 2400
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2850 2600 2    50   Input ~ 0
+TO_PC13
+Wire Wire Line
+	2550 1750 2550 2000
+Wire Wire Line
+	2550 2200 2550 2300
+Wire Wire Line
+	2550 2500 2550 2600
+Wire Wire Line
+	2550 2600 2850 2600
 $EndSCHEMATC
