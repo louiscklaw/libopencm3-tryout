@@ -14,6 +14,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 650  950  0    50   ~ 0
-sdcard
 $EndSCHEMATC
