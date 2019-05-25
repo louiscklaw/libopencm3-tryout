@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 22
+Sheet 2 27
 Title ""
 Date ""
 Rev ""
@@ -17,487 +17,987 @@ $EndDescr
 $Comp
 L taobao-board:bluepill-stm32f103c8t6 U?
 U 1 1 5CDCAABB
-P 4350 3700
+P 3100 2250
 AR Path="/5CDAB6B1/5CDABA4D/5CDCAABB" Ref="U?"  Part="1" 
 AR Path="/5CDAB6B1/5CDCAABB" Ref="U?"  Part="1" 
 AR Path="/5CE0453C/5CDCAABB" Ref="U?"  Part="1" 
 AR Path="/5CE8F13B/5CDCAABB" Ref="U?"  Part="1" 
-F 0 "U?" H 4350 4700 50  0000 C CNN
-F 1 "bluepill-stm32f103c8t6" H 4350 4800 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm_LongPads" H 4350 3800 50  0001 C CNN
-F 3 "" H 4350 3800 50  0001 C CNN
-	1    4350 3700
+F 0 "U?" H 3100 3250 50  0000 C CNN
+F 1 "bluepill-stm32f103c8t6" H 3100 3350 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_LongPads" H 3100 2350 50  0001 C CNN
+F 3 "" H 3100 2350 50  0001 C CNN
+	1    3100 2250
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR0101
 U 1 1 5CDCC5C9
-P 5400 2750
+P 4150 1300
 AR Path="/5CDAB6B1/5CDCC5C9" Ref="#PWR0101"  Part="1" 
 AR Path="/5CE0453C/5CDCC5C9" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CDCC5C9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 5400 2600 50  0001 C CNN
-F 1 "+5V" V 5400 2900 50  0000 L CNN
-F 2 "" H 5400 2750 50  0001 C CNN
-F 3 "" H 5400 2750 50  0001 C CNN
-	1    5400 2750
+F 0 "#PWR0101" H 4150 1150 50  0001 C CNN
+F 1 "+5V" V 4150 1450 50  0000 L CNN
+F 2 "" H 4150 1300 50  0001 C CNN
+F 3 "" H 4150 1300 50  0001 C CNN
+	1    4150 1300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5050 2750 5400 2750
+	3800 1300 4150 1300
 $Comp
 L power:+3V3 #PWR0102
 U 1 1 5CDCDBFF
-P 5400 2550
+P 4150 1100
 AR Path="/5CDAB6B1/5CDCDBFF" Ref="#PWR0102"  Part="1" 
 AR Path="/5CE0453C/5CDCDBFF" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CDCDBFF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0102" H 5400 2400 50  0001 C CNN
-F 1 "+3V3" V 5400 2700 50  0000 L CNN
-F 2 "" H 5400 2550 50  0001 C CNN
-F 3 "" H 5400 2550 50  0001 C CNN
-	1    5400 2550
+F 0 "#PWR0102" H 4150 950 50  0001 C CNN
+F 1 "+3V3" V 4150 1250 50  0000 L CNN
+F 2 "" H 4150 1100 50  0001 C CNN
+F 3 "" H 4150 1100 50  0001 C CNN
+	1    4150 1100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5050 2550 5400 2550
+	3800 1100 4150 1100
 $Comp
 L power:GND #PWR0103
 U 1 1 5CDCE1E2
-P 5250 2650
+P 4000 1200
 AR Path="/5CDAB6B1/5CDCE1E2" Ref="#PWR0103"  Part="1" 
 AR Path="/5CE0453C/5CDCE1E2" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CDCE1E2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0103" H 5250 2400 50  0001 C CNN
-F 1 "GND" V 5300 2500 50  0000 R CNN
-F 2 "" H 5250 2650 50  0001 C CNN
-F 3 "" H 5250 2650 50  0001 C CNN
-	1    5250 2650
+F 0 "#PWR0103" H 4000 950 50  0001 C CNN
+F 1 "GND" V 4050 1050 50  0000 R CNN
+F 2 "" H 4000 1200 50  0001 C CNN
+F 3 "" H 4000 1200 50  0001 C CNN
+	1    4000 1200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5250 2650 5050 2650
-Text HLabel 3450 2950 0    50   Input ~ 0
+	4000 1200 3800 1200
+Text HLabel 2200 1500 0    50   Input ~ 0
 STM32_1_PA0
-Text HLabel 3450 3050 0    50   Input ~ 0
+Text HLabel 2200 1600 0    50   Input ~ 0
 STM32_1_PA1
-Text HLabel 3450 3150 0    50   Input ~ 0
+Text HLabel 2200 1700 0    50   Input ~ 0
 STM32_1_PA2
-Text HLabel 3450 3250 0    50   Input ~ 0
+Text HLabel 2200 1800 0    50   Input ~ 0
 STM32_1_PA3
-Text HLabel 3450 3350 0    50   Input ~ 0
+Text HLabel 2200 1900 0    50   Input ~ 0
 STM32_1_PA4
-Text HLabel 3450 3450 0    50   Input ~ 0
+Text HLabel 2200 2000 0    50   Input ~ 0
 STM32_1_PA5
-Text HLabel 3450 3550 0    50   Input ~ 0
+Text HLabel 2200 2100 0    50   Input ~ 0
 STM32_1_PA6
-Text HLabel 3450 3650 0    50   Input ~ 0
+Text HLabel 2200 2200 0    50   Input ~ 0
 STM32_1_PA7
-Text HLabel 3450 3750 0    50   Input ~ 0
+Text HLabel 2200 2300 0    50   Input ~ 0
 STM32_1_PB0
-Text HLabel 3450 3850 0    50   Input ~ 0
+Text HLabel 2200 2400 0    50   Input ~ 0
 STM32_1_PB1
-Text HLabel 3450 3950 0    50   Input ~ 0
+Text HLabel 2200 2500 0    50   Input ~ 0
 STM32_1_PB10
-Text HLabel 3450 4050 0    50   Input ~ 0
+Text HLabel 2200 2600 0    50   Input ~ 0
 STM32_1_PB11
-Text HLabel 3450 4150 0    50   Input ~ 0
+Text HLabel 2200 2700 0    50   Input ~ 0
 STM32_1_NRST
-Text HLabel 3450 2650 0    50   Input ~ 0
+Text HLabel 2200 1200 0    50   Input ~ 0
 STM32_1_PC13
-Text HLabel 3450 2750 0    50   Input ~ 0
+Text HLabel 2200 1300 0    50   Input ~ 0
 STM32_1_PC14
-Text HLabel 3450 2850 0    50   Input ~ 0
+Text HLabel 2200 1400 0    50   Input ~ 0
 STM32_1_PC15
-Text HLabel 5250 2850 2    50   Input ~ 0
+Text HLabel 4000 1400 2    50   Input ~ 0
 STM32_1_PB9
-Text HLabel 5250 2950 2    50   Input ~ 0
+Text HLabel 4000 1500 2    50   Input ~ 0
 STM32_1_PB8
-Text HLabel 5250 3050 2    50   Input ~ 0
+Text HLabel 4000 1600 2    50   Input ~ 0
 STM32_1_PB7
-Text HLabel 5250 3150 2    50   Input ~ 0
+Text HLabel 4000 1700 2    50   Input ~ 0
 STM32_1_PB6
-Text HLabel 5250 3250 2    50   Input ~ 0
+Text HLabel 4000 1800 2    50   Input ~ 0
 STM32_1_PB5
-Text HLabel 5250 3350 2    50   Input ~ 0
+Text HLabel 4000 1900 2    50   Input ~ 0
 STM32_1_PB4
-Text HLabel 5250 3450 2    50   Input ~ 0
+Text HLabel 4000 2000 2    50   Input ~ 0
 STM32_1_PB3
-Text HLabel 5250 3550 2    50   Input ~ 0
+Text HLabel 4000 2100 2    50   Input ~ 0
 STM32_1_PA15
-Text HLabel 5250 3650 2    50   Input ~ 0
+Text HLabel 4000 2200 2    50   Input ~ 0
 STM32_1_PA12
-Text HLabel 5250 3750 2    50   Input ~ 0
+Text HLabel 4000 2300 2    50   Input ~ 0
 STM32_1_PA11
-Text HLabel 5250 3850 2    50   Input ~ 0
+Text HLabel 4000 2400 2    50   Input ~ 0
 STM32_1_PA10
-Text HLabel 5250 3950 2    50   Input ~ 0
+Text HLabel 4000 2500 2    50   Input ~ 0
 STM32_1_PA9
-Text HLabel 5250 4050 2    50   Input ~ 0
+Text HLabel 4000 2600 2    50   Input ~ 0
 STM32_1_PA8
-Text HLabel 5250 4150 2    50   Input ~ 0
+Text HLabel 4000 2700 2    50   Input ~ 0
 STM32_1_PB15
-Text HLabel 5250 4250 2    50   Input ~ 0
+Text HLabel 4000 2800 2    50   Input ~ 0
 STM32_1_PB14
-Text HLabel 5250 4350 2    50   Input ~ 0
+Text HLabel 4000 2900 2    50   Input ~ 0
 STM32_1_PB13
-Text HLabel 5250 4450 2    50   Input ~ 0
+Text HLabel 4000 3000 2    50   Input ~ 0
 STM32_1_PB12
 Wire Wire Line
-	3450 2650 3650 2650
+	2200 1200 2400 1200
 Wire Wire Line
-	3450 2750 3650 2750
+	2200 1300 2400 1300
 Wire Wire Line
-	3450 2850 3650 2850
+	2200 1400 2400 1400
 Wire Wire Line
-	3450 2950 3650 2950
+	2200 1500 2400 1500
 Wire Wire Line
-	3450 3050 3650 3050
+	2200 1600 2400 1600
 Wire Wire Line
-	3450 3150 3650 3150
+	2200 1700 2400 1700
 Wire Wire Line
-	3450 3250 3650 3250
+	2200 1800 2400 1800
 Wire Wire Line
-	3450 3350 3650 3350
+	2200 1900 2400 1900
 Wire Wire Line
-	3450 3450 3650 3450
+	2200 2000 2400 2000
 Wire Wire Line
-	3450 3550 3650 3550
+	2200 2100 2400 2100
 Wire Wire Line
-	3450 3650 3650 3650
+	2200 2200 2400 2200
 Wire Wire Line
-	3450 3750 3650 3750
+	2200 2300 2400 2300
 Wire Wire Line
-	3450 3850 3650 3850
+	2200 2400 2400 2400
 Wire Wire Line
-	3450 3950 3650 3950
+	2200 2500 2400 2500
 Wire Wire Line
-	3450 4050 3650 4050
+	2200 2600 2400 2600
 Wire Wire Line
-	3450 4150 3650 4150
+	2200 2700 2400 2700
 Wire Wire Line
-	5050 2850 5250 2850
+	3800 1400 4000 1400
 Wire Wire Line
-	5050 2950 5250 2950
+	3800 1500 4000 1500
 Wire Wire Line
-	5050 3050 5250 3050
+	3800 1600 4000 1600
 Wire Wire Line
-	5050 3150 5250 3150
+	3800 1700 4000 1700
 Wire Wire Line
-	5050 3250 5250 3250
+	3800 1800 4000 1800
 Wire Wire Line
-	5050 3350 5250 3350
+	3800 1900 4000 1900
 Wire Wire Line
-	5050 3450 5250 3450
+	3800 2000 4000 2000
 Wire Wire Line
-	5050 3550 5250 3550
+	3800 2100 4000 2100
 Wire Wire Line
-	5050 3650 5250 3650
+	3800 2200 4000 2200
 Wire Wire Line
-	5050 3750 5250 3750
+	3800 2300 4000 2300
 Wire Wire Line
-	5050 3850 5250 3850
+	3800 2400 4000 2400
 Wire Wire Line
-	5050 3950 5250 3950
+	3800 2500 4000 2500
 Wire Wire Line
-	5050 4050 5250 4050
+	3800 2600 4000 2600
 Wire Wire Line
-	5050 4150 5250 4150
+	3800 2700 4000 2700
 Wire Wire Line
-	5050 4250 5250 4250
+	3800 2800 4000 2800
 Wire Wire Line
-	5050 4350 5250 4350
+	3800 2900 4000 2900
 Wire Wire Line
-	5050 4450 5250 4450
+	3800 3000 4000 3000
 $Comp
 L taobao-board:bluepill-stm32f103c8t6 USTM32F1_?
 U 1 1 5CE11B1A
-P 8250 3700
+P 8400 2250
 AR Path="/5CDAB6B1/5CDABA4D/5CE11B1A" Ref="USTM32F1_?"  Part="1" 
 AR Path="/5CDAB6B1/5CE11B1A" Ref="U?"  Part="1" 
 AR Path="/5CE0453C/5CE11B1A" Ref="USTM32F1_?"  Part="1" 
 AR Path="/5CE8F13B/5CE11B1A" Ref="USTM32F1_?"  Part="1" 
-F 0 "U?" H 8250 4700 50  0000 C CNN
-F 1 "bluepill-stm32f103c8t6" H 8250 4800 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm_LongPads" H 8250 3800 50  0001 C CNN
-F 3 "" H 8250 3800 50  0001 C CNN
-	1    8250 3700
+F 0 "U?" H 8400 3250 50  0000 C CNN
+F 1 "bluepill-stm32f103c8t6" H 8400 3350 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_LongPads" H 8400 2350 50  0001 C CNN
+F 3 "" H 8400 2350 50  0001 C CNN
+	1    8400 2250
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR0104
 U 1 1 5CE11B20
-P 9300 2750
+P 9450 1300
 AR Path="/5CDAB6B1/5CE11B20" Ref="#PWR0104"  Part="1" 
 AR Path="/5CE0453C/5CE11B20" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CE11B20" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0104" H 9300 2600 50  0001 C CNN
-F 1 "+5V" V 9300 2900 50  0000 L CNN
-F 2 "" H 9300 2750 50  0001 C CNN
-F 3 "" H 9300 2750 50  0001 C CNN
-	1    9300 2750
+F 0 "#PWR0104" H 9450 1150 50  0001 C CNN
+F 1 "+5V" V 9450 1450 50  0000 L CNN
+F 2 "" H 9450 1300 50  0001 C CNN
+F 3 "" H 9450 1300 50  0001 C CNN
+	1    9450 1300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8950 2750 9300 2750
+	9100 1300 9450 1300
 $Comp
 L power:+3V3 #PWR0105
 U 1 1 5CE11B27
-P 9300 2550
+P 9450 1100
 AR Path="/5CDAB6B1/5CE11B27" Ref="#PWR0105"  Part="1" 
 AR Path="/5CE0453C/5CE11B27" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CE11B27" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0105" H 9300 2400 50  0001 C CNN
-F 1 "+3V3" V 9300 2700 50  0000 L CNN
-F 2 "" H 9300 2550 50  0001 C CNN
-F 3 "" H 9300 2550 50  0001 C CNN
-	1    9300 2550
+F 0 "#PWR0105" H 9450 950 50  0001 C CNN
+F 1 "+3V3" V 9450 1250 50  0000 L CNN
+F 2 "" H 9450 1100 50  0001 C CNN
+F 3 "" H 9450 1100 50  0001 C CNN
+	1    9450 1100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8950 2550 9300 2550
+	9100 1100 9450 1100
 $Comp
 L power:GND #PWR0106
 U 1 1 5CE11B2E
-P 9150 2650
+P 9300 1200
 AR Path="/5CDAB6B1/5CE11B2E" Ref="#PWR0106"  Part="1" 
 AR Path="/5CE0453C/5CE11B2E" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CE11B2E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0106" H 9150 2400 50  0001 C CNN
-F 1 "GND" V 9200 2500 50  0000 R CNN
-F 2 "" H 9150 2650 50  0001 C CNN
-F 3 "" H 9150 2650 50  0001 C CNN
-	1    9150 2650
+F 0 "#PWR0106" H 9300 950 50  0001 C CNN
+F 1 "GND" V 9350 1050 50  0000 R CNN
+F 2 "" H 9300 1200 50  0001 C CNN
+F 3 "" H 9300 1200 50  0001 C CNN
+	1    9300 1200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9150 2650 8950 2650
-Text HLabel 7350 2950 0    50   Input ~ 0
+	9300 1200 9100 1200
+Text HLabel 7500 1500 0    50   Input ~ 0
 STM32_2_PA0
-Text HLabel 7350 3050 0    50   Input ~ 0
+Text HLabel 7500 1600 0    50   Input ~ 0
 STM32_2_PA1
-Text HLabel 7350 3150 0    50   Input ~ 0
+Text HLabel 7500 1700 0    50   Input ~ 0
 STM32_2_PA2
-Text HLabel 7350 3250 0    50   Input ~ 0
+Text HLabel 7500 1800 0    50   Input ~ 0
 STM32_2_PA3
-Text HLabel 7350 3350 0    50   Input ~ 0
+Text HLabel 7500 1900 0    50   Input ~ 0
 STM32_2_PA4
-Text HLabel 7350 3450 0    50   Input ~ 0
+Text HLabel 7500 2000 0    50   Input ~ 0
 STM32_2_PA5
-Text HLabel 7350 3550 0    50   Input ~ 0
+Text HLabel 7500 2100 0    50   Input ~ 0
 STM32_2_PA6
-Text HLabel 7350 3650 0    50   Input ~ 0
+Text HLabel 7500 2200 0    50   Input ~ 0
 STM32_2_PA7
-Text HLabel 7350 3750 0    50   Input ~ 0
+Text HLabel 7500 2300 0    50   Input ~ 0
 STM32_2_PB0
-Text HLabel 7350 3850 0    50   Input ~ 0
+Text HLabel 7500 2400 0    50   Input ~ 0
 STM32_2_PB1
-Text HLabel 7350 3950 0    50   Input ~ 0
+Text HLabel 7500 2500 0    50   Input ~ 0
 STM32_2_PB10
-Text HLabel 7350 4050 0    50   Input ~ 0
+Text HLabel 7500 2600 0    50   Input ~ 0
 STM32_2_PB11
-Text HLabel 7350 4150 0    50   Input ~ 0
+Text HLabel 7500 2700 0    50   Input ~ 0
 STM32_2_NRST
-Text HLabel 7350 2650 0    50   Input ~ 0
+Text HLabel 7500 1200 0    50   Input ~ 0
 STM32_2_PC13
-Text HLabel 7350 2750 0    50   Input ~ 0
+Text HLabel 7500 1300 0    50   Input ~ 0
 STM32_2_PC14
-Text HLabel 7350 2850 0    50   Input ~ 0
+Text HLabel 7500 1400 0    50   Input ~ 0
 STM32_2_PC15
 Wire Wire Line
-	7350 2650 7550 2650
+	7500 1200 7700 1200
 Wire Wire Line
-	7350 2750 7550 2750
+	7500 1300 7700 1300
 Wire Wire Line
-	7350 2850 7550 2850
+	7500 1400 7700 1400
 Wire Wire Line
-	7350 2950 7550 2950
+	7500 1500 7700 1500
 Wire Wire Line
-	7350 3050 7550 3050
+	7500 1600 7700 1600
 Wire Wire Line
-	7350 3150 7550 3150
+	7500 1700 7700 1700
 Wire Wire Line
-	7350 3250 7550 3250
+	7500 1800 7700 1800
 Wire Wire Line
-	7350 3350 7550 3350
+	7500 1900 7700 1900
 Wire Wire Line
-	7350 3450 7550 3450
+	7500 2000 7700 2000
 Wire Wire Line
-	7350 3550 7550 3550
+	7500 2100 7700 2100
 Wire Wire Line
-	7350 3650 7550 3650
+	7500 2200 7700 2200
 Wire Wire Line
-	7350 3750 7550 3750
+	7500 2300 7700 2300
 Wire Wire Line
-	7350 3850 7550 3850
+	7500 2400 7700 2400
 Wire Wire Line
-	7350 3950 7550 3950
+	7500 2500 7700 2500
 Wire Wire Line
-	7350 4050 7550 4050
+	7500 2600 7700 2600
 Wire Wire Line
-	7350 4150 7550 4150
-Text HLabel 9150 2850 2    50   Input ~ 0
+	7500 2700 7700 2700
+Text HLabel 9300 1400 2    50   Input ~ 0
 STM32_2_PB9
-Text HLabel 9150 2950 2    50   Input ~ 0
+Text HLabel 9300 1500 2    50   Input ~ 0
 STM32_2_PB8
-Text HLabel 9150 3050 2    50   Input ~ 0
+Text HLabel 9300 1600 2    50   Input ~ 0
 STM32_2_PB7
-Text HLabel 9150 3150 2    50   Input ~ 0
+Text HLabel 9300 1700 2    50   Input ~ 0
 STM32_2_PB6
-Text HLabel 9150 3250 2    50   Input ~ 0
+Text HLabel 9300 1800 2    50   Input ~ 0
 STM32_2_PB5
-Text HLabel 9150 3350 2    50   Input ~ 0
+Text HLabel 9300 1900 2    50   Input ~ 0
 STM32_2_PB4
-Text HLabel 9150 3450 2    50   Input ~ 0
+Text HLabel 9300 2000 2    50   Input ~ 0
 STM32_2_PB3
-Text HLabel 9150 3550 2    50   Input ~ 0
+Text HLabel 9300 2100 2    50   Input ~ 0
 STM32_2_PA15
-Text HLabel 9150 3650 2    50   Input ~ 0
+Text HLabel 9300 2200 2    50   Input ~ 0
 STM32_2_PA12
-Text HLabel 9150 3750 2    50   Input ~ 0
+Text HLabel 9300 2300 2    50   Input ~ 0
 STM32_2_PA11
-Text HLabel 9150 3850 2    50   Input ~ 0
+Text HLabel 9300 2400 2    50   Input ~ 0
 STM32_2_PA10
-Text HLabel 9150 3950 2    50   Input ~ 0
+Text HLabel 9300 2500 2    50   Input ~ 0
 STM32_2_PA9
-Text HLabel 9150 4050 2    50   Input ~ 0
+Text HLabel 9300 2600 2    50   Input ~ 0
 STM32_2_PA8
-Text HLabel 9150 4150 2    50   Input ~ 0
+Text HLabel 9300 2700 2    50   Input ~ 0
 STM32_2_PB15
-Text HLabel 9150 4250 2    50   Input ~ 0
+Text HLabel 9300 2800 2    50   Input ~ 0
 STM32_2_PB14
-Text HLabel 9150 4350 2    50   Input ~ 0
+Text HLabel 9300 2900 2    50   Input ~ 0
 STM32_2_PB13
-Text HLabel 9150 4450 2    50   Input ~ 0
+Text HLabel 9300 3000 2    50   Input ~ 0
 STM32_2_PB12
 Wire Wire Line
-	8950 2850 9150 2850
+	9100 1400 9300 1400
 Wire Wire Line
-	8950 2950 9150 2950
+	9100 1500 9300 1500
 Wire Wire Line
-	8950 3050 9150 3050
+	9100 1600 9300 1600
 Wire Wire Line
-	8950 3150 9150 3150
+	9100 1700 9300 1700
 Wire Wire Line
-	8950 3250 9150 3250
+	9100 1800 9300 1800
 Wire Wire Line
-	8950 3350 9150 3350
+	9100 1900 9300 1900
 Wire Wire Line
-	8950 3450 9150 3450
+	9100 2000 9300 2000
 Wire Wire Line
-	8950 3550 9150 3550
+	9100 2100 9300 2100
 Wire Wire Line
-	8950 3650 9150 3650
+	9100 2200 9300 2200
 Wire Wire Line
-	8950 3750 9150 3750
+	9100 2300 9300 2300
 Wire Wire Line
-	8950 3850 9150 3850
+	9100 2400 9300 2400
 Wire Wire Line
-	8950 3950 9150 3950
+	9100 2500 9300 2500
 Wire Wire Line
-	8950 4050 9150 4050
+	9100 2600 9300 2600
 Wire Wire Line
-	8950 4150 9150 4150
+	9100 2700 9300 2700
 Wire Wire Line
-	8950 4250 9150 4250
+	9100 2800 9300 2800
 Wire Wire Line
-	8950 4350 9150 4350
+	9100 2900 9300 2900
 Wire Wire Line
-	8950 4450 9150 4450
+	9100 3000 9300 3000
 $Comp
 L power:+3V3 #PWR0107
 U 1 1 5CE16ACF
-P 3300 4250
+P 2050 2800
 AR Path="/5CDAB6B1/5CE16ACF" Ref="#PWR0107"  Part="1" 
 AR Path="/5CE0453C/5CE16ACF" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CE16ACF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0107" H 3300 4100 50  0001 C CNN
-F 1 "+3V3" V 3300 4400 50  0000 L CNN
-F 2 "" H 3300 4250 50  0001 C CNN
-F 3 "" H 3300 4250 50  0001 C CNN
-	1    3300 4250
+F 0 "#PWR0107" H 2050 2650 50  0001 C CNN
+F 1 "+3V3" V 2050 2950 50  0000 L CNN
+F 2 "" H 2050 2800 50  0001 C CNN
+F 3 "" H 2050 2800 50  0001 C CNN
+	1    2050 2800
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3650 4250 3300 4250
+	2400 2800 2050 2800
 $Comp
 L power:GND #PWR0108
 U 1 1 5CE16ADA
-P 3450 4350
+P 2200 2900
 AR Path="/5CDAB6B1/5CE16ADA" Ref="#PWR0108"  Part="1" 
 AR Path="/5CE0453C/5CE16ADA" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CE16ADA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0108" H 3450 4100 50  0001 C CNN
-F 1 "GND" V 3500 4200 50  0000 R CNN
-F 2 "" H 3450 4350 50  0001 C CNN
-F 3 "" H 3450 4350 50  0001 C CNN
-	1    3450 4350
+F 0 "#PWR0108" H 2200 2650 50  0001 C CNN
+F 1 "GND" V 2250 2750 50  0000 R CNN
+F 2 "" H 2200 2900 50  0001 C CNN
+F 3 "" H 2200 2900 50  0001 C CNN
+	1    2200 2900
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	3450 4350 3650 4350
+	2200 2900 2400 2900
 $Comp
 L power:GND #PWR0109
 U 1 1 5CE1CBEC
-P 3450 4450
+P 2200 3000
 AR Path="/5CDAB6B1/5CE1CBEC" Ref="#PWR0109"  Part="1" 
 AR Path="/5CE0453C/5CE1CBEC" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CE1CBEC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0109" H 3450 4200 50  0001 C CNN
-F 1 "GND" V 3500 4300 50  0000 R CNN
-F 2 "" H 3450 4450 50  0001 C CNN
-F 3 "" H 3450 4450 50  0001 C CNN
-	1    3450 4450
+F 0 "#PWR0109" H 2200 2750 50  0001 C CNN
+F 1 "GND" V 2250 2850 50  0000 R CNN
+F 2 "" H 2200 3000 50  0001 C CNN
+F 3 "" H 2200 3000 50  0001 C CNN
+	1    2200 3000
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	3450 4450 3650 4450
+	2200 3000 2400 3000
 $Comp
 L power:+3V3 #PWR0110
 U 1 1 5CE1FA82
-P 7200 4250
+P 7350 2800
 AR Path="/5CDAB6B1/5CE1FA82" Ref="#PWR0110"  Part="1" 
 AR Path="/5CE0453C/5CE1FA82" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CE1FA82" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0110" H 7200 4100 50  0001 C CNN
-F 1 "+3V3" V 7200 4400 50  0000 L CNN
-F 2 "" H 7200 4250 50  0001 C CNN
-F 3 "" H 7200 4250 50  0001 C CNN
-	1    7200 4250
+F 0 "#PWR0110" H 7350 2650 50  0001 C CNN
+F 1 "+3V3" V 7350 2950 50  0000 L CNN
+F 2 "" H 7350 2800 50  0001 C CNN
+F 3 "" H 7350 2800 50  0001 C CNN
+	1    7350 2800
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7550 4250 7200 4250
+	7700 2800 7350 2800
 $Comp
 L power:GND #PWR0111
 U 1 1 5CE1FA8D
-P 7350 4350
+P 7500 2900
 AR Path="/5CDAB6B1/5CE1FA8D" Ref="#PWR0111"  Part="1" 
 AR Path="/5CE0453C/5CE1FA8D" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CE1FA8D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0111" H 7350 4100 50  0001 C CNN
-F 1 "GND" V 7400 4200 50  0000 R CNN
-F 2 "" H 7350 4350 50  0001 C CNN
-F 3 "" H 7350 4350 50  0001 C CNN
-	1    7350 4350
+F 0 "#PWR0111" H 7500 2650 50  0001 C CNN
+F 1 "GND" V 7550 2750 50  0000 R CNN
+F 2 "" H 7500 2900 50  0001 C CNN
+F 3 "" H 7500 2900 50  0001 C CNN
+	1    7500 2900
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7350 4350 7550 4350
+	7500 2900 7700 2900
 $Comp
 L power:GND #PWR0112
 U 1 1 5CE1FA98
-P 7350 4450
+P 7500 3000
 AR Path="/5CDAB6B1/5CE1FA98" Ref="#PWR0112"  Part="1" 
 AR Path="/5CE0453C/5CE1FA98" Ref="#PWR?"  Part="1" 
 AR Path="/5CE8F13B/5CE1FA98" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0112" H 7350 4200 50  0001 C CNN
-F 1 "GND" V 7400 4300 50  0000 R CNN
-F 2 "" H 7350 4450 50  0001 C CNN
-F 3 "" H 7350 4450 50  0001 C CNN
-	1    7350 4450
+F 0 "#PWR0112" H 7500 2750 50  0001 C CNN
+F 1 "GND" V 7550 2850 50  0000 R CNN
+F 2 "" H 7500 3000 50  0001 C CNN
+F 3 "" H 7500 3000 50  0001 C CNN
+	1    7500 3000
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7350 4450 7550 4450
+	7500 3000 7700 3000
+$Comp
+L Connector:Conn_01x20_Male J?
+U 1 1 5CE98C55
+P 8600 4750
+F 0 "J?" H 8750 5850 50  0000 C CNN
+F 1 "STM32_2_DEBUG2" H 8750 5750 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical" H 8600 4750 50  0001 C CNN
+F 3 "~" H 8600 4750 50  0001 C CNN
+	1    8600 4750
+	1    0    0    -1  
+$EndComp
+Text HLabel 7700 4250 0    50   Input ~ 0
+STM32_2_PA0
+Text HLabel 7700 4350 0    50   Input ~ 0
+STM32_2_PA1
+Text HLabel 7700 4450 0    50   Input ~ 0
+STM32_2_PA2
+Text HLabel 7700 4550 0    50   Input ~ 0
+STM32_2_PA3
+Text HLabel 7700 4650 0    50   Input ~ 0
+STM32_2_PA4
+Text HLabel 7700 4750 0    50   Input ~ 0
+STM32_2_PA5
+Text HLabel 7700 4850 0    50   Input ~ 0
+STM32_2_PA6
+Text HLabel 7700 4950 0    50   Input ~ 0
+STM32_2_PA7
+Text HLabel 7700 5050 0    50   Input ~ 0
+STM32_2_PB0
+Text HLabel 7700 5150 0    50   Input ~ 0
+STM32_2_PB1
+Text HLabel 7700 5250 0    50   Input ~ 0
+STM32_2_PB10
+Text HLabel 7700 5350 0    50   Input ~ 0
+STM32_2_PB11
+Text HLabel 7700 5450 0    50   Input ~ 0
+STM32_2_NRST
+Text HLabel 7700 3950 0    50   Input ~ 0
+STM32_2_PC13
+Text HLabel 7700 4050 0    50   Input ~ 0
+STM32_2_PC14
+Text HLabel 7700 4150 0    50   Input ~ 0
+STM32_2_PC15
+Wire Wire Line
+	7700 3950 7900 3950
+Wire Wire Line
+	7700 4050 7900 4050
+Wire Wire Line
+	7700 4150 7900 4150
+Wire Wire Line
+	7700 4250 7900 4250
+Wire Wire Line
+	7700 4350 7900 4350
+Wire Wire Line
+	7700 4450 7900 4450
+Wire Wire Line
+	7700 4550 7900 4550
+Wire Wire Line
+	7700 4650 7900 4650
+Wire Wire Line
+	7700 4750 7900 4750
+Wire Wire Line
+	7700 4850 7900 4850
+Wire Wire Line
+	7700 4950 7900 4950
+Wire Wire Line
+	7700 5050 7900 5050
+Wire Wire Line
+	7700 5150 7900 5150
+Wire Wire Line
+	7700 5250 7900 5250
+Wire Wire Line
+	7700 5350 7900 5350
+Wire Wire Line
+	7700 5450 7900 5450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CEAD215
+P 7550 5550
+AR Path="/5CDAB6B1/5CEAD215" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CEAD215" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CEAD215" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7550 5400 50  0001 C CNN
+F 1 "+3V3" V 7550 5700 50  0000 L CNN
+F 2 "" H 7550 5550 50  0001 C CNN
+F 3 "" H 7550 5550 50  0001 C CNN
+	1    7550 5550
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEAD220
+P 7700 5650
+AR Path="/5CDAB6B1/5CEAD220" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CEAD220" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CEAD220" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7700 5400 50  0001 C CNN
+F 1 "GND" V 7750 5500 50  0000 R CNN
+F 2 "" H 7700 5650 50  0001 C CNN
+F 3 "" H 7700 5650 50  0001 C CNN
+	1    7700 5650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7700 5650 7900 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5CEAD22B
+P 7700 5750
+AR Path="/5CDAB6B1/5CEAD22B" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CEAD22B" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CEAD22B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7700 5500 50  0001 C CNN
+F 1 "GND" V 7750 5600 50  0000 R CNN
+F 2 "" H 7700 5750 50  0001 C CNN
+F 3 "" H 7700 5750 50  0001 C CNN
+	1    7700 5750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7700 5750 7900 5750
+Wire Wire Line
+	7900 5550 7550 5550
+$Comp
+L Connector:Conn_01x20_Male J?
+U 1 1 5CEABB42
+P 8100 4750
+F 0 "J?" H 8200 5850 50  0000 C CNN
+F 1 "STM32_2_DEBUG1" H 8200 5750 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical" H 8100 4750 50  0001 C CNN
+F 3 "~" H 8100 4750 50  0001 C CNN
+	1    8100 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CED17C3
+P 9150 4050
+AR Path="/5CDAB6B1/5CED17C3" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CED17C3" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CED17C3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 3900 50  0001 C CNN
+F 1 "+5V" V 9150 4200 50  0000 L CNN
+F 2 "" H 9150 4050 50  0001 C CNN
+F 3 "" H 9150 4050 50  0001 C CNN
+	1    9150 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 4050 9150 4050
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CED17CE
+P 9150 3850
+AR Path="/5CDAB6B1/5CED17CE" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CED17CE" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CED17CE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 3700 50  0001 C CNN
+F 1 "+3V3" V 9150 4000 50  0000 L CNN
+F 2 "" H 9150 3850 50  0001 C CNN
+F 3 "" H 9150 3850 50  0001 C CNN
+	1    9150 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 3850 9150 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5CED17D9
+P 9000 3950
+AR Path="/5CDAB6B1/5CED17D9" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CED17D9" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CED17D9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9000 3700 50  0001 C CNN
+F 1 "GND" V 9050 3800 50  0000 R CNN
+F 2 "" H 9000 3950 50  0001 C CNN
+F 3 "" H 9000 3950 50  0001 C CNN
+	1    9000 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 3950 8800 3950
+Text HLabel 9000 4150 2    50   Input ~ 0
+STM32_2_PB9
+Text HLabel 9000 4250 2    50   Input ~ 0
+STM32_2_PB8
+Text HLabel 9000 4350 2    50   Input ~ 0
+STM32_2_PB7
+Text HLabel 9000 4450 2    50   Input ~ 0
+STM32_2_PB6
+Text HLabel 9000 4550 2    50   Input ~ 0
+STM32_2_PB5
+Text HLabel 9000 4650 2    50   Input ~ 0
+STM32_2_PB4
+Text HLabel 9000 4750 2    50   Input ~ 0
+STM32_2_PB3
+Text HLabel 9000 4850 2    50   Input ~ 0
+STM32_2_PA15
+Text HLabel 9000 4950 2    50   Input ~ 0
+STM32_2_PA12
+Text HLabel 9000 5050 2    50   Input ~ 0
+STM32_2_PA11
+Text HLabel 9000 5150 2    50   Input ~ 0
+STM32_2_PA10
+Text HLabel 9000 5250 2    50   Input ~ 0
+STM32_2_PA9
+Text HLabel 9000 5350 2    50   Input ~ 0
+STM32_2_PA8
+Text HLabel 9000 5450 2    50   Input ~ 0
+STM32_2_PB15
+Text HLabel 9000 5550 2    50   Input ~ 0
+STM32_2_PB14
+Text HLabel 9000 5650 2    50   Input ~ 0
+STM32_2_PB13
+Text HLabel 9000 5750 2    50   Input ~ 0
+STM32_2_PB12
+Wire Wire Line
+	8800 4150 9000 4150
+Wire Wire Line
+	8800 4250 9000 4250
+Wire Wire Line
+	8800 4350 9000 4350
+Wire Wire Line
+	8800 4450 9000 4450
+Wire Wire Line
+	8800 4550 9000 4550
+Wire Wire Line
+	8800 4650 9000 4650
+Wire Wire Line
+	8800 4750 9000 4750
+Wire Wire Line
+	8800 4850 9000 4850
+Wire Wire Line
+	8800 4950 9000 4950
+Wire Wire Line
+	8800 5050 9000 5050
+Wire Wire Line
+	8800 5150 9000 5150
+Wire Wire Line
+	8800 5250 9000 5250
+Wire Wire Line
+	8800 5350 9000 5350
+Wire Wire Line
+	8800 5450 9000 5450
+Wire Wire Line
+	8800 5550 9000 5550
+Wire Wire Line
+	8800 5650 9000 5650
+Wire Wire Line
+	8800 5750 9000 5750
+$Comp
+L Connector:Conn_01x20_Male J?
+U 1 1 5CEDE89A
+P 3350 4650
+F 0 "J?" H 3500 5750 50  0000 C CNN
+F 1 "STM32_2_DEBUG2" H 3500 5650 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical" H 3350 4650 50  0001 C CNN
+F 3 "~" H 3350 4650 50  0001 C CNN
+	1    3350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J?
+U 1 1 5CEDE8A4
+P 2850 4650
+F 0 "J?" H 2950 5750 50  0000 C CNN
+F 1 "STM32_2_DEBUG1" H 2950 5650 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical" H 2850 4650 50  0001 C CNN
+F 3 "~" H 2850 4650 50  0001 C CNN
+	1    2850 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CEF351D
+P 3900 3950
+AR Path="/5CDAB6B1/5CEF351D" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CEF351D" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CEF351D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 3800 50  0001 C CNN
+F 1 "+5V" V 3900 4100 50  0000 L CNN
+F 2 "" H 3900 3950 50  0001 C CNN
+F 3 "" H 3900 3950 50  0001 C CNN
+	1    3900 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 3950 3900 3950
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CEF3528
+P 3900 3750
+AR Path="/5CDAB6B1/5CEF3528" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CEF3528" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CEF3528" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 3600 50  0001 C CNN
+F 1 "+3V3" V 3900 3900 50  0000 L CNN
+F 2 "" H 3900 3750 50  0001 C CNN
+F 3 "" H 3900 3750 50  0001 C CNN
+	1    3900 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 3750 3900 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5CEF3533
+P 3750 3850
+AR Path="/5CDAB6B1/5CEF3533" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CEF3533" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CEF3533" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3750 3600 50  0001 C CNN
+F 1 "GND" V 3800 3700 50  0000 R CNN
+F 2 "" H 3750 3850 50  0001 C CNN
+F 3 "" H 3750 3850 50  0001 C CNN
+	1    3750 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 3850 3550 3850
+Text HLabel 3750 4050 2    50   Input ~ 0
+STM32_1_PB9
+Text HLabel 3750 4150 2    50   Input ~ 0
+STM32_1_PB8
+Text HLabel 3750 4250 2    50   Input ~ 0
+STM32_1_PB7
+Text HLabel 3750 4350 2    50   Input ~ 0
+STM32_1_PB6
+Text HLabel 3750 4450 2    50   Input ~ 0
+STM32_1_PB5
+Text HLabel 3750 4550 2    50   Input ~ 0
+STM32_1_PB4
+Text HLabel 3750 4650 2    50   Input ~ 0
+STM32_1_PB3
+Text HLabel 3750 4750 2    50   Input ~ 0
+STM32_1_PA15
+Text HLabel 3750 4850 2    50   Input ~ 0
+STM32_1_PA12
+Text HLabel 3750 4950 2    50   Input ~ 0
+STM32_1_PA11
+Text HLabel 3750 5050 2    50   Input ~ 0
+STM32_1_PA10
+Text HLabel 3750 5150 2    50   Input ~ 0
+STM32_1_PA9
+Text HLabel 3750 5250 2    50   Input ~ 0
+STM32_1_PA8
+Text HLabel 3750 5350 2    50   Input ~ 0
+STM32_1_PB15
+Text HLabel 3750 5450 2    50   Input ~ 0
+STM32_1_PB14
+Text HLabel 3750 5550 2    50   Input ~ 0
+STM32_1_PB13
+Text HLabel 3750 5650 2    50   Input ~ 0
+STM32_1_PB12
+Wire Wire Line
+	3550 4050 3750 4050
+Wire Wire Line
+	3550 4150 3750 4150
+Wire Wire Line
+	3550 4250 3750 4250
+Wire Wire Line
+	3550 4350 3750 4350
+Wire Wire Line
+	3550 4450 3750 4450
+Wire Wire Line
+	3550 4550 3750 4550
+Wire Wire Line
+	3550 4650 3750 4650
+Wire Wire Line
+	3550 4750 3750 4750
+Wire Wire Line
+	3550 4850 3750 4850
+Wire Wire Line
+	3550 4950 3750 4950
+Wire Wire Line
+	3550 5050 3750 5050
+Wire Wire Line
+	3550 5150 3750 5150
+Wire Wire Line
+	3550 5250 3750 5250
+Wire Wire Line
+	3550 5350 3750 5350
+Wire Wire Line
+	3550 5450 3750 5450
+Wire Wire Line
+	3550 5550 3750 5550
+Wire Wire Line
+	3550 5650 3750 5650
+Text HLabel 2450 4150 0    50   Input ~ 0
+STM32_1_PA0
+Text HLabel 2450 4250 0    50   Input ~ 0
+STM32_1_PA1
+Text HLabel 2450 4350 0    50   Input ~ 0
+STM32_1_PA2
+Text HLabel 2450 4450 0    50   Input ~ 0
+STM32_1_PA3
+Text HLabel 2450 4550 0    50   Input ~ 0
+STM32_1_PA4
+Text HLabel 2450 4650 0    50   Input ~ 0
+STM32_1_PA5
+Text HLabel 2450 4750 0    50   Input ~ 0
+STM32_1_PA6
+Text HLabel 2450 4850 0    50   Input ~ 0
+STM32_1_PA7
+Text HLabel 2450 4950 0    50   Input ~ 0
+STM32_1_PB0
+Text HLabel 2450 5050 0    50   Input ~ 0
+STM32_1_PB1
+Text HLabel 2450 5150 0    50   Input ~ 0
+STM32_1_PB10
+Text HLabel 2450 5250 0    50   Input ~ 0
+STM32_1_PB11
+Text HLabel 2450 5350 0    50   Input ~ 0
+STM32_1_NRST
+Text HLabel 2450 3850 0    50   Input ~ 0
+STM32_1_PC13
+Text HLabel 2450 3950 0    50   Input ~ 0
+STM32_1_PC14
+Text HLabel 2450 4050 0    50   Input ~ 0
+STM32_1_PC15
+Wire Wire Line
+	2450 3850 2650 3850
+Wire Wire Line
+	2450 3950 2650 3950
+Wire Wire Line
+	2450 4050 2650 4050
+Wire Wire Line
+	2450 4150 2650 4150
+Wire Wire Line
+	2450 4250 2650 4250
+Wire Wire Line
+	2450 4350 2650 4350
+Wire Wire Line
+	2450 4450 2650 4450
+Wire Wire Line
+	2450 4550 2650 4550
+Wire Wire Line
+	2450 4650 2650 4650
+Wire Wire Line
+	2450 4750 2650 4750
+Wire Wire Line
+	2450 4850 2650 4850
+Wire Wire Line
+	2450 4950 2650 4950
+Wire Wire Line
+	2450 5050 2650 5050
+Wire Wire Line
+	2450 5150 2650 5150
+Wire Wire Line
+	2450 5250 2650 5250
+Wire Wire Line
+	2450 5350 2650 5350
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CEFE118
+P 2300 5450
+AR Path="/5CDAB6B1/5CEFE118" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CEFE118" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CEFE118" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 5300 50  0001 C CNN
+F 1 "+3V3" V 2300 5600 50  0000 L CNN
+F 2 "" H 2300 5450 50  0001 C CNN
+F 3 "" H 2300 5450 50  0001 C CNN
+	1    2300 5450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2650 5450 2300 5450
+$Comp
+L power:GND #PWR?
+U 1 1 5CEFE123
+P 2450 5550
+AR Path="/5CDAB6B1/5CEFE123" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CEFE123" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CEFE123" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2450 5300 50  0001 C CNN
+F 1 "GND" V 2500 5400 50  0000 R CNN
+F 2 "" H 2450 5550 50  0001 C CNN
+F 3 "" H 2450 5550 50  0001 C CNN
+	1    2450 5550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2450 5550 2650 5550
+$Comp
+L power:GND #PWR?
+U 1 1 5CEFE12E
+P 2450 5650
+AR Path="/5CDAB6B1/5CEFE12E" Ref="#PWR?"  Part="1" 
+AR Path="/5CE0453C/5CEFE12E" Ref="#PWR?"  Part="1" 
+AR Path="/5CE8F13B/5CEFE12E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2450 5400 50  0001 C CNN
+F 1 "GND" V 2500 5500 50  0000 R CNN
+F 2 "" H 2450 5650 50  0001 C CNN
+F 3 "" H 2450 5650 50  0001 C CNN
+	1    2450 5650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2450 5650 2650 5650
 $EndSCHEMATC
