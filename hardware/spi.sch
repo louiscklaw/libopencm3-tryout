@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 27
+Sheet 13 27
 Title ""
 Date ""
 Rev ""
@@ -1087,17 +1087,6 @@ C2 FD 45 00 00 00 AD FF 03 48 77 A1 28 3E A5 14 DB 00 00 00 00 49 45 4E 44 AE 42
 EndData
 $EndBitmap
 $Comp
-L taobao-components:W25Q32JVSSIQ U9
-U 1 1 5CF2C0C7
-P 4200 3900
-F 0 "U9" H 4200 4350 50  0000 C CNN
-F 1 "W25Q32JVSSIQ" H 4200 4250 50  0000 C CNN
-F 2 "footprint-lib:I2C_DEBUG" H 4100 3700 50  0001 C CNN
-F 3 "" H 4100 3700 50  0001 C CNN
-	1    4200 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0219
 U 1 1 5CF2C6A3
 P 3350 4250
@@ -1110,8 +1099,6 @@ F 3 "" H 3350 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 4250 3350 4050
-Wire Wire Line
-	3350 4050 3500 4050
 $Comp
 L taobao-components:I2C_DEBUG J20
 U 1 1 5CF3AB80
@@ -1128,15 +1115,11 @@ Wire Wire Line
 Wire Wire Line
 	5450 4800 5450 3950
 Wire Wire Line
-	5450 3950 4900 3950
-Wire Wire Line
 	2150 3950 2300 3950
 Wire Wire Line
 	3050 3950 3050 4700
 Wire Wire Line
 	5350 4700 5350 4050
-Wire Wire Line
-	5350 4050 4900 4050
 Wire Wire Line
 	2150 3850 2400 3850
 $Comp
@@ -1155,8 +1138,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 3750 2800 3400
 Connection ~ 2800 3750
-Wire Wire Line
-	2800 3750 3500 3750
 $Comp
 L power:+3V3 #PWR0220
 U 1 1 5CF3F8B4
@@ -1173,19 +1154,13 @@ Wire Wire Line
 Wire Wire Line
 	5100 3000 5100 3750
 Wire Wire Line
-	5100 3750 4900 3750
-Wire Wire Line
 	2800 3000 3400 3000
 Connection ~ 2800 3000
 Wire Wire Line
 	2800 3000 2800 3200
 Wire Wire Line
-	4900 3850 5100 3850
-Wire Wire Line
 	5100 3850 5100 3750
 Connection ~ 5100 3750
-Wire Wire Line
-	3500 3950 3400 3950
 Wire Wire Line
 	3400 3950 3400 3000
 Connection ~ 3400 3000
@@ -1215,8 +1190,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 3550 2400 3850
 Connection ~ 2400 3850
-Wire Wire Line
-	2400 3850 3500 3850
 Wire Wire Line
 	3050 4700 5350 4700
 Wire Wire Line
@@ -1297,4 +1270,31 @@ Wire Wire Line
 	4050 2700 4200 2700
 Wire Wire Line
 	4400 2700 4550 2700
+$Comp
+L taobao-components:W25Q32JVSSIQ U?
+U 1 1 5CEA6EB7
+P 4200 3900
+F 0 "U?" H 4200 4400 50  0000 C CNN
+F 1 "W25Q32JVSSIQ" H 4200 4300 50  0000 C CNN
+F 2 "footprint-lib:W25Q32JVSSIQ" H 4200 3500 50  0001 C CNN
+F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwi02JP0prjiAhXaBIgKHRI3AjoQFjAAegQIABAC&url=https%3A%2F%2Fwww.winbond.com%2Fresource-files%2Fw25q32jv%2520spi%2520revc%252008302016.pdf&usg=AOvVaw224j1hLYjMOvdAbYlB56Mn" H 4500 3850 50  0001 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3750 5100 3750
+Wire Wire Line
+	4700 3950 5450 3950
+Wire Wire Line
+	4700 4050 5350 4050
+Wire Wire Line
+	2800 3750 3700 3750
+Wire Wire Line
+	4700 3850 5100 3850
+Wire Wire Line
+	3350 4050 3700 4050
+Wire Wire Line
+	3400 3950 3700 3950
+Wire Wire Line
+	2400 3850 3700 3850
 $EndSCHEMATC

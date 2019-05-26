@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 19 27
+Sheet 27 27
 Title ""
 Date ""
 Rev ""
@@ -14,209 +14,198 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L taobao-components:STM32F103C8T6 U4
-U 1 1 5BCB9005
-P 8550 4300
-F 0 "U4" H 8600 5428 50  0000 C CNN
-F 1 "STM32F103C8T6" H 8600 5337 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 8550 4300 50  0001 C CNN
-F 3 "" H 8550 4300 50  0001 C CNN
-	1    8550 4300
-	1    0    0    -1  
-$EndComp
-Text Label 7050 3800 0    50   ~ 0
+Text Label 6900 3750 0    50   ~ 0
 VBAT
 Wire Wire Line
-	7050 3800 7600 3800
-Text Label 7050 3900 0    50   ~ 0
+	6900 3750 7450 3750
+Text Label 6900 3850 0    50   ~ 0
 PC13
 Wire Wire Line
-	7050 3900 7600 3900
-Text Label 7050 4000 0    50   ~ 0
+	6900 3850 7450 3850
+Text Label 6900 3950 0    50   ~ 0
 PC14
 Wire Wire Line
-	7050 4000 7600 4000
-Text Label 7050 4100 0    50   ~ 0
+	6900 3950 7450 3950
+Text Label 6900 4050 0    50   ~ 0
 PC15
 Wire Wire Line
-	7050 4100 7600 4100
-Text Label 7050 4200 0    50   ~ 0
+	6900 4050 7450 4050
+Text Label 6900 4150 0    50   ~ 0
 OSCIN
 Wire Wire Line
-	7050 4200 7600 4200
-Text Label 7050 4300 0    50   ~ 0
+	6900 4150 7450 4150
+Text Label 6900 4250 0    50   ~ 0
 OSCOUT
 Wire Wire Line
-	7050 4300 7600 4300
-Text Label 7050 4400 0    50   ~ 0
+	6900 4250 7450 4250
+Text Label 6900 4350 0    50   ~ 0
 RESET
 Wire Wire Line
-	7050 4400 7600 4400
-Text Label 7050 4500 0    50   ~ 0
+	6900 4350 7450 4350
+Text Label 6900 4450 0    50   ~ 0
 GND
 Wire Wire Line
-	7050 4500 7600 4500
-Text Label 7050 4600 0    50   ~ 0
+	6900 4450 7450 4450
+Text Label 6900 4550 0    50   ~ 0
 VCC3V3
 Wire Wire Line
-	7050 4600 7600 4600
-Text Label 7050 4700 0    50   ~ 0
+	6900 4550 7450 4550
+Text Label 6900 4650 0    50   ~ 0
 PA0
 Wire Wire Line
-	7050 4700 7600 4700
-Text Label 7050 4800 0    50   ~ 0
+	6900 4650 7450 4650
+Text Label 6900 4750 0    50   ~ 0
 PA1
 Wire Wire Line
-	7050 4800 7600 4800
-Text Label 7050 4900 0    50   ~ 0
+	6900 4750 7450 4750
+Text Label 6900 4850 0    50   ~ 0
 PA2
 Wire Wire Line
-	7050 4900 7600 4900
-Text Label 8050 5900 1    50   ~ 0
+	6900 4850 7450 4850
+Text Label 8000 5950 1    50   ~ 0
 PA3
 Wire Wire Line
-	8050 5900 8050 5350
-Text Label 8150 5900 1    50   ~ 0
+	8000 5950 8000 5400
+Text Label 8100 5950 1    50   ~ 0
 PA4
 Wire Wire Line
-	8150 5900 8150 5350
-Text Label 8250 5900 1    50   ~ 0
+	8100 5950 8100 5400
+Text Label 8200 5950 1    50   ~ 0
 PA5
 Wire Wire Line
-	8250 5900 8250 5350
-Text Label 8350 5900 1    50   ~ 0
+	8200 5950 8200 5400
+Text Label 8300 5950 1    50   ~ 0
 PA6
 Wire Wire Line
-	8350 5900 8350 5350
-Text Label 8450 5900 1    50   ~ 0
+	8300 5950 8300 5400
+Text Label 8400 5950 1    50   ~ 0
 PA7
 Wire Wire Line
-	8450 5900 8450 5350
-Text Label 8550 5900 1    50   ~ 0
+	8400 5950 8400 5400
+Text Label 8500 5950 1    50   ~ 0
 PB0
 Wire Wire Line
-	8550 5900 8550 5350
-Text Label 8650 5900 1    50   ~ 0
+	8500 5950 8500 5400
+Text Label 8600 5950 1    50   ~ 0
 PB1
 Wire Wire Line
-	8650 5900 8650 5350
-Text Label 8750 5900 1    50   ~ 0
+	8600 5950 8600 5400
+Text Label 8700 5950 1    50   ~ 0
 BOOT1
 Wire Wire Line
-	8750 5900 8750 5350
-Text Label 8850 5900 1    50   ~ 0
+	8700 5950 8700 5400
+Text Label 8800 5950 1    50   ~ 0
 PB10
 Wire Wire Line
-	8850 5900 8850 5350
-Text Label 8950 5900 1    50   ~ 0
+	8800 5950 8800 5400
+Text Label 8900 5950 1    50   ~ 0
 PB11
 Wire Wire Line
-	8950 5900 8950 5350
-Text Label 9050 5900 1    50   ~ 0
+	8900 5950 8900 5400
+Text Label 9000 5950 1    50   ~ 0
 VSS_1
 Wire Wire Line
-	9050 5900 9050 5350
-Text Label 9150 5900 1    50   ~ 0
+	9000 5950 9000 5400
+Text Label 9100 5950 1    50   ~ 0
 VDD_1
 Wire Wire Line
-	9150 5900 9150 5350
-Text Label 10150 4900 2    50   ~ 0
+	9100 5950 9100 5400
+Text Label 10200 4850 2    50   ~ 0
 PB12
 Wire Wire Line
-	10150 4900 9600 4900
-Text Label 10150 4800 2    50   ~ 0
+	10200 4850 9650 4850
+Text Label 10200 4750 2    50   ~ 0
 PB13
 Wire Wire Line
-	10150 4800 9600 4800
-Text Label 10150 4700 2    50   ~ 0
+	10200 4750 9650 4750
+Text Label 10200 4650 2    50   ~ 0
 PB14
 Wire Wire Line
-	10150 4700 9600 4700
-Text Label 10150 4600 2    50   ~ 0
+	10200 4650 9650 4650
+Text Label 10200 4550 2    50   ~ 0
 PB15
 Wire Wire Line
-	10150 4600 9600 4600
-Text Label 10150 4500 2    50   ~ 0
+	10200 4550 9650 4550
+Text Label 10200 4450 2    50   ~ 0
 PA8
 Wire Wire Line
-	10150 4500 9600 4500
-Text Label 10150 4400 2    50   ~ 0
+	10200 4450 9650 4450
+Text Label 10200 4350 2    50   ~ 0
 PA9
 Wire Wire Line
-	10150 4400 9600 4400
-Text Label 10150 4300 2    50   ~ 0
+	10200 4350 9650 4350
+Text Label 10200 4250 2    50   ~ 0
 PA10
 Wire Wire Line
-	10150 4300 9600 4300
-Text Label 10150 4200 2    50   ~ 0
+	10200 4250 9650 4250
+Text Label 10200 4150 2    50   ~ 0
 PA11
 Wire Wire Line
-	10150 4200 9600 4200
-Text Label 10150 4100 2    50   ~ 0
+	10200 4150 9650 4150
+Text Label 10200 4050 2    50   ~ 0
 PA12
 Wire Wire Line
-	10150 4100 9600 4100
-Text Label 10150 4000 2    50   ~ 0
+	10200 4050 9650 4050
+Text Label 10200 3950 2    50   ~ 0
 SWIO
 Wire Wire Line
-	10150 4000 9600 4000
-Text Label 10150 3900 2    50   ~ 0
+	10200 3950 9650 3950
+Text Label 10200 3850 2    50   ~ 0
 VSS_2
 Wire Wire Line
-	10150 3900 9600 3900
-Text Label 10150 3800 2    50   ~ 0
+	10200 3850 9650 3850
+Text Label 10200 3750 2    50   ~ 0
 VDD_2
 Wire Wire Line
-	10150 3800 9600 3800
-Text Label 9150 2800 3    50   ~ 0
+	10200 3750 9650 3750
+Text Label 9100 2650 3    50   ~ 0
 SWCLK
 Wire Wire Line
-	9150 2800 9150 3350
-Text Label 9050 2800 3    50   ~ 0
+	9100 2650 9100 3200
+Text Label 9000 2650 3    50   ~ 0
 PA15
 Wire Wire Line
-	9050 2800 9050 3350
-Text Label 8950 2800 3    50   ~ 0
+	9000 2650 9000 3200
+Text Label 8900 2650 3    50   ~ 0
 PB3
 Wire Wire Line
-	8950 2800 8950 3350
-Text Label 8850 2800 3    50   ~ 0
+	8900 2650 8900 3200
+Text Label 8800 2650 3    50   ~ 0
 PB4
 Wire Wire Line
-	8850 2800 8850 3350
-Text Label 8750 2800 3    50   ~ 0
+	8800 2650 8800 3200
+Text Label 8700 2650 3    50   ~ 0
 PB5
 Wire Wire Line
-	8750 2800 8750 3350
-Text Label 8650 2800 3    50   ~ 0
+	8700 2650 8700 3200
+Text Label 8600 2650 3    50   ~ 0
 PB6
 Wire Wire Line
-	8650 2800 8650 3350
-Text Label 8550 2800 3    50   ~ 0
+	8600 2650 8600 3200
+Text Label 8500 2650 3    50   ~ 0
 PB7
 Wire Wire Line
-	8550 2800 8550 3350
-Text Label 8450 2800 3    50   ~ 0
+	8500 2650 8500 3200
+Text Label 8400 2650 3    50   ~ 0
 BOOT0
 Wire Wire Line
-	8450 2800 8450 3350
-Text Label 8350 2800 3    50   ~ 0
+	8400 2650 8400 3200
+Text Label 8300 2650 3    50   ~ 0
 PB8
 Wire Wire Line
-	8350 2800 8350 3350
-Text Label 8250 2800 3    50   ~ 0
+	8300 2650 8300 3200
+Text Label 8200 2650 3    50   ~ 0
 PB9
 Wire Wire Line
-	8250 2800 8250 3350
-Text Label 8150 2800 3    50   ~ 0
+	8200 2650 8200 3200
+Text Label 8100 2650 3    50   ~ 0
 GND
 Wire Wire Line
-	8150 2800 8150 3350
-Text Label 8050 2800 3    50   ~ 0
+	8100 2650 8100 3200
+Text Label 8000 2650 3    50   ~ 0
 VCC3V3
 Wire Wire Line
-	8050 2800 8050 3350
+	8000 2650 8000 3200
 $Comp
 L taobao-c:C104 C11
 U 1 1 5BCBC4D6
@@ -1293,4 +1282,15 @@ Wire Wire Line
 Connection ~ 14500 7700
 Wire Wire Line
 	14500 7700 14550 7700
+$Comp
+L taobao-components:STM32F103C8T6 U4
+U 1 1 5CF34EE1
+P 8550 4300
+F 0 "U4" H 9300 3350 50  0000 L CNN
+F 1 "STM32F103C8T6" H 9300 3200 50  0000 L CNN
+F 2 "footprint-lib:STM32F103C8T6" H 8550 4300 50  0001 C CNN
+F 3 "" H 8550 4300 50  0001 C CNN
+	1    8550 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

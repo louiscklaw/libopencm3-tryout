@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 27
+Sheet 10 27
 Title ""
 Date ""
 Rev ""
@@ -15298,15 +15298,15 @@ $EndComp
 Wire Wire Line
 	3800 4150 4250 4150
 $Comp
-L taobao-components:TTL_TERMINAL J18
+L taobao-board:TTL_TERMINAL J18
 U 1 1 5CE9678A
 P 8500 3850
-F 0 "J18" H 8450 3750 50  0000 R CNN
-F 1 "TTL_TERMINAL" H 8450 3850 50  0000 R CNN
+F 0 "J18" H 8550 3450 50  0000 C CNN
+F 1 "TTL_TERMINAL" H 8550 3550 50  0000 C CNN
 F 2 "footprint-lib:TTL_TERMINAL_2.54mm" H 8550 3600 50  0001 C CNN
 F 3 "~" H 8500 3850 50  0001 C CNN
 	1    8500 3850
-	1    0    0    1   
+	-1   0    0    1   
 $EndComp
 $Comp
 L Jumper:Jumper_3_Bridged12 3.3/5V1
@@ -15320,7 +15320,7 @@ F 3 "" H 6950 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:USB_B_Mini_1 J19
+L taobao-connector:USB_B_Mini_1 J19
 U 1 1 5CEA5B6D
 P 2450 4350
 F 0 "J19" H 2550 4850 50  0000 C CNN

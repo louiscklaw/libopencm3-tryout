@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 19 27
+Sheet 24 27
 Title ""
 Date ""
 Rev ""
@@ -10694,14 +10694,14 @@ $EndBitmap
 $Comp
 L taobao-components:STM32F407VET6 U6
 U 1 1 5CC3473C
-P 5000 7000
+P 5000 6950
 AR Path="/5CE045BC/5CC3473C" Ref="U6"  Part="1" 
 AR Path="/5CE535D6/5CC3473C" Ref="U?"  Part="1" 
-F 0 "U6" H 5000 9750 50  0000 C CNN
-F 1 "STM32F407VET6" H 5000 9650 50  0000 C CNN
-F 2 "w_smd_lqfp:TQFP-100" H 5600 4550 50  0001 C CNN
-F 3 "" H 5600 4550 50  0001 C CNN
-	1    5000 7000
+F 0 "U6" H 5000 9700 50  0000 C CNN
+F 1 "STM32F407VET6" H 5000 9600 50  0000 C CNN
+F 2 "w_smd_lqfp:TQFP-100" H 5600 4500 50  0001 C CNN
+F 3 "" H 5600 4500 50  0001 C CNN
+	1    5000 6950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -13130,7 +13130,7 @@ Text Label 1900 3850 2    50   ~ 0
 USB_DM
 Text Label 1900 3950 2    50   ~ 0
 USB_DP
-Text Notes -3500 3700 0    50   ~ 0
+Text Notes 800  3600 0    50   ~ 0
 General considerations:\n\nThe STM32 port currently requires an 8 MHz crystal for correct operation\n\nGeneral considerations:\nWhen using serial, the UART used for communication with the host is fixed to pins PA9 (TX) and PA10 (RX). \nWhen using USB, the PA11 (D-) and PA12 (D+) pins are reserved. \nThe USB code assumes that PA12 (D+) has a fixed pullup resistor attached to it.\n\nSWD pins (PA13/PA14) are enabled for debugging and cannot be used for any I/O. \nSPI uses pins PB13/PB14/PB15, but the pins can be used as general I/O if SPI is not used.\n\nAnalog inputs\nAll ADC-capable pins can be used as analog inputs with the same naming as digital I/O pins. \nSmall packages MCUs (e.g. LFQP48) have 10 channels (PA0-PA7, PB0-PB1), \nwhile larger package devices have 16 channels (PA0-PA7, PB0-PB1, PC0-PC5).\n\nSPI\nSPI uses pin PB13 (SCK), PB14 (MISO) and PB15 (MOSI). The clock speed range is 0.15..18 MHz. Chip select pins do not have any restrictions.
 $Comp
 L Connector_Generic:Conn_01x03 J15

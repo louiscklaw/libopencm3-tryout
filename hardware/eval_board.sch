@@ -140,6 +140,6 @@ U 5CE0453C
 F0 "stm32f103c8t6" 50
 F1 "stm32f103c8t6.sch" 50
 $EndSheet
-Text Notes 750  4150 0    50   ~ 0
+Text Notes 750  4250 0    50   ~ 0
 checklist:\n\ndebug terminal
 $EndSCHEMATC
