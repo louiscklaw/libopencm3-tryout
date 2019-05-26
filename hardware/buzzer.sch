@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 20 27
+Sheet 15 20
 Title ""
 Date ""
 Rev ""
@@ -4570,10 +4570,10 @@ BC B1 D4 18 1F 4E 60 01 30 CB CD 63 D6 E7 AF F6 CE 1F 07 DF C4 0C 16 00 40 61 76
 EndData
 $EndBitmap
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0107
 U 1 1 5CEBF99F
 P 4600 1600
-F 0 "#PWR?" H 4600 1450 50  0001 C CNN
+F 0 "#PWR0107" H 4600 1450 50  0001 C CNN
 F 1 "+3V3" H 4650 1800 50  0000 C CNN
 F 2 "" H 4600 1600 50  0001 C CNN
 F 3 "" H 4600 1600 50  0001 C CNN
@@ -4581,10 +4581,10 @@ F 3 "" H 4600 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:BUZZER,MLT-8530 BZ?
+L taobao-components:BUZZER,MLT-8530 BZ1
 U 1 1 5CEC8447
 P 4750 1950
-F 0 "BZ?" H 4950 2000 50  0000 L CNN
+F 0 "BZ1" H 4950 2000 50  0000 L CNN
 F 1 "BUZZER,MLT-8530" H 4950 1900 50  0000 L CNN
 F 2 "footprint-lib:MLT-8530" V 4725 2050 50  0001 C CNN
 F 3 "https://s.taobao.com/search?q=MLT-8530&s_from=newHeader&ssid=s5-e&search_type=item&sourceId=tb.item" V 4725 2050 50  0001 C CNN
@@ -4592,10 +4592,10 @@ F 3 "https://s.taobao.com/search?q=MLT-8530&s_from=newHeader&ssid=s5-e&search_ty
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-transistor:SS9013_J3 Q?
+L taobao-transistor:SS9013_J3 Q1
 U 1 1 5CEC8A45
 P 4500 2500
-F 0 "Q?" H 4700 2550 50  0000 L CNN
+F 0 "Q1" H 4700 2550 50  0000 L CNN
 F 1 "SS9013_J3" H 4700 2500 50  0000 L CNN
 F 2 "footprint-lib:9013,J3,SOT23" H 4700 2425 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4500 2500 50  0001 L CNN
@@ -4603,10 +4603,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4500 2500 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-r:R471,0603 R?
+L taobao-r:R471,0603 R28
 U 1 1 5CEC945D
 P 3850 2500
-F 0 "R?" V 3600 2500 50  0000 C CNN
+F 0 "R28" V 3600 2500 50  0000 C CNN
 F 1 "R471,0603" V 3700 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3850 2500 50  0001 C CNN
 F 3 "~" H 3850 2500 50  0001 C CNN
@@ -4636,10 +4636,10 @@ Connection ~ 4600 2150
 Wire Wire Line
 	4600 2150 4600 2300
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D10
 U 1 1 5CECC56E
 P 4450 1950
-F 0 "D?" V 4400 1850 50  0000 R CNN
+F 0 "D10" V 4400 1850 50  0000 R CNN
 F 1 "D_1N4148_T4" V 4450 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 4450 1950 50  0001 C CNN
 F 3 "~" V 4450 1950 50  0001 C CNN
@@ -4647,10 +4647,10 @@ F 3 "~" V 4450 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 5CECCC65
 P 4600 3000
-F 0 "#PWR?" H 4600 2750 50  0001 C CNN
+F 0 "#PWR0108" H 4600 2750 50  0001 C CNN
 F 1 "GND" H 4650 2800 50  0000 C CNN
 F 2 "" H 4600 3000 50  0001 C CNN
 F 3 "" H 4600 3000 50  0001 C CNN
@@ -4659,10 +4659,16 @@ F 3 "" H 4600 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4600 2700 4600 3000
-Text HLabel 3400 2500 0    50   Input ~ 0
-BUZZER_OUT
-Wire Wire Line
-	3400 2500 3750 2500
+Text HLabel 1050 700  0    50   Input ~ 0
+BUZZER_IN
 Wire Wire Line
 	3950 2500 4300 2500
+Text Label 1550 700  2    50   ~ 0
+TO_BUZZER
+Wire Wire Line
+	1050 700  1550 700 
+Text Label 2900 2500 0    50   ~ 0
+TO_BUZZER
+Wire Wire Line
+	2900 2500 3750 2500
 $EndSCHEMATC

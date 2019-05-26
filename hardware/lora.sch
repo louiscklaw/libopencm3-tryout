@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 17 27
+Sheet 12 20
 Title ""
 Date ""
 Rev ""
@@ -3314,10 +3314,10 @@ EF E6 6D 88 D4 0E C1 63 87 C3 F1 50 ED 44 F6 13 C0 50 A6 7B 5F 00 00 1C 89 EC 27
 EndData
 $EndBitmap
 $Comp
-L taobao-components:Ai-Thinker-Ra-02 U?
+L taobao-components:Ai-Thinker-Ra-02 U7
 U 1 1 5CEE3980
 P 4250 2150
-F 0 "U?" H 4250 2800 50  0000 C CNN
+F 0 "U7" H 4250 2800 50  0000 C CNN
 F 1 "Ai-Thinker-Ra-02" H 4250 2700 50  0000 C CNN
 F 2 "footprint-lib:Ai-Thinker-Ra-02-LoRa" H 4250 1400 50  0001 C CNN
 F 3 "" H 4250 1850 50  0001 C CNN
@@ -8105,10 +8105,10 @@ C8 4C 20 8B CD 99 2F 73 10 F9 07 87 3C 73 42 35 83 1C 95 54 98 9E 5B 96 97 9F DA
 EndData
 $EndBitmap
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR059
 U 1 1 5CEE5A42
 P 2950 1950
-F 0 "#PWR?" H 2950 1800 50  0001 C CNN
+F 0 "#PWR059" H 2950 1800 50  0001 C CNN
 F 1 "+3V3" H 3000 2150 50  0000 C CNN
 F 2 "" H 2950 1950 50  0001 C CNN
 F 3 "" H 2950 1950 50  0001 C CNN
@@ -8116,10 +8116,10 @@ F 3 "" H 2950 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-cp:CP22uf,16V C?
+L taobao-cp:CP22uf,16V C11
 U 1 1 5CEE5E81
 P 2750 2200
-F 0 "C?" H 2650 2250 50  0000 R CNN
+F 0 "C11" H 2650 2250 50  0000 R CNN
 F 1 "CP22uf,16V" H 2650 2200 50  0000 R CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 2750 2200 50  0001 C CNN
 F 3 "~" H 2750 2200 50  0001 C CNN
@@ -8127,10 +8127,10 @@ F 3 "~" H 2750 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-c:C104 C?
+L taobao-c:C104 C12
 U 1 1 5CEE6378
 P 3100 2200
-F 0 "C?" H 3200 2250 50  0000 L CNN
+F 0 "C12" H 3200 2250 50  0000 L CNN
 F 1 "C104" H 3200 2200 50  0000 L CNN
 F 2 "" H 3100 2200 50  0001 C CNN
 F 3 "~" H 3100 2200 50  0001 C CNN
@@ -8152,10 +8152,10 @@ Wire Wire Line
 	3100 2000 3850 2000
 Connection ~ 3100 2000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR060
 U 1 1 5CEE6C15
 P 2950 2450
-F 0 "#PWR?" H 2950 2200 50  0001 C CNN
+F 0 "#PWR060" H 2950 2200 50  0001 C CNN
 F 1 "GND" H 3000 2250 50  0000 C CNN
 F 2 "" H 2950 2450 50  0001 C CNN
 F 3 "" H 2950 2450 50  0001 C CNN
@@ -8174,10 +8174,10 @@ Wire Wire Line
 	3100 2400 2950 2400
 Connection ~ 2950 2400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR061
 U 1 1 5CEE72AC
 P 5150 2650
-F 0 "#PWR?" H 5150 2400 50  0001 C CNN
+F 0 "#PWR061" H 5150 2400 50  0001 C CNN
 F 1 "GND" H 5200 2450 50  0000 C CNN
 F 2 "" H 5150 2650 50  0001 C CNN
 F 3 "" H 5150 2650 50  0001 C CNN
@@ -8193,48 +8193,200 @@ Wire Wire Line
 Connection ~ 5150 2500
 Wire Wire Line
 	5150 2500 5150 1800
-Text HLabel 4950 2000 2    50   Input ~ 0
+$Comp
+L power:GND #PWR058
+U 1 1 5CEE7D68
+P 3250 1650
+F 0 "#PWR058" H 3250 1400 50  0001 C CNN
+F 1 "GND" V 3250 1500 50  0000 R CNN
+F 2 "" H 3250 1650 50  0001 C CNN
+F 3 "" H 3250 1650 50  0001 C CNN
+	1    3250 1650
+	-1   0    0    1   
+$EndComp
+Text HLabel 950  800  0    50   Input ~ 0
 MOSI
-Text HLabel 4950 2100 2    50   Input ~ 0
+Text HLabel 950  900  0    50   Input ~ 0
 MISO
-Text HLabel 4950 2200 2    50   Input ~ 0
+Text HLabel 950  1000 0    50   Input ~ 0
 SCK
-Text HLabel 4950 1900 2    50   Input ~ 0
+Text HLabel 950  700  0    50   Input ~ 0
 SS
 Wire Wire Line
-	4950 1900 4650 1900
+	950  700  1250 700 
 Wire Wire Line
-	4950 2000 4650 2000
+	950  800  1250 800 
 Wire Wire Line
-	4950 2100 4650 2100
+	950  900  1250 900 
 Wire Wire Line
-	4950 2200 4650 2200
+	950  1000 1250 1000
+Text Label 1250 700  2    50   ~ 0
+SS
+Text Label 1250 800  2    50   ~ 0
+MOSI
+Text Label 1250 900  2    50   ~ 0
+MISO
+Text Label 1250 1000 2    50   ~ 0
+SCK
+Wire Wire Line
+	4650 1900 4950 1900
+Wire Wire Line
+	4650 2000 4950 2000
+Wire Wire Line
+	4650 2100 4950 2100
+Wire Wire Line
+	4650 2200 4950 2200
+Text Label 4950 1900 2    50   ~ 0
+SS
+Text Label 4950 2000 2    50   ~ 0
+MOSI
+Text Label 4950 2100 2    50   ~ 0
+MISO
+Text Label 4950 2200 2    50   ~ 0
+SCK
+Text HLabel 950  1250 0    50   Input ~ 0
+RESET
+Text HLabel 950  1350 0    50   Input ~ 0
+DIO0
+Wire Wire Line
+	950  1250 1250 1250
+Wire Wire Line
+	950  1350 1250 1350
+Text Label 1250 1250 2    50   ~ 0
+RESET
+Text Label 1250 1350 2    50   ~ 0
+DIO0
+Wire Wire Line
+	3850 2100 3550 2100
+Wire Wire Line
+	3850 2200 3550 2200
+Text Label 3550 2100 0    50   ~ 0
+RESET
+Text Label 3550 2200 0    50   ~ 0
+DIO0
+Wire Wire Line
+	3850 2300 3550 2300
+Text Label 3550 2300 0    50   ~ 0
+DIO1
+Wire Wire Line
+	3850 2400 3550 2400
+Text Label 3550 2400 0    50   ~ 0
+DIO2
+Wire Wire Line
+	3850 2500 3550 2500
+Text Label 3550 2500 0    50   ~ 0
+DIO3
+Wire Wire Line
+	4650 2300 4950 2300
+Text Label 4950 2300 2    50   ~ 0
+DIO5
+Wire Wire Line
+	4650 2400 4950 2400
+Text Label 4950 2400 2    50   ~ 0
+DIO4
 $Comp
-L power:GND #PWR?
-U 1 1 5CEE7D68
-P 3600 1900
-F 0 "#PWR?" H 3600 1650 50  0001 C CNN
-F 1 "GND" V 3600 1750 50  0000 R CNN
-F 2 "" H 3600 1900 50  0001 C CNN
-F 3 "" H 3600 1900 50  0001 C CNN
-	1    3600 1900
-	0    1    1    0   
+L Connector:Conn_01x08_Female J10
+U 1 1 5CF9ACD8
+P 6000 2100
+F 0 "J10" H 6050 2100 50  0000 L CNN
+F 1 "LORA_DEBUG1" H 6050 2000 50  0000 L CNN
+F 2 "footprint-lib:LORA_DEBUG1" H 6000 2100 50  0001 C CNN
+F 3 "~" H 6000 2100 50  0001 C CNN
+	1    6000 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J11
+U 1 1 5CF9B81F
+P 7200 2100
+F 0 "J11" H 7250 2100 50  0000 L CNN
+F 1 "LORA_DEBUG2" H 7250 2000 50  0000 L CNN
+F 2 "footprint-lib:LORA_DEBUG2" H 7200 2100 50  0001 C CNN
+F 3 "~" H 7200 2100 50  0001 C CNN
+	1    7200 2100
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 1900 3800 1900
+	6200 2100 6500 2100
 Wire Wire Line
-	3800 1900 3800 1800
+	6200 2200 6500 2200
+Text Label 6500 2100 2    50   ~ 0
+RESET
+Text Label 6500 2200 2    50   ~ 0
+DIO0
 Wire Wire Line
-	3800 1800 3850 1800
-Connection ~ 3800 1900
+	6200 2300 6500 2300
+Text Label 6500 2300 2    50   ~ 0
+DIO1
 Wire Wire Line
-	3800 1900 3600 1900
-Text HLabel 3700 2100 0    50   Input ~ 0
-CE
-Text HLabel 3700 2200 0    50   Input ~ 0
-IRQ
+	6200 2400 6500 2400
+Text Label 6500 2400 2    50   ~ 0
+DIO2
 Wire Wire Line
-	3700 2100 3850 2100
+	6200 2500 6500 2500
+Text Label 6500 2500 2    50   ~ 0
+DIO3
 Wire Wire Line
-	3700 2200 3850 2200
+	3250 1650 3250 1800
+Wire Wire Line
+	3250 1900 3850 1900
+Wire Wire Line
+	3250 1800 3850 1800
+Connection ~ 3250 1800
+Wire Wire Line
+	3250 1800 3250 1900
+Text Label 3550 1800 0    50   ~ 0
+GND
+Text Label 3550 1900 0    50   ~ 0
+GND
+Text Label 3550 2000 0    50   ~ 0
+3V3
+Text Label 4950 1800 2    50   ~ 0
+GND
+Text Label 4950 2500 2    50   ~ 0
+GND
+Text Label 6500 1800 2    50   ~ 0
+GND
+Text Label 6500 1900 2    50   ~ 0
+GND
+Text Label 6500 2000 2    50   ~ 0
+3V3
+Wire Wire Line
+	6200 1800 6500 1800
+Wire Wire Line
+	6200 1900 6500 1900
+Wire Wire Line
+	6200 2000 6500 2000
+Wire Wire Line
+	6700 1800 7000 1800
+Wire Wire Line
+	7000 2500 6700 2500
+Wire Wire Line
+	7000 1900 6700 1900
+Wire Wire Line
+	7000 2000 6700 2000
+Wire Wire Line
+	7000 2100 6700 2100
+Wire Wire Line
+	7000 2200 6700 2200
+Text Label 6700 1900 0    50   ~ 0
+SS
+Text Label 6700 2000 0    50   ~ 0
+MOSI
+Text Label 6700 2100 0    50   ~ 0
+MISO
+Text Label 6700 2200 0    50   ~ 0
+SCK
+Wire Wire Line
+	7000 2300 6700 2300
+Text Label 6700 2300 0    50   ~ 0
+DIO5
+Wire Wire Line
+	7000 2400 6700 2400
+Text Label 6700 2400 0    50   ~ 0
+DIO4
+Text Label 6700 1800 0    50   ~ 0
+GND
+Text Label 6700 2500 0    50   ~ 0
+GND
 $EndSCHEMATC

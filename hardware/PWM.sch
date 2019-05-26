@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 27
+Sheet 10 20
 Title ""
 Date ""
 Rev ""
@@ -2514,10 +2514,10 @@ C2 84 09 3F 8C 77 75 75 85 42 A1 F1 E3 C7 A7 A5 A5 75 77 77 77 76 76 2A 27 CF 15
 EndData
 $EndBitmap
 $Comp
-L 74xGxx:74AHCT1G125 U?
+L 74xGxx:74AHCT1G125 U5
 U 1 1 5CE46064
 P 3900 1800
-F 0 "U?" H 3900 1550 50  0001 C CNN
+F 0 "U5" H 3900 1550 50  0001 C CNN
 F 1 "74AHCT1G125" H 3900 1600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3900 1800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3900 1800 50  0001 C CNN
@@ -2525,10 +2525,10 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3900 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-r:R223,0603 R?
+L taobao-r:R223,0603 R17
 U 1 1 5CE4623E
 P 3900 1300
-F 0 "R?" V 3650 1300 50  0000 C CNN
+F 0 "R17" V 3650 1300 50  0000 C CNN
 F 1 "R223,0603" V 3750 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3900 1300 50  0001 C CNN
 F 3 "~" H 3900 1300 50  0001 C CNN
@@ -2540,10 +2540,10 @@ Wire Wire Line
 Text HLabel 3300 1800 0    50   Input ~ 0
 STM32_PWM_OUT
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J9
 U 1 1 5CE46D1B
 P 4800 1700
-F 0 "J?" H 4900 1700 50  0000 L CNN
+F 0 "J9" H 4900 1700 50  0000 L CNN
 F 1 "PWM_OUT" H 4900 1600 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4800 1700 50  0001 C CNN
 F 3 "~" H 4800 1700 50  0001 C CNN
