@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 20
+Sheet 19 20
 Title ""
 Date ""
 Rev ""
@@ -11160,9 +11160,9 @@ STM32_1_PA15
 Wire Wire Line
 	1050 1950 1400 1950
 Text HLabel 1050 2300 0    50   Input ~ 0
-A_IN1
+A_IN0
 Text HLabel 1050 2400 0    50   Input ~ 0
-A_IN2
+A_IN1
 Text HLabel 1400 2300 2    50   Input ~ 0
 STM32_1_PA0
 Text HLabel 1400 2400 2    50   Input ~ 0

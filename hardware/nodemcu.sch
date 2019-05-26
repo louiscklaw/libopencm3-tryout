@@ -4528,9 +4528,9 @@ SDA
 Text HLabel 1050 1250 0    50   Input ~ 0
 SCL
 Text Label 1500 1150 2    50   ~ 0
-D1
+SDA
 Text Label 1500 1250 2    50   ~ 0
-D0
+SCL
 Wire Wire Line
 	1050 1150 1500 1150
 Wire Wire Line
@@ -4593,8 +4593,6 @@ Wire Wire Line
 	5050 3600 5300 3600
 Text Label 6550 2200 2    50   ~ 0
 D0
-Wire Wire Line
-	6550 2200 6300 2200
 Text Label 6550 2300 2    50   ~ 0
 D1
 Text Label 6550 2400 2    50   ~ 0
@@ -4623,8 +4621,6 @@ Text Label 6550 3500 2    50   ~ 0
 GND
 Text Label 6550 3600 2    50   ~ 0
 3V3
-Wire Wire Line
-	6300 2300 6550 2300
 Wire Wire Line
 	6300 2400 6550 2400
 Wire Wire Line
@@ -14174,4 +14170,24 @@ Wire Wire Line
 	2100 1250 2550 1250
 Wire Wire Line
 	2100 1700 2650 1700
+Text HLabel 900  3750 0    50   Input ~ 0
+PWM
+Text HLabel 900  3900 0    50   Input ~ 0
+A_IN0
+Text Label 6950 2200 2    50   ~ 0
+SDA
+Text Label 6950 2300 2    50   ~ 0
+SCL
+Wire Wire Line
+	6300 2200 6950 2200
+Wire Wire Line
+	6300 2300 6950 2300
+Text Label 1500 3900 2    50   ~ 0
+A0
+Wire Wire Line
+	900  3900 1500 3900
+Text Label 1500 3750 2    50   ~ 0
+D2
+Wire Wire Line
+	900  3750 1500 3750
 $EndSCHEMATC

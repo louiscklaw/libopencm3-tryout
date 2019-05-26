@@ -3917,8 +3917,6 @@ A0 09 88 20 08 82 20 08 B2 74 A0 09 88 20 08 82 20 08 B2 74 A0 09 88 20 08 82 20
 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Wire Wire Line
-	4200 2200 3800 2200
 $Bitmap
 Pos -1300 2900
 Scale 1.000000
@@ -23361,14 +23359,14 @@ FA 22 FA F3 FD 00 00 00 FE B4 1F 00 00 C0 9F F6 03 00 00 F8 D3 7E 00 00 00 7F DA
 FB 01 00 00 FC 05 29 B6 E9 46 D2 31 43 6B 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text HLabel 1250 750  0    50   Input ~ 0
+Text HLabel 1200 650  0    50   Input ~ 0
 SCL
-Text HLabel 1250 850  0    50   Input ~ 0
+Text HLabel 1200 750  0    50   Input ~ 0
 SDA
 Wire Wire Line
-	1950 750  1250 750 
+	1600 650  1200 650 
 Wire Wire Line
-	1950 850  1250 850 
+	1600 750  1200 750 
 Text Label 4200 2300 2    50   ~ 0
 GND
 Text Label 4200 2400 2    50   ~ 0
@@ -23398,19 +23396,11 @@ Text Label 4200 3500 2    50   ~ 0
 Text Label 4200 3600 2    50   ~ 0
 D13
 Wire Wire Line
-	3800 2300 4200 2300
-Wire Wire Line
 	3800 2400 4200 2400
-Wire Wire Line
-	3800 2500 4200 2500
 Wire Wire Line
 	3800 2600 4200 2600
 Wire Wire Line
 	3800 2700 4200 2700
-Wire Wire Line
-	3800 2800 4200 2800
-Wire Wire Line
-	3800 2900 4200 2900
 Wire Wire Line
 	3800 3000 4200 3000
 Wire Wire Line
@@ -23423,12 +23413,8 @@ Wire Wire Line
 	3800 3400 4200 3400
 Wire Wire Line
 	3800 3500 4200 3500
-Wire Wire Line
-	3800 3600 4200 3600
 Text Label 2250 2200 0    50   ~ 0
 D1
-Wire Wire Line
-	2650 2200 2250 2200
 Text Label 2250 2300 0    50   ~ 0
 D0
 Text Label 2250 2600 0    50   ~ 0
@@ -23469,14 +23455,6 @@ Wire Wire Line
 	2250 3200 2650 3200
 Wire Wire Line
 	2250 3300 2650 3300
-Wire Wire Line
-	2250 3400 2650 3400
-Wire Wire Line
-	2250 3500 2650 3500
-Wire Wire Line
-	2250 3600 2650 3600
-Wire Wire Line
-	2250 2300 2650 2300
 Text Label 2250 2500 0    50   ~ 0
 GND
 Text Label 2250 2400 0    50   ~ 0
@@ -23485,54 +23463,16 @@ Wire Wire Line
 	2650 2500 2250 2500
 Wire Wire Line
 	2650 2400 2250 2400
-Text Label 1950 850  2    50   ~ 0
-A4
-Text Label 1950 750  2    50   ~ 0
-A5
-Text Label 2050 750  0    50   ~ 0
-GND
-Wire Wire Line
-	2450 750  2050 750 
-$Comp
-L power:GND #PWR0109
-U 1 1 5CEF333E
-P 2450 750
-F 0 "#PWR0109" H 2450 500 50  0001 C CNN
-F 1 "GND" V 2500 600 50  0000 R CNN
-F 2 "" H 2450 750 50  0001 C CNN
-F 3 "" H 2450 750 50  0001 C CNN
-	1    2450 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 5CEF74F1
-P 2450 950
-F 0 "#PWR0110" H 2450 800 50  0001 C CNN
-F 1 "+5V" H 2500 1150 50  0000 C CNN
-F 2 "" H 2450 950 50  0001 C CNN
-F 3 "" H 2450 950 50  0001 C CNN
-	1    2450 950 
-	0    1    1    0   
-$EndComp
+Text Label 1600 750  2    50   ~ 0
+SDA
+Text Label 1600 650  2    50   ~ 0
+SCL
 Text Label 4200 2200 2    50   ~ 0
 VIN
-Wire Wire Line
-	2050 950  2450 950 
-Text Label 2050 950  0    50   ~ 0
-VIN
-Text HLabel 1250 1050 0    50   Input ~ 0
+Text HLabel 1200 1200 0    50   Input ~ 0
 TXD
-Text HLabel 1250 1150 0    50   Input ~ 0
+Text HLabel 1200 1300 0    50   Input ~ 0
 RXD
-Wire Wire Line
-	1950 1050 1250 1050
-Wire Wire Line
-	1950 1150 1250 1150
-Text Label 1950 1150 2    50   ~ 0
-D0
-Text Label 1950 1050 2    50   ~ 0
-D1
 $Bitmap
 Pos -950 800 
 Scale 1.000000
@@ -32505,10 +32445,199 @@ C3 B6 0C A3 49 41 2D 04 44 6E C2 8C 19 48 1D C4 01 D0 0F E6 37 05 68 D6 32 CF 11
 39 C3 B6 8A FF 0F FF 4D BF 9B A8 66 03 30 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text HLabel 1250 1450 0    50   Input ~ 0
+Text HLabel 1200 2050 0    50   Input ~ 0
 PWM
 Wire Wire Line
-	1950 1450 1250 1450
-Text Label 1950 1450 2    50   ~ 0
+	1600 2050 1200 2050
+Text Label 1600 2050 2    50   ~ 0
 D2
+Text HLabel 1200 1550 0    50   Input ~ 0
+SS
+Text HLabel 1200 1650 0    50   Input ~ 0
+SCK
+Text HLabel 1200 1750 0    50   Input ~ 0
+MISO
+Text HLabel 1200 1850 0    50   Input ~ 0
+MOSI
+Text Label 1600 1650 2    50   ~ 0
+SCK
+Text Label 1600 1750 2    50   ~ 0
+MISO
+Text Label 1600 1850 2    50   ~ 0
+MOSI
+Wire Wire Line
+	1200 1650 1600 1650
+Wire Wire Line
+	1200 1750 1600 1750
+Wire Wire Line
+	1200 1850 1600 1850
+Text Label 2000 3400 0    50   ~ 0
+SS
+Text Label 2000 3500 0    50   ~ 0
+MOSI
+Text Label 2000 3600 0    50   ~ 0
+MISO
+Text Label 4500 3600 2    50   ~ 0
+SCK
+Wire Wire Line
+	3800 3600 4500 3600
+Wire Wire Line
+	2000 3400 2650 3400
+Wire Wire Line
+	1200 1550 1600 1550
+Text Label 1600 1550 2    50   ~ 0
+SS
+Wire Wire Line
+	2000 3600 2650 3600
+Wire Wire Line
+	2000 3500 2650 3500
+$Comp
+L taobao-components:SPI_HEADER J?
+U 1 1 5D1622BE
+P 2300 1700
+F 0 "J?" H 2450 2050 50  0000 C CNN
+F 1 "SPI_HEADER" H 2450 1950 50  0000 C CNN
+F 2 "footprint-lib:SPI_DEBUG" H 2300 1300 50  0001 C CNN
+F 3 "" H 2300 1750 50  0001 C CNN
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1550 3200 1550
+Text Label 3200 1550 2    50   ~ 0
+SS
+Text Label 3200 1850 2    50   ~ 0
+SCK
+Wire Wire Line
+	2500 1850 3200 1850
+Text Label 3200 1650 2    50   ~ 0
+MISO
+Text Label 3200 1750 2    50   ~ 0
+MOSI
+Wire Wire Line
+	2500 1650 3200 1650
+Wire Wire Line
+	2500 1750 3200 1750
+$Comp
+L taobao-components:TTL_HEADER J?
+U 1 1 5D16605D
+P 2500 1200
+F 0 "J?" H 2450 1500 50  0000 C CNN
+F 1 "TTL_HEADER" H 2450 1400 50  0000 C CNN
+F 2 "footprint-lib:TTL_HEADER" H 2500 800 50  0001 C CNN
+F 3 "" H 2300 1200 50  0001 C CNN
+	1    2500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D166AA6
+P 2900 1100
+F 0 "#PWR?" H 2900 850 50  0001 C CNN
+F 1 "GND" V 2950 950 50  0000 R CNN
+F 2 "" H 2900 1100 50  0001 C CNN
+F 3 "" H 2900 1100 50  0001 C CNN
+	1    2900 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 1100 2900 1100
+Text Label 2900 1200 2    50   ~ 0
+TX
+Wire Wire Line
+	2900 1200 2500 1200
+Wire Wire Line
+	2900 1300 2500 1300
+Text Label 2900 1300 2    50   ~ 0
+RX
+Text Label 2050 2200 0    50   ~ 0
+TX
+Text Label 2050 2300 0    50   ~ 0
+RX
+Wire Wire Line
+	2050 2200 2650 2200
+Wire Wire Line
+	2050 2300 2650 2300
+Text Label 1600 1200 2    50   ~ 0
+TX
+Wire Wire Line
+	1600 1200 1200 1200
+Wire Wire Line
+	1600 1300 1200 1300
+Text Label 1600 1300 2    50   ~ 0
+RX
+Text Label 4400 2800 2    50   ~ 0
+SCL
+Text Label 4400 2900 2    50   ~ 0
+SDA
+Wire Wire Line
+	3800 2800 4400 2800
+Wire Wire Line
+	3800 2900 4400 2900
+Text HLabel 1200 2250 0    50   Input ~ 0
+A_IN0
+Text HLabel 1200 2350 0    50   Input ~ 0
+A_IN1
+Wire Wire Line
+	1600 2250 1200 2250
+Text Label 1600 2250 2    50   ~ 0
+A0
+Wire Wire Line
+	1600 2350 1200 2350
+Text Label 1600 2350 2    50   ~ 0
+A1
+$Comp
+L power:+5V #PWR?
+U 1 1 5D18525B
+P 4300 2050
+F 0 "#PWR?" H 4300 1900 50  0001 C CNN
+F 1 "+5V" H 4350 2250 50  0000 C CNN
+F 2 "" H 4300 2050 50  0001 C CNN
+F 3 "" H 4300 2050 50  0001 C CNN
+	1    4300 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2050 4300 2200
+Wire Wire Line
+	3800 2200 4300 2200
+Wire Wire Line
+	4300 2200 4300 2500
+Wire Wire Line
+	3800 2500 4300 2500
+Connection ~ 4300 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5D188630
+P 4500 2400
+F 0 "#PWR?" H 4500 2150 50  0001 C CNN
+F 1 "GND" H 4550 2200 50  0000 C CNN
+F 2 "" H 4500 2400 50  0001 C CNN
+F 3 "" H 4500 2400 50  0001 C CNN
+	1    4500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2400 4500 2300
+Wire Wire Line
+	3800 2300 4500 2300
+$Comp
+L taobao-components:I2C_HEADER J?
+U 1 1 5D190CE0
+P 2300 700
+F 0 "J?" H 2450 950 50  0000 C CNN
+F 1 "I2C_HEADER" H 2450 850 50  0000 C CNN
+F 2 "footprint-lib:I2C_DEBUG" H 2300 300 50  0001 C CNN
+F 3 "" H 2300 650 50  0001 C CNN
+	1    2300 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 750  2500 750 
+Wire Wire Line
+	2900 650  2500 650 
+Text Label 2900 650  2    50   ~ 0
+SDA
+Text Label 2900 750  2    50   ~ 0
+SCL
 $EndSCHEMATC
