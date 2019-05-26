@@ -12731,16 +12731,14 @@ OLED_SPI_SDA
 Text Label 1550 850  2    50   ~ 0
 OLED_I2C_SCL
 Text HLabel 800  1400 0    50   Input ~ 0
-MISO
-Text HLabel 800  1500 0    50   Input ~ 0
 MOSI
 Text HLabel 800  1600 0    50   Input ~ 0
 DC
 Text HLabel 800  1700 0    50   Input ~ 0
 SS
-Text Label 1450 1400 2    50   ~ 0
-OLED_SPI_DO
 Text Label 1450 1500 2    50   ~ 0
+OLED_SPI_DO
+Text Label 1450 1400 2    50   ~ 0
 OLED_SPI_DI
 Text Label 1450 1800 2    50   ~ 0
 OLED_SPI_RST
@@ -12749,7 +12747,7 @@ OLED_SPI_DC
 Text Label 1450 1700 2    50   ~ 0
 OLED_SPI_CS
 Wire Wire Line
-	1450 1400 800  1400
+	1450 1500 800  1500
 Wire Wire Line
 	1450 1800 800  1800
 Wire Wire Line
@@ -12757,7 +12755,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 1700 800  1700
 Wire Wire Line
-	1450 1500 800  1500
+	1450 1400 800  1400
 Text HLabel 800  1800 0    50   Input ~ 0
 RST
 $Bitmap
@@ -18389,4 +18387,6 @@ EndData
 $EndBitmap
 NoConn ~ 5150 5000
 NoConn ~ 5250 5000
+Text HLabel 800  1500 0    50   Input ~ 0
+SCK
 $EndSCHEMATC

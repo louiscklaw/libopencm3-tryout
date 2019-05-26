@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 20
+Sheet 18 20
 Title ""
 Date ""
 Rev ""
@@ -11171,4 +11171,10 @@ Wire Wire Line
 	1050 2300 1400 2300
 Wire Wire Line
 	1050 2400 1400 2400
+Text HLabel 1050 2650 0    50   Input ~ 0
+WS2812_OUT
+Text Label 1550 2650 2    50   ~ 0
+PB11
+Wire Wire Line
+	1550 2650 1050 2650
 $EndSCHEMATC
