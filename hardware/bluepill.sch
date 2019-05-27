@@ -81,138 +81,8 @@ F 3 "" H 9350 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9350 1250 9150 1250
-Text HLabel 7550 1550 0    50   Input ~ 0
-STM32_1_PA0
-Text HLabel 7550 1650 0    50   Input ~ 0
-STM32_1_PA1
-Text HLabel 7550 1750 0    50   Input ~ 0
-STM32_1_PA2
-Text HLabel 7550 1850 0    50   Input ~ 0
-STM32_1_PA3
-Text HLabel 7550 1950 0    50   Input ~ 0
-STM32_1_PA4
-Text HLabel 7550 2050 0    50   Input ~ 0
-STM32_1_PA5
-Text HLabel 7550 2150 0    50   Input ~ 0
-STM32_1_PA6
-Text HLabel 7550 2250 0    50   Input ~ 0
-STM32_1_PA7
-Text HLabel 7550 2350 0    50   Input ~ 0
-STM32_1_PB0
-Text HLabel 7550 2450 0    50   Input ~ 0
-STM32_1_PB1
-Text HLabel 7550 2550 0    50   Input ~ 0
-STM32_1_PB10
-Text HLabel 7550 2650 0    50   Input ~ 0
-STM32_1_PB11
-Text HLabel 7550 2750 0    50   Input ~ 0
-STM32_1_NRST
-Text HLabel 7550 1250 0    50   Input ~ 0
-STM32_1_PC13
-Text HLabel 7550 1350 0    50   Input ~ 0
-STM32_1_PC14
-Text HLabel 7550 1450 0    50   Input ~ 0
-STM32_1_PC15
-Text HLabel 9350 1450 2    50   Input ~ 0
-STM32_1_PB9
-Text HLabel 9350 1550 2    50   Input ~ 0
-STM32_1_PB8
-Text HLabel 9350 1650 2    50   Input ~ 0
-STM32_1_PB7
-Text HLabel 9350 1750 2    50   Input ~ 0
-STM32_1_PB6
-Text HLabel 9350 1850 2    50   Input ~ 0
-STM32_1_PB5
-Text HLabel 9350 1950 2    50   Input ~ 0
-STM32_1_PB4
-Text HLabel 9350 2050 2    50   Input ~ 0
-STM32_1_PB3
-Text HLabel 9350 2150 2    50   Input ~ 0
-STM32_1_PA15
-Text HLabel 9350 2250 2    50   Input ~ 0
-STM32_1_PA12
-Text HLabel 9350 2350 2    50   Input ~ 0
-STM32_1_PA11
-Text HLabel 9350 2450 2    50   Input ~ 0
-STM32_1_PA10
-Text HLabel 9350 2550 2    50   Input ~ 0
-STM32_1_PA9
-Text HLabel 9350 2650 2    50   Input ~ 0
-STM32_1_PA8
-Text HLabel 9350 2750 2    50   Input ~ 0
-STM32_1_PB15
-Text HLabel 9350 2850 2    50   Input ~ 0
-STM32_1_PB14
-Text HLabel 9350 2950 2    50   Input ~ 0
-STM32_1_PB13
-Text HLabel 9350 3050 2    50   Input ~ 0
-STM32_1_PB12
 Wire Wire Line
-	7550 1250 7750 1250
-Wire Wire Line
-	7550 1350 7750 1350
-Wire Wire Line
-	7550 1450 7750 1450
-Wire Wire Line
-	7550 1550 7750 1550
-Wire Wire Line
-	7550 1650 7750 1650
-Wire Wire Line
-	7550 1750 7750 1750
-Wire Wire Line
-	7550 1850 7750 1850
-Wire Wire Line
-	7550 1950 7750 1950
-Wire Wire Line
-	7550 2050 7750 2050
-Wire Wire Line
-	7550 2150 7750 2150
-Wire Wire Line
-	7550 2250 7750 2250
-Wire Wire Line
-	7550 2350 7750 2350
-Wire Wire Line
-	7550 2450 7750 2450
-Wire Wire Line
-	7550 2550 7750 2550
-Wire Wire Line
-	7550 2650 7750 2650
-Wire Wire Line
-	7550 2750 7750 2750
-Wire Wire Line
-	9150 1450 9350 1450
-Wire Wire Line
-	9150 1550 9350 1550
-Wire Wire Line
-	9150 1650 9350 1650
-Wire Wire Line
-	9150 1750 9350 1750
-Wire Wire Line
-	9150 1850 9350 1850
-Wire Wire Line
-	9150 1950 9350 1950
-Wire Wire Line
-	9150 2050 9350 2050
-Wire Wire Line
-	9150 2150 9350 2150
-Wire Wire Line
-	9150 2250 9350 2250
-Wire Wire Line
-	9150 2350 9350 2350
-Wire Wire Line
-	9150 2450 9350 2450
-Wire Wire Line
-	9150 2550 9350 2550
-Wire Wire Line
-	9150 2650 9350 2650
-Wire Wire Line
-	9150 2750 9350 2750
-Wire Wire Line
-	9150 2850 9350 2850
-Wire Wire Line
-	9150 2950 9350 2950
-Wire Wire Line
-	9150 3050 9350 3050
+	7150 2650 7750 2650
 $Comp
 L power:+3V3 #PWR0151
 U 1 1 5CE16ACF
@@ -341,138 +211,6 @@ F 3 "" H 9100 3900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9100 3900 8900 3900
-Text HLabel 9100 4100 2    50   Input ~ 0
-STM32_1_PB9
-Text HLabel 9100 4200 2    50   Input ~ 0
-STM32_1_PB8
-Text HLabel 9100 4300 2    50   Input ~ 0
-STM32_1_PB7
-Text HLabel 9100 4400 2    50   Input ~ 0
-STM32_1_PB6
-Text HLabel 9100 4500 2    50   Input ~ 0
-STM32_1_PB5
-Text HLabel 9100 4600 2    50   Input ~ 0
-STM32_1_PB4
-Text HLabel 9100 4700 2    50   Input ~ 0
-STM32_1_PB3
-Text HLabel 9100 4800 2    50   Input ~ 0
-STM32_1_PA15
-Text HLabel 9100 4900 2    50   Input ~ 0
-STM32_1_PA12
-Text HLabel 9100 5000 2    50   Input ~ 0
-STM32_1_PA11
-Text HLabel 9100 5100 2    50   Input ~ 0
-STM32_1_PA10
-Text HLabel 9100 5200 2    50   Input ~ 0
-STM32_1_PA9
-Text HLabel 9100 5300 2    50   Input ~ 0
-STM32_1_PA8
-Text HLabel 9100 5400 2    50   Input ~ 0
-STM32_1_PB15
-Text HLabel 9100 5500 2    50   Input ~ 0
-STM32_1_PB14
-Text HLabel 9100 5600 2    50   Input ~ 0
-STM32_1_PB13
-Text HLabel 9100 5700 2    50   Input ~ 0
-STM32_1_PB12
-Wire Wire Line
-	8900 4100 9100 4100
-Wire Wire Line
-	8900 4200 9100 4200
-Wire Wire Line
-	8900 4300 9100 4300
-Wire Wire Line
-	8900 4400 9100 4400
-Wire Wire Line
-	8900 4500 9100 4500
-Wire Wire Line
-	8900 4600 9100 4600
-Wire Wire Line
-	8900 4700 9100 4700
-Wire Wire Line
-	8900 4800 9100 4800
-Wire Wire Line
-	8900 4900 9100 4900
-Wire Wire Line
-	8900 5000 9100 5000
-Wire Wire Line
-	8900 5100 9100 5100
-Wire Wire Line
-	8900 5200 9100 5200
-Wire Wire Line
-	8900 5300 9100 5300
-Wire Wire Line
-	8900 5400 9100 5400
-Wire Wire Line
-	8900 5500 9100 5500
-Wire Wire Line
-	8900 5600 9100 5600
-Wire Wire Line
-	8900 5700 9100 5700
-Text HLabel 7800 4200 0    50   Input ~ 0
-STM32_1_PA0
-Text HLabel 7800 4300 0    50   Input ~ 0
-STM32_1_PA1
-Text HLabel 7800 4400 0    50   Input ~ 0
-STM32_1_PA2
-Text HLabel 7800 4500 0    50   Input ~ 0
-STM32_1_PA3
-Text HLabel 7800 4600 0    50   Input ~ 0
-STM32_1_PA4
-Text HLabel 7800 4700 0    50   Input ~ 0
-STM32_1_PA5
-Text HLabel 7800 4800 0    50   Input ~ 0
-STM32_1_PA6
-Text HLabel 7800 4900 0    50   Input ~ 0
-STM32_1_PA7
-Text HLabel 7800 5000 0    50   Input ~ 0
-STM32_1_PB0
-Text HLabel 7800 5100 0    50   Input ~ 0
-STM32_1_PB1
-Text HLabel 7800 5200 0    50   Input ~ 0
-STM32_1_PB10
-Text HLabel 7800 5300 0    50   Input ~ 0
-STM32_1_PB11
-Text HLabel 7800 5400 0    50   Input ~ 0
-STM32_1_NRST
-Text HLabel 7800 3900 0    50   Input ~ 0
-STM32_1_PC13
-Text HLabel 7800 4000 0    50   Input ~ 0
-STM32_1_PC14
-Text HLabel 7800 4100 0    50   Input ~ 0
-STM32_1_PC15
-Wire Wire Line
-	7800 3900 8000 3900
-Wire Wire Line
-	7800 4000 8000 4000
-Wire Wire Line
-	7800 4100 8000 4100
-Wire Wire Line
-	7800 4200 8000 4200
-Wire Wire Line
-	7800 4300 8000 4300
-Wire Wire Line
-	7800 4400 8000 4400
-Wire Wire Line
-	7800 4500 8000 4500
-Wire Wire Line
-	7800 4600 8000 4600
-Wire Wire Line
-	7800 4700 8000 4700
-Wire Wire Line
-	7800 4800 8000 4800
-Wire Wire Line
-	7800 4900 8000 4900
-Wire Wire Line
-	7800 5000 8000 5000
-Wire Wire Line
-	7800 5100 8000 5100
-Wire Wire Line
-	7800 5200 8000 5200
-Wire Wire Line
-	7800 5300 8000 5300
-Wire Wire Line
-	7800 5400 8000 5400
 $Comp
 L power:+3V3 #PWR0157
 U 1 1 5CEFE118
@@ -524,21 +262,13 @@ F 3 "" H 7800 5700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7800 5700 8000 5700
-Text HLabel 1050 650  0    50   Input ~ 0
+Text HLabel 1150 1350 0    50   Input ~ 0
 SDA
-Text HLabel 1050 750  0    50   Input ~ 0
+Text HLabel 1150 1450 0    50   Input ~ 0
 SCL
-Text HLabel 1400 650  2    50   Input ~ 0
-STM32_1_PB7
-Text HLabel 1400 750  2    50   Input ~ 0
-STM32_1_PB6
-Wire Wire Line
-	1050 650  1400 650 
-Wire Wire Line
-	1050 750  1400 750 
-Text HLabel 1050 1050 0    50   Input ~ 0
+Text HLabel 1150 2450 0    50   Input ~ 0
 TX
-Text HLabel 1050 1150 0    50   Input ~ 0
+Text HLabel 1150 2550 0    50   Input ~ 0
 RX
 $Bitmap
 Pos -1300 1500
@@ -11121,60 +10851,397 @@ EE AE 86 37 AA 12 F3 64 D3 9E F0 AD AA FA 06 AA 1F A4 9D A9 82 55 E0 50 21 3B 0F
 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text HLabel 1400 1050 2    50   Input ~ 0
-STM32_1_PA9
-Text HLabel 1400 1150 2    50   Input ~ 0
-STM32_1_PA10
-Wire Wire Line
-	1050 1050 1400 1050
-Wire Wire Line
-	1050 1150 1400 1150
-Text HLabel 1400 1400 2    50   Input ~ 0
-STM32_1_PA4
-Text HLabel 1400 1500 2    50   Input ~ 0
-STM32_1_PA5
-Text HLabel 1400 1600 2    50   Input ~ 0
-STM32_1_PA6
-Text HLabel 1400 1700 2    50   Input ~ 0
-STM32_1_PA7
-Text HLabel 1050 1400 0    50   Input ~ 0
+Text HLabel 1150 2800 0    50   Input ~ 0
 SS
-Text HLabel 1050 1500 0    50   Input ~ 0
+Text HLabel 1150 2900 0    50   Input ~ 0
 SCK
-Text HLabel 1050 1600 0    50   Input ~ 0
+Text HLabel 1150 3000 0    50   Input ~ 0
 MISO
-Text HLabel 1050 1700 0    50   Input ~ 0
+Text HLabel 1150 3100 0    50   Input ~ 0
 MOSI
-Wire Wire Line
-	1050 1400 1400 1400
-Wire Wire Line
-	1050 1500 1400 1500
-Wire Wire Line
-	1050 1600 1400 1600
-Wire Wire Line
-	1050 1700 1400 1700
-Text HLabel 1050 1950 0    50   Input ~ 0
+Text HLabel 1150 3350 0    50   Input ~ 0
 PWM
-Text HLabel 1400 1950 2    50   Input ~ 0
-STM32_1_PA15
-Wire Wire Line
-	1050 1950 1400 1950
-Text HLabel 1050 2300 0    50   Input ~ 0
+Text HLabel 1150 3700 0    50   Input ~ 0
 A_IN0
-Text HLabel 1050 2400 0    50   Input ~ 0
+Text HLabel 1150 3800 0    50   Input ~ 0
 A_IN1
-Text HLabel 1400 2300 2    50   Input ~ 0
-STM32_1_PA0
-Text HLabel 1400 2400 2    50   Input ~ 0
-STM32_1_PA1
-Wire Wire Line
-	1050 2300 1400 2300
-Wire Wire Line
-	1050 2400 1400 2400
-Text HLabel 1050 2650 0    50   Input ~ 0
+Text HLabel 1150 4050 0    50   Input ~ 0
 WS2812_OUT
-Text Label 1550 2650 2    50   ~ 0
+Text Label 1650 4050 2    50   ~ 0
 PB11
 Wire Wire Line
-	1550 2650 1050 2650
+	1650 4050 1150 4050
+Text Label 7150 2650 0    50   ~ 0
+PB11
+Text Label 7150 1250 0    50   ~ 0
+PC13
+Text Label 7150 1350 0    50   ~ 0
+PC14
+Text Label 7150 1450 0    50   ~ 0
+PC15
+Text Label 7150 1550 0    50   ~ 0
+PA0
+Text Label 7150 1650 0    50   ~ 0
+PA1
+Text Label 7150 1750 0    50   ~ 0
+PA2
+Text Label 7150 1850 0    50   ~ 0
+PA3
+Text Label 7150 1950 0    50   ~ 0
+PA4
+Text Label 7150 2050 0    50   ~ 0
+PA5
+Text Label 7150 2150 0    50   ~ 0
+PA6
+Text Label 7150 2250 0    50   ~ 0
+PA7
+Text Label 7150 2350 0    50   ~ 0
+PB0
+Text Label 7150 2450 0    50   ~ 0
+PB1
+Text Label 7150 2550 0    50   ~ 0
+PB10
+Wire Wire Line
+	7150 1250 7750 1250
+Text Label 7150 2750 0    50   ~ 0
+NRST
+Wire Wire Line
+	7150 1350 7750 1350
+Wire Wire Line
+	7150 1450 7750 1450
+Wire Wire Line
+	7150 1550 7750 1550
+Wire Wire Line
+	7150 1650 7750 1650
+Wire Wire Line
+	7150 1750 7750 1750
+Wire Wire Line
+	7150 1850 7750 1850
+Wire Wire Line
+	7150 1950 7750 1950
+Wire Wire Line
+	7150 2050 7750 2050
+Wire Wire Line
+	7150 2150 7750 2150
+Wire Wire Line
+	7150 2250 7750 2250
+Wire Wire Line
+	7150 2350 7750 2350
+Wire Wire Line
+	7150 2450 7750 2450
+Wire Wire Line
+	7150 2550 7750 2550
+Wire Wire Line
+	7150 2750 7750 2750
+Text Label 9700 3050 2    50   ~ 0
+PB12
+Text Label 9700 2950 2    50   ~ 0
+PB13
+Text Label 9700 2850 2    50   ~ 0
+PB14
+Text Label 9700 2750 2    50   ~ 0
+PB15
+Text Label 9700 2650 2    50   ~ 0
+PA8
+Text Label 9700 2550 2    50   ~ 0
+PA9
+Text Label 9700 2450 2    50   ~ 0
+PA10
+Text Label 9700 2350 2    50   ~ 0
+PA11
+Text Label 9700 2250 2    50   ~ 0
+PA12
+Text Label 9700 2150 2    50   ~ 0
+PA15
+Text Label 9700 2050 2    50   ~ 0
+PB3
+Text Label 9700 1950 2    50   ~ 0
+PB4
+Text Label 9700 1850 2    50   ~ 0
+PB5
+Text Label 9700 1750 2    50   ~ 0
+PB6
+Text Label 9700 1650 2    50   ~ 0
+PB7
+Text Label 9700 1550 2    50   ~ 0
+PB8
+Text Label 9700 1450 2    50   ~ 0
+PB9
+Wire Wire Line
+	9150 1450 9700 1450
+Wire Wire Line
+	9150 1550 9700 1550
+Wire Wire Line
+	9150 1650 9700 1650
+Wire Wire Line
+	9150 1750 9700 1750
+Wire Wire Line
+	9150 1850 9700 1850
+Wire Wire Line
+	9150 1950 9700 1950
+Wire Wire Line
+	9150 2050 9700 2050
+Wire Wire Line
+	9150 2150 9700 2150
+Wire Wire Line
+	9150 2250 9700 2250
+Wire Wire Line
+	9150 2350 9700 2350
+Wire Wire Line
+	9150 2450 9700 2450
+Wire Wire Line
+	9150 2550 9700 2550
+Wire Wire Line
+	9150 2650 9700 2650
+Wire Wire Line
+	9150 2750 9700 2750
+Wire Wire Line
+	9150 2850 9700 2850
+Wire Wire Line
+	9150 2950 9700 2950
+Wire Wire Line
+	9150 3050 9700 3050
+Text Label 9650 5700 2    50   ~ 0
+PB12
+Text Label 9650 5600 2    50   ~ 0
+PB13
+Text Label 9650 5500 2    50   ~ 0
+PB14
+Text Label 9650 5400 2    50   ~ 0
+PB15
+Text Label 9650 5300 2    50   ~ 0
+PA8
+Text Label 9650 5200 2    50   ~ 0
+PA9
+Text Label 9650 5100 2    50   ~ 0
+PA10
+Text Label 9650 5000 2    50   ~ 0
+PA11
+Text Label 9650 4900 2    50   ~ 0
+PA12
+Text Label 9650 4800 2    50   ~ 0
+PA15
+Text Label 9650 4700 2    50   ~ 0
+PB3
+Text Label 9650 4600 2    50   ~ 0
+PB4
+Text Label 9650 4500 2    50   ~ 0
+PB5
+Text Label 9650 4400 2    50   ~ 0
+PB6
+Text Label 9650 4300 2    50   ~ 0
+PB7
+Text Label 9650 4200 2    50   ~ 0
+PB8
+Text Label 9650 4100 2    50   ~ 0
+PB9
+Wire Wire Line
+	8900 4100 9650 4100
+Wire Wire Line
+	8900 4200 9650 4200
+Wire Wire Line
+	8900 4300 9650 4300
+Wire Wire Line
+	8900 4400 9650 4400
+Wire Wire Line
+	8900 4500 9650 4500
+Wire Wire Line
+	8900 4600 9650 4600
+Wire Wire Line
+	8900 4700 9650 4700
+Wire Wire Line
+	8900 4800 9650 4800
+Wire Wire Line
+	8900 4900 9650 4900
+Wire Wire Line
+	8900 5000 9650 5000
+Wire Wire Line
+	8900 5100 9650 5100
+Wire Wire Line
+	8900 5200 9650 5200
+Wire Wire Line
+	8900 5300 9650 5300
+Wire Wire Line
+	8900 5400 9650 5400
+Wire Wire Line
+	8900 5500 9650 5500
+Wire Wire Line
+	8900 5600 9650 5600
+Wire Wire Line
+	8900 5700 9650 5700
+Text Label 7200 5300 0    50   ~ 0
+PB11
+Text Label 7200 3900 0    50   ~ 0
+PC13
+Text Label 7200 4000 0    50   ~ 0
+PC14
+Text Label 7200 4100 0    50   ~ 0
+PC15
+Text Label 7200 4200 0    50   ~ 0
+PA0
+Text Label 7200 4300 0    50   ~ 0
+PA1
+Text Label 7200 4400 0    50   ~ 0
+PA2
+Text Label 7200 4500 0    50   ~ 0
+PA3
+Text Label 7200 4600 0    50   ~ 0
+PA4
+Text Label 7200 4700 0    50   ~ 0
+PA5
+Text Label 7200 4800 0    50   ~ 0
+PA6
+Text Label 7200 4900 0    50   ~ 0
+PA7
+Text Label 7200 5000 0    50   ~ 0
+PB0
+Text Label 7200 5100 0    50   ~ 0
+PB1
+Text Label 7200 5200 0    50   ~ 0
+PB10
+Text Label 7200 5400 0    50   ~ 0
+NRST
+Wire Wire Line
+	7200 3900 8000 3900
+Wire Wire Line
+	7200 4000 8000 4000
+Wire Wire Line
+	7200 4100 8000 4100
+Wire Wire Line
+	7200 4200 8000 4200
+Wire Wire Line
+	7200 4300 8000 4300
+Wire Wire Line
+	7200 4400 8000 4400
+Wire Wire Line
+	7200 4500 8000 4500
+Wire Wire Line
+	7200 4600 8000 4600
+Wire Wire Line
+	7200 4700 8000 4700
+Wire Wire Line
+	7200 4800 8000 4800
+Wire Wire Line
+	7200 4900 8000 4900
+Wire Wire Line
+	7200 5000 8000 5000
+Wire Wire Line
+	7200 5100 8000 5100
+Wire Wire Line
+	7200 5200 8000 5200
+Wire Wire Line
+	7200 5300 8000 5300
+Wire Wire Line
+	7200 5400 8000 5400
+Text Label 2050 1350 2    50   ~ 0
+PB7
+Text Label 2050 1450 2    50   ~ 0
+PB6
+Wire Wire Line
+	1150 1350 2050 1350
+Text Label 2050 2450 2    50   ~ 0
+PA9
+Text Label 2050 2550 2    50   ~ 0
+PA10
+Wire Wire Line
+	1150 1450 2050 1450
+Wire Wire Line
+	1150 2450 2050 2450
+Text Label 2050 2800 2    50   ~ 0
+PA4
+Text Label 2050 2900 2    50   ~ 0
+PA5
+Text Label 2050 3000 2    50   ~ 0
+PA6
+Text Label 2050 3100 2    50   ~ 0
+PA7
+Text Label 2050 3350 2    50   ~ 0
+PA15
+Wire Wire Line
+	1150 2550 2050 2550
+Wire Wire Line
+	1150 2800 2050 2800
+Wire Wire Line
+	1150 2900 2050 2900
+Wire Wire Line
+	1150 3000 2050 3000
+Wire Wire Line
+	1150 3100 2050 3100
+Wire Wire Line
+	1150 3350 2050 3350
+Text Label 2050 3700 2    50   ~ 0
+PA0
+Text Label 2050 3800 2    50   ~ 0
+PA1
+Wire Wire Line
+	1150 3700 2050 3700
+Wire Wire Line
+	1150 3800 2050 3800
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5CFCEDDC
+P 3400 1100
+AR Path="/5CDAB838/5CFCEDDC" Ref="RN?"  Part="1" 
+AR Path="/5CDAB6B1/5CFCEDDC" Ref="RN?"  Part="1" 
+F 0 "RN?" H 3600 1150 50  0000 L CNN
+F 1 "R_Pack04" H 3600 1100 50  0000 L CNN
+F 2 "" V 3675 1100 50  0001 C CNN
+F 3 "~" H 3400 1100 50  0001 C CNN
+	1    3400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CFCEDE6
+P 3050 750
+F 0 "#PWR?" H 3050 600 50  0001 C CNN
+F 1 "+3V3" H 3100 950 50  0000 C CNN
+F 2 "" H 3050 750 50  0001 C CNN
+F 3 "" H 3050 750 50  0001 C CNN
+	1    3050 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 750  3050 800 
+Wire Wire Line
+	3050 800  3200 800 
+Wire Wire Line
+	3500 800  3500 900 
+Wire Wire Line
+	3400 900  3400 800 
+Connection ~ 3400 800 
+Wire Wire Line
+	3400 800  3500 800 
+Wire Wire Line
+	3300 900  3300 800 
+Connection ~ 3300 800 
+Wire Wire Line
+	3300 800  3400 800 
+Wire Wire Line
+	3200 900  3200 800 
+Connection ~ 3200 800 
+Wire Wire Line
+	3200 800  3300 800 
+Text HLabel 2950 1350 0    50   Input ~ 0
+SDA
+Text HLabel 2950 1450 0    50   Input ~ 0
+SCL
+Text Label 3850 1350 2    50   ~ 0
+PB7
+Text Label 3850 1450 2    50   ~ 0
+PB6
+Wire Wire Line
+	2950 1350 3200 1350
+Wire Wire Line
+	2950 1450 3300 1450
+Wire Wire Line
+	3200 1300 3200 1350
+Connection ~ 3200 1350
+Wire Wire Line
+	3200 1350 3850 1350
+Wire Wire Line
+	3300 1300 3300 1450
+Connection ~ 3300 1450
+Wire Wire Line
+	3300 1450 3850 1450
 $EndSCHEMATC
