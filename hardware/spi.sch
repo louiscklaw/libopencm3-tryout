@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 5 19
+Sheet 4 19
 Title ""
 Date ""
 Rev ""
@@ -1100,10 +1100,10 @@ $EndComp
 Wire Wire Line
 	5100 2750 5100 2550
 $Comp
-L taobao-components:SPI_DEBUG J1
+L taobao-components:SPI_DEBUG J2
 U 1 1 5CF3AB80
 P 3700 2400
-F 0 "J1" H 3650 2450 50  0000 R CNN
+F 0 "J2" H 3650 2450 50  0000 R CNN
 F 1 "SPI_DEBUG" H 3650 2350 50  0000 R CNN
 F 2 "footprint-lib:TTL_TERMINAL_2.54mm" H 3700 2000 50  0001 C CNN
 F 3 "~" H 3700 2450 50  0001 C CNN

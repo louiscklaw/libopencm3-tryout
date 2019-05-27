@@ -17,13 +17,13 @@ $EndDescr
 Text Notes 700  850  0    50   ~ 0
 power measurment
 $Comp
-L Connector:Conn_01x02_Male J3
+L Connector:Conn_01x02_Male J4
 U 1 1 5CDC08AC
 P 2000 1450
-AR Path="/5CDAB997/5CDC08AC" Ref="J3"  Part="1" 
+AR Path="/5CDAB997/5CDC08AC" Ref="J4"  Part="1" 
 AR Path="/5CE8F13F/5CDC08AC" Ref="J?"  Part="1" 
 AR Path="/5CDAB73D/5CF0E774/5CDC08AC" Ref="J?"  Part="1" 
-F 0 "J3" V 2050 1500 50  0000 L CNN
+F 0 "J4" V 2050 1500 50  0000 L CNN
 F 1 "A_MEAS" V 2150 1500 50  0000 L CNN
 F 2 "" H 2000 1450 50  0001 C CNN
 F 3 "~" H 2000 1450 50  0001 C CNN
@@ -31,13 +31,13 @@ F 3 "~" H 2000 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 J5
 U 1 1 5CDC1537
 P 1050 1800
-AR Path="/5CDAB997/5CDC1537" Ref="J4"  Part="1" 
+AR Path="/5CDAB997/5CDC1537" Ref="J5"  Part="1" 
 AR Path="/5CE8F13F/5CDC1537" Ref="J?"  Part="1" 
 AR Path="/5CDAB73D/5CF0E774/5CDC1537" Ref="J?"  Part="1" 
-F 0 "J4" H 950 1450 50  0000 C CNN
+F 0 "J5" H 950 1450 50  0000 C CNN
 F 1 "5V_IN" H 950 1550 50  0000 C CNN
 F 2 "" H 1050 1800 50  0001 C CNN
 F 3 "~" H 1050 1800 50  0001 C CNN
@@ -63,13 +63,13 @@ Wire Wire Line
 Wire Wire Line
 	1450 1800 1450 1900
 $Comp
-L Connector:Conn_01x02_Male J2
+L Connector:Conn_01x02_Male J3
 U 1 1 5CDC22C8
 P 1400 1400
-AR Path="/5CDAB997/5CDC22C8" Ref="J2"  Part="1" 
+AR Path="/5CDAB997/5CDC22C8" Ref="J3"  Part="1" 
 AR Path="/5CE8F13F/5CDC22C8" Ref="J?"  Part="1" 
 AR Path="/5CDAB73D/5CF0E774/5CDC22C8" Ref="J?"  Part="1" 
-F 0 "J2" H 1550 1600 50  0000 C CNN
+F 0 "J3" H 1550 1600 50  0000 C CNN
 F 1 "V_MEAS" H 1550 1500 50  0000 C CNN
 F 2 "" H 1400 1400 50  0001 C CNN
 F 3 "~" H 1400 1400 50  0001 C CNN
@@ -115,13 +115,13 @@ Wire Wire Line
 Wire Wire Line
 	2000 1700 2000 1650
 $Comp
-L Connector:Conn_01x02_Male J6
+L Connector:Conn_01x02_Male J7
 U 1 1 5CDC6A22
 P 2000 2450
-AR Path="/5CDAB997/5CDC6A22" Ref="J6"  Part="1" 
+AR Path="/5CDAB997/5CDC6A22" Ref="J7"  Part="1" 
 AR Path="/5CE8F13F/5CDC6A22" Ref="J?"  Part="1" 
 AR Path="/5CDAB73D/5CF0E774/5CDC6A22" Ref="J?"  Part="1" 
-F 0 "J6" V 2050 2500 50  0000 L CNN
+F 0 "J7" V 2050 2500 50  0000 L CNN
 F 1 "A_MEAS" V 2150 2500 50  0000 L CNN
 F 2 "" H 2000 2450 50  0001 C CNN
 F 3 "~" H 2000 2450 50  0001 C CNN
@@ -129,13 +129,13 @@ F 3 "~" H 2000 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J7
+L Connector_Generic:Conn_01x02 J8
 U 1 1 5CDC6A2C
 P 1050 2800
-AR Path="/5CDAB997/5CDC6A2C" Ref="J7"  Part="1" 
+AR Path="/5CDAB997/5CDC6A2C" Ref="J8"  Part="1" 
 AR Path="/5CE8F13F/5CDC6A2C" Ref="J?"  Part="1" 
 AR Path="/5CDAB73D/5CF0E774/5CDC6A2C" Ref="J?"  Part="1" 
-F 0 "J7" H 950 2450 50  0000 C CNN
+F 0 "J8" H 950 2450 50  0000 C CNN
 F 1 "3V3_IN" H 950 2550 50  0000 C CNN
 F 2 "" H 1050 2800 50  0001 C CNN
 F 3 "~" H 1050 2800 50  0001 C CNN
@@ -161,13 +161,13 @@ Wire Wire Line
 Wire Wire Line
 	1450 2800 1450 2900
 $Comp
-L Connector:Conn_01x02_Male J5
+L Connector:Conn_01x02_Male J6
 U 1 1 5CDC6A42
 P 1400 2400
-AR Path="/5CDAB997/5CDC6A42" Ref="J5"  Part="1" 
+AR Path="/5CDAB997/5CDC6A42" Ref="J6"  Part="1" 
 AR Path="/5CE8F13F/5CDC6A42" Ref="J?"  Part="1" 
 AR Path="/5CDAB73D/5CF0E774/5CDC6A42" Ref="J?"  Part="1" 
-F 0 "J5" H 1550 2600 50  0000 C CNN
+F 0 "J6" H 1550 2600 50  0000 C CNN
 F 1 "V_MEAS" H 1550 2500 50  0000 C CNN
 F 2 "" H 1400 2400 50  0001 C CNN
 F 3 "~" H 1400 2400 50  0001 C CNN
