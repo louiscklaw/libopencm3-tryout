@@ -4716,4 +4716,5 @@ Wire Wire Line
 	1350 850  850  850 
 Wire Wire Line
 	850  750  1350 750 
+NoConn ~ 3700 2200
 $EndSCHEMATC
