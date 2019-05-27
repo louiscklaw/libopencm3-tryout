@@ -14171,4 +14171,157 @@ NoConn ~ 6550 2600
 NoConn ~ 5050 3300
 NoConn ~ 5050 3400
 NoConn ~ 5050 3600
+$Comp
+L Connector:Conn_01x15_Female J?
+U 1 1 5CF023B3
+P 5500 4750
+F 0 "J?" H 5400 3900 50  0000 C CNN
+F 1 "NODEMCU_HEADER1" H 5400 3800 50  0000 C CNN
+F 2 "" H 5500 4750 50  0001 C CNN
+F 3 "~" H 5500 4750 50  0001 C CNN
+	1    5500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x15_Female J?
+U 1 1 5CF02B3B
+P 6100 4750
+F 0 "J?" H 5950 5650 50  0000 C CNN
+F 1 "NODEMCU_HEADER2" H 5950 5550 50  0000 C CNN
+F 2 "" H 6100 4750 50  0001 C CNN
+F 3 "~" H 6100 4750 50  0001 C CNN
+	1    6100 4750
+	-1   0    0    -1  
+$EndComp
+Text Label 5050 4050 0    50   ~ 0
+A0
+Text Label 5050 4350 0    50   ~ 0
+SDD3
+Text Label 5050 4450 0    50   ~ 0
+SDD2
+Text Label 5050 4550 0    50   ~ 0
+SDD1
+Text Label 5050 4650 0    50   ~ 0
+SDCMD
+Text Label 5050 4750 0    50   ~ 0
+SDD0
+Text Label 5050 4850 0    50   ~ 0
+SDCLK
+Text Label 5050 4950 0    50   ~ 0
+GND
+Text Label 5050 5050 0    50   ~ 0
+3V3
+Text Label 5050 5150 0    50   ~ 0
+EN
+Text Label 5050 5250 0    50   ~ 0
+RST
+Text Label 5050 5350 0    50   ~ 0
+GND
+Text Label 5050 5450 0    50   ~ 0
+VIN
+Wire Wire Line
+	5050 4050 5300 4050
+Wire Wire Line
+	5050 4350 5300 4350
+Wire Wire Line
+	5050 4450 5300 4450
+Wire Wire Line
+	5050 4550 5300 4550
+Wire Wire Line
+	5050 4650 5300 4650
+Wire Wire Line
+	5050 4750 5300 4750
+Wire Wire Line
+	5050 4850 5300 4850
+Wire Wire Line
+	5050 4950 5300 4950
+Wire Wire Line
+	5050 5050 5300 5050
+Wire Wire Line
+	5050 5150 5300 5150
+Wire Wire Line
+	5050 5250 5300 5250
+Wire Wire Line
+	5050 5350 5300 5350
+Wire Wire Line
+	5050 5450 5300 5450
+NoConn ~ 5050 4050
+NoConn ~ 5050 5150
+NoConn ~ 5050 5250
+NoConn ~ 5050 5450
+Text Label 6550 4050 2    50   ~ 0
+D0
+Text Label 6550 4150 2    50   ~ 0
+D1
+Text Label 6550 4250 2    50   ~ 0
+D2
+Text Label 6550 4350 2    50   ~ 0
+D3
+Text Label 6550 4450 2    50   ~ 0
+D4
+Text Label 6550 4550 2    50   ~ 0
+3V3
+Text Label 6550 4650 2    50   ~ 0
+GND
+Text Label 6550 4750 2    50   ~ 0
+D5
+Text Label 6550 4850 2    50   ~ 0
+D6
+Text Label 6550 4950 2    50   ~ 0
+D7
+Text Label 6550 5050 2    50   ~ 0
+D8
+Text Label 6550 5150 2    50   ~ 0
+RX
+Text Label 6550 5250 2    50   ~ 0
+TX
+Text Label 6550 5350 2    50   ~ 0
+GND
+Text Label 6550 5450 2    50   ~ 0
+3V3
+Wire Wire Line
+	6300 4250 6550 4250
+Wire Wire Line
+	6300 4350 6550 4350
+Wire Wire Line
+	6300 4450 6550 4450
+Wire Wire Line
+	6300 4550 6550 4550
+Wire Wire Line
+	6300 4650 6550 4650
+Wire Wire Line
+	6300 5150 6550 5150
+Wire Wire Line
+	6300 5250 6550 5250
+Wire Wire Line
+	6300 5350 6550 5350
+Wire Wire Line
+	6300 5450 6550 5450
+Text Label 6950 4750 2    50   ~ 0
+HSCLK
+Text Label 6950 4850 2    50   ~ 0
+HMISO
+Text Label 6950 4950 2    50   ~ 0
+HMOSI
+Text Label 6950 5050 2    50   ~ 0
+HCS
+Wire Wire Line
+	6300 4750 6950 4750
+Wire Wire Line
+	6300 4850 6950 4850
+Wire Wire Line
+	6300 4950 6950 4950
+Wire Wire Line
+	6300 5050 6950 5050
+Text Label 6950 4050 2    50   ~ 0
+SDA
+Text Label 6950 4150 2    50   ~ 0
+SCL
+Wire Wire Line
+	6300 4050 6950 4050
+Wire Wire Line
+	6300 4150 6950 4150
+NoConn ~ 6550 4250
+NoConn ~ 6550 4350
+NoConn ~ 6550 4450
 $EndSCHEMATC
