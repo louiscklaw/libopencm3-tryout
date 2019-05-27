@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 20
+Sheet 20 20
 Title ""
 Date ""
 Rev ""
@@ -262,13 +262,13 @@ F 3 "" H 7800 5700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7800 5700 8000 5700
-Text HLabel 1150 1350 0    50   Input ~ 0
+Text HLabel 1550 1350 0    50   Input ~ 0
 SDA
-Text HLabel 1150 1450 0    50   Input ~ 0
+Text HLabel 1550 1450 0    50   Input ~ 0
 SCL
-Text HLabel 1150 2450 0    50   Input ~ 0
+Text HLabel 1550 1750 0    50   Input ~ 0
 TX
-Text HLabel 1150 2550 0    50   Input ~ 0
+Text HLabel 1550 1850 0    50   Input ~ 0
 RX
 $Bitmap
 Pos -1300 1500
@@ -10851,26 +10851,26 @@ EE AE 86 37 AA 12 F3 64 D3 9E F0 AD AA FA 06 AA 1F A4 9D A9 82 55 E0 50 21 3B 0F
 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text HLabel 1150 2800 0    50   Input ~ 0
+Text HLabel 1550 2100 0    50   Input ~ 0
 SS
-Text HLabel 1150 2900 0    50   Input ~ 0
+Text HLabel 1550 2200 0    50   Input ~ 0
 SCK
-Text HLabel 1150 3000 0    50   Input ~ 0
+Text HLabel 1550 2300 0    50   Input ~ 0
 MISO
-Text HLabel 1150 3100 0    50   Input ~ 0
+Text HLabel 1550 2400 0    50   Input ~ 0
 MOSI
-Text HLabel 1150 3350 0    50   Input ~ 0
+Text HLabel 1550 2650 0    50   Input ~ 0
 PWM
-Text HLabel 1150 3700 0    50   Input ~ 0
+Text HLabel 1550 3000 0    50   Input ~ 0
 A_IN0
-Text HLabel 1150 3800 0    50   Input ~ 0
+Text HLabel 1550 3100 0    50   Input ~ 0
 A_IN1
-Text HLabel 1150 4050 0    50   Input ~ 0
+Text HLabel 1550 3350 0    50   Input ~ 0
 WS2812_OUT
-Text Label 1650 4050 2    50   ~ 0
+Text Label 2050 3350 2    50   ~ 0
 PB11
 Wire Wire Line
-	1650 4050 1150 4050
+	2050 3350 1550 3350
 Text Label 7150 2650 0    50   ~ 0
 PB11
 Text Label 7150 1250 0    50   ~ 0
@@ -11138,45 +11138,45 @@ PB7
 Text Label 2050 1450 2    50   ~ 0
 PB6
 Wire Wire Line
-	1150 1350 2050 1350
-Text Label 2050 2450 2    50   ~ 0
+	1550 1350 2050 1350
+Text Label 2050 1750 2    50   ~ 0
 PA9
-Text Label 2050 2550 2    50   ~ 0
+Text Label 2050 1850 2    50   ~ 0
 PA10
 Wire Wire Line
-	1150 1450 2050 1450
+	1550 1450 2050 1450
 Wire Wire Line
-	1150 2450 2050 2450
-Text Label 2050 2800 2    50   ~ 0
+	1550 1750 2050 1750
+Text Label 2050 2100 2    50   ~ 0
 PA4
-Text Label 2050 2900 2    50   ~ 0
+Text Label 2050 2200 2    50   ~ 0
 PA5
-Text Label 2050 3000 2    50   ~ 0
+Text Label 2050 2300 2    50   ~ 0
 PA6
-Text Label 2050 3100 2    50   ~ 0
+Text Label 2050 2400 2    50   ~ 0
 PA7
-Text Label 2050 3350 2    50   ~ 0
+Text Label 2050 2650 2    50   ~ 0
 PA15
 Wire Wire Line
-	1150 2550 2050 2550
+	1550 1850 2050 1850
 Wire Wire Line
-	1150 2800 2050 2800
+	1550 2100 2050 2100
 Wire Wire Line
-	1150 2900 2050 2900
+	1550 2200 2050 2200
 Wire Wire Line
-	1150 3000 2050 3000
+	1550 2300 2050 2300
 Wire Wire Line
-	1150 3100 2050 3100
+	1550 2400 2050 2400
 Wire Wire Line
-	1150 3350 2050 3350
-Text Label 2050 3700 2    50   ~ 0
+	1550 2650 2050 2650
+Text Label 2050 3000 2    50   ~ 0
 PA0
-Text Label 2050 3800 2    50   ~ 0
+Text Label 2050 3100 2    50   ~ 0
 PA1
 Wire Wire Line
-	1150 3700 2050 3700
+	1550 3000 2050 3000
 Wire Wire Line
-	1150 3800 2050 3800
+	1550 3100 2050 3100
 $Comp
 L Device:R_Pack04 RN?
 U 1 1 5CFCEDDC
@@ -11244,4 +11244,22 @@ Wire Wire Line
 Connection ~ 3300 1450
 Wire Wire Line
 	3300 1450 3850 1450
+Text HLabel 1550 3900 0    50   Input ~ 0
+OLED_DC
+Text HLabel 1550 4000 0    50   Input ~ 0
+OLED_RST
+Text Label 2050 3900 2    50   ~ 0
+PB1
+Wire Wire Line
+	2050 3900 1550 3900
+Text Label 2050 4000 2    50   ~ 0
+PB2
+Wire Wire Line
+	2050 4000 1550 4000
+Text HLabel 1550 4100 0    50   Input ~ 0
+OLED_SS
+Text Label 2050 4100 2    50   ~ 0
+PB3
+Wire Wire Line
+	2050 4100 1550 4100
 $EndSCHEMATC
