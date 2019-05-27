@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 19
+Sheet 14 19
 Title ""
 Date ""
 Rev ""
@@ -4563,10 +4563,6 @@ Text Label 5050 3600 0    50   ~ 0
 VIN
 Wire Wire Line
 	5050 2200 5300 2200
-Wire Wire Line
-	5050 2300 5300 2300
-Wire Wire Line
-	5050 2400 5300 2400
 Wire Wire Line
 	5050 2500 5300 2500
 Wire Wire Line
@@ -14005,18 +14001,6 @@ Wire Wire Line
 	900  2850 1500 2850
 Wire Wire Line
 	900  2950 1500 2950
-Text HLabel 1050 1800 0    50   Input ~ 0
-TX
-Text HLabel 1050 1900 0    50   Input ~ 0
-RX
-Text Label 1500 1800 2    50   ~ 0
-TX
-Text Label 1500 1900 2    50   ~ 0
-RX
-Wire Wire Line
-	1050 1800 1500 1800
-Wire Wire Line
-	1050 1900 1500 1900
 Text Label 1500 3250 2    50   ~ 0
 HSCLK
 Text Label 1500 3350 2    50   ~ 0
@@ -14170,10 +14154,6 @@ Wire Wire Line
 	2100 1250 2550 1250
 Wire Wire Line
 	2100 1700 2650 1700
-Text HLabel 900  3750 0    50   Input ~ 0
-PWM
-Text HLabel 900  3900 0    50   Input ~ 0
-A_IN0
 Text Label 6950 2200 2    50   ~ 0
 SDA
 Text Label 6950 2300 2    50   ~ 0
@@ -14182,12 +14162,13 @@ Wire Wire Line
 	6300 2200 6950 2200
 Wire Wire Line
 	6300 2300 6950 2300
-Text Label 1500 3900 2    50   ~ 0
-A0
-Wire Wire Line
-	900  3900 1500 3900
-Text Label 1500 3750 2    50   ~ 0
-D2
-Wire Wire Line
-	900  3750 1500 3750
+NoConn ~ 5300 2300
+NoConn ~ 5300 2400
+NoConn ~ 5050 2200
+NoConn ~ 6550 2400
+NoConn ~ 6550 2500
+NoConn ~ 6550 2600
+NoConn ~ 5050 3300
+NoConn ~ 5050 3400
+NoConn ~ 5050 3600
 $EndSCHEMATC

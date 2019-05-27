@@ -2530,6 +2530,14 @@ Entry Wire Line
 	3700 5200 3800 5100
 Wire Wire Line
 	3700 5200 3050 5200
+Entry Wire Line
+	11900 4800 12000 4900
+Entry Wire Line
+	11900 4700 12000 4800
+Wire Wire Line
+	12000 4900 12500 4900
+Wire Wire Line
+	12000 4800 12500 4800
 Wire Bus Line
 	13450 1400 13450 2650
 Wire Bus Line
@@ -2539,7 +2547,11 @@ Wire Bus Line
 Wire Bus Line
 	9850 1400 9850 7400
 Wire Bus Line
-	11900 1400 11900 5500
-Wire Bus Line
 	3800 1400 3800 5100
+Wire Bus Line
+	11900 1400 11900 5500
+Text Label 12050 4800 0    50   ~ 0
+LORA_DIO0
+Text Label 12050 4900 0    50   ~ 0
+LORA_RST
 $EndSCHEMATC

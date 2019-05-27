@@ -11253,7 +11253,7 @@ PB1
 Wire Wire Line
 	2050 3900 1550 3900
 Text Label 2050 4000 2    50   ~ 0
-PB2
+PB5
 Wire Wire Line
 	2050 4000 1550 4000
 Text HLabel 1550 4100 0    50   Input ~ 0
@@ -11292,4 +11292,14 @@ Text Label 2050 4900 2    50   ~ 0
 PB10
 Wire Wire Line
 	2050 4900 1550 4900
+NoConn ~ 3400 1300
+NoConn ~ 3500 1300
+Text Label 7200 3800 0    50   ~ 0
+VBAT
+Wire Wire Line
+	7200 3800 8000 3800
+Text Label 7150 1150 0    50   ~ 0
+VBAT
+Wire Wire Line
+	7150 1150 7750 1150
 $EndSCHEMATC
