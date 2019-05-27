@@ -11320,4 +11320,28 @@ Text Label 7150 2650 0    50   ~ 0
 PB11
 Wire Wire Line
 	7150 2650 7750 2650
+Text HLabel 1550 5350 0    50   Input ~ 0
+SS_ESP
+Text Label 2050 5350 2    50   ~ 0
+PB12
+Wire Wire Line
+	2050 5350 1550 5350
+Text HLabel 1550 5450 0    50   Input ~ 0
+SS_ARDUINO
+Text Label 2050 5450 2    50   ~ 0
+PB13
+Wire Wire Line
+	2050 5450 1550 5450
+Text HLabel 1550 5550 0    50   Input ~ 0
+SS_OLED
+Text Label 2050 5550 2    50   ~ 0
+PB14
+Wire Wire Line
+	2050 5550 1550 5550
+Text HLabel 1550 5650 0    50   Input ~ 0
+SS_W25Q32
+Text Label 2050 5650 2    50   ~ 0
+PB15
+Wire Wire Line
+	2050 5650 1550 5650
 $EndSCHEMATC
