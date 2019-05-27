@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 18
+Sheet 14 19
 Title ""
 Date ""
 Rev ""
@@ -32640,4 +32640,34 @@ Text Label 2900 650  2    50   ~ 0
 SDA
 Text Label 2900 750  2    50   ~ 0
 SCL
+Text HLabel 1200 2650 0    50   Input ~ 0
+PWM
+Text HLabel 1200 2750 0    50   Input ~ 0
+WS2812_OUT
+Wire Wire Line
+	1600 2650 1200 2650
+Text Label 1600 2650 2    50   ~ 0
+D2
+Wire Wire Line
+	1600 2750 1200 2750
+Text Label 1600 2750 2    50   ~ 0
+D3
+Text HLabel 1200 3050 0    50   Input ~ 0
+OLED_DC
+Wire Wire Line
+	1600 3050 1200 3050
+Text Label 1600 3050 2    50   ~ 0
+D4
+Text HLabel 1200 3150 0    50   Input ~ 0
+OLED_RST
+Wire Wire Line
+	1600 3150 1200 3150
+Text Label 1600 3150 2    50   ~ 0
+D5
+Text HLabel 1200 3250 0    50   Input ~ 0
+OLED_SS
+Wire Wire Line
+	1600 3250 1200 3250
+Text Label 1600 3250 2    50   ~ 0
+D6
 $EndSCHEMATC

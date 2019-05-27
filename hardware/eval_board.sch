@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 18
+Sheet 1 19
 Title ""
 Date ""
 Rev ""
@@ -73,8 +73,7 @@ S 10600 6400 800  400
 U 5CDB1D8D
 F0 "PWM" 50
 F1 "PWM.sch" 50
-F2 "STM32_PWM_OUT" I R 11400 6650 50 
-F3 "STM32_PWM_IN" I L 10600 6550 50 
+F2 "STM32_PWM_IN" I L 10600 6550 50 
 $EndSheet
 $Sheet
 S 10600 3600 500  400 
@@ -109,23 +108,6 @@ F0 "buzzer" 50
 F1 "buzzer.sch" 50
 F2 "BUZZER_IN" I L 10600 5250 50 
 $EndSheet
-$Sheet
-S 5650 2000 600  1500
-U 5CE535D6
-F0 "arduino_nano" 50
-F1 "arduino_nano.sch" 50
-F2 "SCL" I R 6250 2150 50 
-F3 "SDA" I R 6250 2250 50 
-F4 "TXD" I R 6250 2400 50 
-F5 "RXD" I R 6250 2500 50 
-F6 "PWM" I R 6250 3100 50 
-F7 "SS" I R 6250 2650 50 
-F8 "SCK" I R 6250 2750 50 
-F9 "MISO" I R 6250 2850 50 
-F10 "MOSI" I R 6250 2950 50 
-F11 "A_IN0" I R 6250 3250 50 
-F12 "A_IN1" I R 6250 3350 50 
-$EndSheet
 Text Notes 3000 11050 0    50   ~ 0
 checklist:\n\ndebug terminal
 $Sheet
@@ -141,14 +123,10 @@ F6 "SDD2" I R 4900 2700 50
 F7 "SDD3" I R 4900 2800 50 
 F8 "SDDCMD" I R 4900 2900 50 
 F9 "SDDCLK" I R 4900 3000 50 
-F10 "TX" I R 4900 3200 50 
-F11 "RX" I R 4900 3300 50 
-F12 "HSCLK" I R 4900 3500 50 
-F13 "HMISO" I R 4900 3600 50 
-F14 "HMOSI" I R 4900 3700 50 
-F15 "HCS" I R 4900 3800 50 
-F16 "PWM" I R 4900 4000 50 
-F17 "A_IN0" I R 4900 4100 50 
+F10 "HSCLK" I R 4900 3500 50 
+F11 "HMISO" I R 4900 3600 50 
+F12 "HMOSI" I R 4900 3700 50 
+F13 "HCS" I R 4900 3800 50 
 $EndSheet
 $Sheet
 S 14000 2000 600  900 
@@ -178,14 +156,6 @@ Text Label 3600 2950 2    50   ~ 0
 TX
 Text Label 3600 3050 2    50   ~ 0
 RX
-Text Label 5300 3200 2    50   ~ 0
-TX
-Text Label 5300 3300 2    50   ~ 0
-RX
-Text Label 6750 2400 2    50   ~ 0
-TX
-Text Label 6750 2500 2    50   ~ 0
-RX
 Text Label 3600 2450 2    50   ~ 0
 MISO
 Text Label 3600 2550 2    50   ~ 0
@@ -212,19 +182,9 @@ Text Label 6750 2950 2    50   ~ 0
 MOSI
 Text Label 3600 3600 2    50   ~ 0
 PWM_IN
-Text Label 5300 4000 2    50   ~ 0
-PWM_IN
-Text Label 6750 3100 2    50   ~ 0
-PWM_IN
 Text Label 3600 3300 2    50   ~ 0
 A_IN0
-Text Label 5300 4100 2    50   ~ 0
-A_IN0
-Text Label 6750 3250 2    50   ~ 0
-A_IN0
 Text Label 3600 3400 2    50   ~ 0
-A_IN1
-Text Label 6750 3350 2    50   ~ 0
 A_IN1
 Text Label 5300 2500 2    50   ~ 0
 SDD0
@@ -321,10 +281,6 @@ Wire Wire Line
 Wire Bus Line
 	3800 1400 5450 1400
 Entry Wire Line
-	5350 4100 5450 4000
-Entry Wire Line
-	5350 4000 5450 3900
-Entry Wire Line
 	5350 3800 5450 3700
 Entry Wire Line
 	5350 3700 5450 3600
@@ -332,10 +288,6 @@ Entry Wire Line
 	5350 3600 5450 3500
 Entry Wire Line
 	5350 3500 5450 3400
-Entry Wire Line
-	5350 3300 5450 3200
-Entry Wire Line
-	5350 3200 5450 3100
 Entry Wire Line
 	5350 3000 5450 2900
 Entry Wire Line
@@ -369,10 +321,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 3000 5350 3000
 Wire Wire Line
-	4900 3200 5350 3200
-Wire Wire Line
-	4900 3300 5350 3300
-Wire Wire Line
 	4900 3500 5350 3500
 Wire Wire Line
 	4900 3600 5350 3600
@@ -380,19 +328,7 @@ Wire Wire Line
 	4900 3700 5350 3700
 Wire Wire Line
 	4900 3800 5350 3800
-Wire Wire Line
-	4900 4000 5350 4000
-Wire Wire Line
-	4900 4100 5350 4100
 Connection ~ 5450 1400
-Wire Bus Line
-	5450 1400 6950 1400
-Entry Wire Line
-	6850 3350 6950 3250
-Entry Wire Line
-	6850 3250 6950 3150
-Entry Wire Line
-	6850 3100 6950 3000
 Entry Wire Line
 	6850 2950 6950 2850
 Entry Wire Line
@@ -402,10 +338,6 @@ Entry Wire Line
 Entry Wire Line
 	6850 2650 6950 2550
 Entry Wire Line
-	6850 2500 6950 2400
-Entry Wire Line
-	6850 2400 6950 2300
-Entry Wire Line
 	6850 2250 6950 2150
 Entry Wire Line
 	6850 2150 6950 2050
@@ -414,10 +346,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 2250 6850 2250
 Wire Wire Line
-	6250 2400 6850 2400
-Wire Wire Line
-	6250 2500 6850 2500
-Wire Wire Line
 	6250 2650 6850 2650
 Wire Wire Line
 	6250 2750 6850 2750
@@ -425,15 +353,6 @@ Wire Wire Line
 	6250 2850 6850 2850
 Wire Wire Line
 	6250 2950 6850 2950
-Wire Wire Line
-	6250 3100 6850 3100
-Wire Wire Line
-	6250 3250 6850 3250
-Wire Wire Line
-	6250 3350 6850 3350
-Connection ~ 6950 1400
-Wire Bus Line
-	6950 1400 9850 1400
 Text Label 10150 2150 0    50   ~ 0
 A_IN0
 Text Label 10150 2250 0    50   ~ 0
@@ -2546,16 +2465,60 @@ Entry Wire Line
 	3700 4700 3800 4600
 Wire Wire Line
 	3700 4700 3050 4700
+$Sheet
+S 10600 7150 750  500 
+U 5CEBB1E8
+F0 "rotatry_encoder" 50
+F1 "rotatry_encoder.sch" 50
+F2 "A" I L 10600 7300 50 
+F3 "B" I L 10600 7400 50 
+F4 "SW_OUT" I L 10600 7500 50 
+$EndSheet
+Text Label 10000 7300 0    50   ~ 0
+ROT_ENC_A
+Entry Wire Line
+	9850 7200 9950 7300
+Wire Wire Line
+	10600 7300 9950 7300
+Text Label 10000 7400 0    50   ~ 0
+ROT_ENC_B
+Entry Wire Line
+	9850 7300 9950 7400
+Wire Wire Line
+	10600 7400 9950 7400
+Text Label 10000 7500 0    50   ~ 0
+ROT_ENC_SW
+Entry Wire Line
+	9850 7400 9950 7500
+Wire Wire Line
+	10600 7500 9950 7500
+$Sheet
+S 5650 2000 600  2450
+U 5CE535D6
+F0 "arduino_nano" 50
+F1 "arduino_nano.sch" 50
+F2 "SCL" I R 6250 2150 50 
+F3 "SDA" I R 6250 2250 50 
+F4 "SS" I R 6250 2650 50 
+F5 "SCK" I R 6250 2750 50 
+F6 "MISO" I R 6250 2850 50 
+F7 "MOSI" I R 6250 2950 50 
+$EndSheet
 Wire Bus Line
 	13450 1400 13450 2650
 Wire Bus Line
-	6950 1400 6950 3250
+	5450 1400 5450 4000
 Wire Bus Line
 	11900 1400 11900 5500
 Wire Bus Line
-	9850 1400 9850 6450
+	9850 1400 9850 7400
 Wire Bus Line
 	3800 1400 3800 4600
 Wire Bus Line
-	5450 1400 5450 4000
+	6950 1400 9850 1400
+Wire Bus Line
+	5450 1400 6950 1400
+Connection ~ 6950 1400
+Wire Bus Line
+	6950 1400 6950 3250
 $EndSCHEMATC
