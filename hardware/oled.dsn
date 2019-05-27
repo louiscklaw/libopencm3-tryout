@@ -1,0 +1,197 @@
+(pcb "/home/logic/_workspace/libopencm3-tryout/hardware/oled.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.2-f72e74a~84~ubuntu18.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  36902.5 -48765.5  13353.6 -48765.5  13353.6 -19234.5
+            36902.5 -19234.5  36902.5 -48765.5)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "footprint-lib:CONN_I2C_SSD1306"
+      (place U8 17380 -27000 front 90 (PN "SSD1306-OLED-I2C"))
+    )
+    (component Resistor_SMD:R_Array_Concave_4x0603
+      (place RN5 24750 -23500 front 270 (PN R_Pack04))
+      (place RN4 32750 -37500 front 270 (PN R_Pack04))
+    )
+    (component "footprint-lib:CONN_SPI_SSD1306"
+      (place J22 18000 -41000 front 90 (PN "SSD1306-OLED-SPI"))
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (place C13 17500 -23500 front 180 (PN C106,0805))
+      (place C12 18250 -37500 front 0 (PN C106,0805))
+    )
+  )
+  (library
+    (image "footprint-lib:CONN_I2C_SSD1306"
+      (outline (path signal 100  -1270 1270  635 1270))
+      (outline (path signal 100  635 1270  1270 635))
+      (outline (path signal 100  1270 635  1270 -8890))
+      (outline (path signal 100  1270 -8890  -1270 -8890))
+      (outline (path signal 100  -1270 -8890  -1270 1270))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -8950))
+      (outline (path signal 120  -1330 -8950  1330 -8950))
+      (outline (path signal 120  1330 -1270  1330 -8950))
+      (outline (path signal 120  1330 1330  1330 0))
+      (outline (path signal 120  0 1330  1330 1330))
+      (outline (path signal 50  -1800 1800  1750 1800))
+      (outline (path signal 50  1750 1800  1750 -9400))
+      (outline (path signal 50  1750 -9400  -1800 -9400))
+      (outline (path signal 50  -1800 -9400  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um VCC 0 0)
+      (pin Oval[A]Pad_1700x1700_um GND 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um SCL 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um SDA 0 -7620)
+    )
+    (image Resistor_SMD:R_Array_Concave_4x0603
+      (outline (path signal 50  1550 -1870  -1550 -1870))
+      (outline (path signal 50  1550 -1870  1550 1880))
+      (outline (path signal 50  -1550 1880  -1550 -1870))
+      (outline (path signal 50  -1550 1880  1550 1880))
+      (outline (path signal 120  400 1720  -400 1720))
+      (outline (path signal 120  400 -1720  -400 -1720))
+      (outline (path signal 100  -800 -1600  -800 1600))
+      (outline (path signal 100  800 -1600  -800 -1600))
+      (outline (path signal 100  800 1600  800 -1600))
+      (outline (path signal 100  -800 1600  800 1600))
+      (pin Rect[T]Pad_900x400_um 5 850 -1200)
+      (pin Rect[T]Pad_900x400_um 6 850 -400)
+      (pin Rect[T]Pad_900x400_um 7 850 400)
+      (pin Rect[T]Pad_900x400_um 8 850 1200)
+      (pin Rect[T]Pad_900x400_um 4 -850 -1200)
+      (pin Rect[T]Pad_900x400_um 1 -850 1200)
+      (pin Rect[T]Pad_900x400_um 3 -850 -400)
+      (pin Rect[T]Pad_900x400_um 2 -850 400)
+    )
+    (image "footprint-lib:CONN_SPI_SSD1306"
+      (outline (path signal 100  -1270 1270  635 1270))
+      (outline (path signal 100  635 1270  1270 635))
+      (outline (path signal 100  1270 635  1270 -16510))
+      (outline (path signal 100  1270 -16510  -1270 -16510))
+      (outline (path signal 100  -1270 -16510  -1270 1270))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -16570))
+      (outline (path signal 120  -1330 -16570  1330 -16570))
+      (outline (path signal 120  1330 -1270  1330 -16570))
+      (outline (path signal 120  1330 1330  1330 0))
+      (outline (path signal 120  0 1330  1330 1330))
+      (outline (path signal 50  -1800 1800  1750 1800))
+      (outline (path signal 50  1750 1800  1750 -17000))
+      (outline (path signal 50  1750 -17000  -1800 -17000))
+      (outline (path signal 50  -1800 -17000  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um GND 0 0)
+      (pin Oval[A]Pad_1700x1700_um 5V 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um SCK 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um SDA 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um RST 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um DC 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um CS 0 -15240)
+    )
+    (image Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (outline (path signal 50  1850 -950  -1850 -950))
+      (outline (path signal 50  1850 950  1850 -950))
+      (outline (path signal 50  -1850 950  1850 950))
+      (outline (path signal 50  -1850 -950  -1850 950))
+      (outline (path signal 120  -261.252 -710  261.252 -710))
+      (outline (path signal 120  -261.252 710  261.252 710))
+      (outline (path signal 100  1000 -600  -1000 -600))
+      (outline (path signal 100  1000 600  1000 -600))
+      (outline (path signal 100  -1000 600  1000 600))
+      (outline (path signal 100  -1000 -600  -1000 600))
+      (pin RoundRect[T]Pad_1150x1400_250.95_um 2 1025 0)
+      (pin RoundRect[T]Pad_1150x1400_250.95_um 1 -1025 0)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1150x1400_250.95_um
+      (shape (polygon F.Cu 0  368.578 697.139  410.831 685.817  450.476 667.33  486.309 642.24
+            517.24 611.309  542.33 575.476  560.817 535.831  572.139 493.578
+            575.951 450.001  575.951 -450.001  572.139 -493.578  560.817 -535.831
+            542.33 -575.476  517.24 -611.309  486.309 -642.24  450.476 -667.33
+            410.831 -685.817  368.578 -697.139  325.001 -700.951  -325.001 -700.951
+            -368.578 -697.139  -410.831 -685.817  -450.476 -667.33  -486.309 -642.24
+            -517.24 -611.309  -542.33 -575.476  -560.817 -535.831  -572.139 -493.578
+            -575.951 -450.001  -575.951 450.001  -572.139 493.578  -560.817 535.831
+            -542.33 575.476  -517.24 611.309  -486.309 642.24  -450.476 667.33
+            -410.831 685.817  -368.578 697.139  -325.001 700.951  325.001 700.951
+            368.578 697.139))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_900x400_um
+      (shape (rect F.Cu -450 -200 450 200))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net +3V3
+      (pins U8-VCC RN5-5 RN5-6 RN5-7 RN5-8 RN4-5 RN4-6 RN4-7 RN4-8 J22-5V C13-2 C12-2)
+    )
+    (net GND
+      (pins U8-GND J22-GND C13-1 C12-1)
+    )
+    (net /SS
+      (pins RN4-1 J22-CS)
+    )
+    (net /DC
+      (pins RN4-3 J22-DC)
+    )
+    (net /SDA
+      (pins U8-SDA RN5-1)
+    )
+    (net /SCL
+      (pins U8-SCL RN5-2)
+    )
+    (class kicad_default "" +3V3 /DC /MOSI /RST /SCK /SCL /SDA /SS GND "Net-(RN5-Pad3)"
+      "Net-(RN5-Pad4)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

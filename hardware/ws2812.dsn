@@ -1,0 +1,174 @@
+(pcb "/home/logic/_workspace/libopencm3-tryout/hardware/ws2812.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.2-f72e74a~84~ubuntu18.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  48892.5 -50265.5  11342.5 -50265.5  11342.5 -39734.5
+            48892.5 -39734.5  48892.5 -50265.5)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+      (place U1 15000 -45000 front 90 (PN 74AHCT1G125))
+    )
+    (component LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+      (place D5 44000 -45000 front 90 (PN WS2812B))
+      (place D4 38000 -45000 front 90 (PN WS2812B))
+      (place D3 32000 -45000 front 90 (PN WS2812B))
+      (place D2 26000 -45000 front 90 (PN WS2812B))
+      (place D1 20000 -45000 front 90 (PN WS2812B))
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (place C5 44000 -45000 back 270 (PN C106,0805))
+      (place C4 38000 -45000 back 270 (PN C106,0805))
+      (place C3 32000 -45000 back 270 (PN C106,0805))
+      (place C2 26000 -45025 back 270 (PN C106,0805))
+      (place C1 20000 -45000 back 270 (PN C106,0805))
+    )
+  )
+  (library
+    (image "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+      (outline (path signal 50  2380 -1800  -2380 -1800))
+      (outline (path signal 50  2380 -1800  2380 1800))
+      (outline (path signal 50  -2380 1800  -2380 -1800))
+      (outline (path signal 50  -2380 1800  2380 1800))
+      (outline (path signal 100  900 1550  900 -1550))
+      (outline (path signal 100  900 -1550  -900 -1550))
+      (outline (path signal 100  -900 900  -900 -1550))
+      (outline (path signal 100  900 1550  -250 1550))
+      (outline (path signal 100  -900 900  -250 1550))
+      (outline (path signal 120  900 1610  -1550 1610))
+      (outline (path signal 120  -900 -1610  900 -1610))
+      (pin Rect[T]Pad_1560x650_um 5 1350 950)
+      (pin Rect[T]Pad_1560x650_um 4 1350 -950)
+      (pin Rect[T]Pad_1560x650_um 3 -1350 -950)
+      (pin Rect[T]Pad_1560x650_um 2 -1350 0)
+      (pin Rect[T]Pad_1560x650_um 1 -1350 950)
+    )
+    (image LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+      (outline (path signal 100  2000 0  1918.99 -563.465  1682.51 -1081.28  1309.72 -1511.5
+            830.83 -1819.26  284.63 -1979.64  -284.63 -1979.64  -830.83 -1819.26
+            -1309.72 -1511.5  -1682.51 -1081.28  -1918.99 -563.465  -2000 0
+            -1918.99 563.465  -1682.51 1081.28  -1309.72 1511.5  -830.83 1819.26
+            -284.63 1979.64  284.63 1979.64  830.83 1819.26  1309.72 1511.5
+            1682.51 1081.28  1918.99 563.465  2000 0))
+      (outline (path signal 120  3650 -2750  3650 -1600))
+      (outline (path signal 120  -3650 -2750  3650 -2750))
+      (outline (path signal 120  -3650 2750  3650 2750))
+      (outline (path signal 100  2500 2500  -2500 2500))
+      (outline (path signal 100  2500 -2500  2500 2500))
+      (outline (path signal 100  -2500 -2500  2500 -2500))
+      (outline (path signal 100  -2500 2500  -2500 -2500))
+      (outline (path signal 100  2500 -1500  1500 -2500))
+      (outline (path signal 50  -3450 2750  -3450 -2750))
+      (outline (path signal 50  -3450 -2750  3450 -2750))
+      (outline (path signal 50  3450 -2750  3450 2750))
+      (outline (path signal 50  3450 2750  -3450 2750))
+      (pin Rect[T]Pad_1500x1000_um 1 -2450 1600)
+      (pin Rect[T]Pad_1500x1000_um 2 -2450 -1600)
+      (pin Rect[T]Pad_1500x1000_um 4 2450 1600)
+      (pin Rect[T]Pad_1500x1000_um 3 2450 -1600)
+    )
+    (image Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (outline (path signal 50  1850 -950  -1850 -950))
+      (outline (path signal 50  1850 950  1850 -950))
+      (outline (path signal 50  -1850 950  1850 950))
+      (outline (path signal 50  -1850 -950  -1850 950))
+      (outline (path signal 120  -261.252 -710  261.252 -710))
+      (outline (path signal 120  -261.252 710  261.252 710))
+      (outline (path signal 100  1000 -600  -1000 -600))
+      (outline (path signal 100  1000 600  1000 -600))
+      (outline (path signal 100  -1000 600  1000 600))
+      (outline (path signal 100  -1000 -600  -1000 600))
+      (pin RoundRect[T]Pad_1150x1400_250.95_um 2 1025 0)
+      (pin RoundRect[T]Pad_1150x1400_250.95_um 1 -1025 0)
+    )
+    (padstack RoundRect[T]Pad_1150x1400_250.95_um
+      (shape (polygon F.Cu 0  368.578 697.139  410.831 685.817  450.476 667.33  486.309 642.24
+            517.24 611.309  542.33 575.476  560.817 535.831  572.139 493.578
+            575.951 450.001  575.951 -450.001  572.139 -493.578  560.817 -535.831
+            542.33 -575.476  517.24 -611.309  486.309 -642.24  450.476 -667.33
+            410.831 -685.817  368.578 -697.139  325.001 -700.951  -325.001 -700.951
+            -368.578 -697.139  -410.831 -685.817  -450.476 -667.33  -486.309 -642.24
+            -517.24 -611.309  -542.33 -575.476  -560.817 -535.831  -572.139 -493.578
+            -575.951 -450.001  -575.951 450.001  -572.139 493.578  -560.817 535.831
+            -542.33 575.476  -517.24 611.309  -486.309 642.24  -450.476 667.33
+            -410.831 685.817  -368.578 697.139  -325.001 700.951  325.001 700.951
+            368.578 697.139))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1000_um
+      (shape (rect F.Cu -750 -500 750 500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1560x650_um
+      (shape (rect F.Cu -780 -325 780 325))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net +5V
+      (pins U1-5 D5-1 D4-1 D3-1 D2-1 D1-1 C5-2 C4-2 C3-2 C2-2 C1-2)
+    )
+    (net GND
+      (pins U1-3 U1-1 D5-3 D4-3 D3-3 D2-3 D1-3 C5-1 C4-1 C3-1 C2-1 C1-1)
+    )
+    (net "Net-(D1-Pad2)"
+      (pins D2-4 D1-2)
+    )
+    (net "Net-(D1-Pad4)"
+      (pins U1-4 D1-4)
+    )
+    (net "Net-(D2-Pad2)"
+      (pins D3-4 D2-2)
+    )
+    (net "Net-(D3-Pad2)"
+      (pins D4-4 D3-2)
+    )
+    (net "Net-(D4-Pad2)"
+      (pins D5-4 D4-2)
+    )
+    (class kicad_default "" +5V /WS2812_IN GND "Net-(D1-Pad2)" "Net-(D1-Pad4)"
+      "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

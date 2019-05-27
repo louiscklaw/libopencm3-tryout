@@ -2600,7 +2600,7 @@ Wire Bus Line
 Wire Bus Line
 	9850 1400 9850 7400
 Wire Bus Line
-	3800 1400 3800 5800
-Wire Bus Line
 	11900 1400 11900 5500
+Wire Bus Line
+	3800 1400 3800 5800
 $EndSCHEMATC
