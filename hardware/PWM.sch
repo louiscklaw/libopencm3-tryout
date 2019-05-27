@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 20
+Sheet 9 18
 Title ""
 Date ""
 Rev ""
@@ -2513,55 +2513,23 @@ C2 84 09 3F 8C 77 75 75 85 42 A1 F1 E3 C7 A7 A5 A5 75 77 77 77 76 76 2A 27 CF 15
 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Comp
-L 74xGxx:74AHCT1G125 U4
-U 1 1 5CE46064
-P 3900 1800
-F 0 "U4" H 3900 1550 50  0001 C CNN
-F 1 "74AHCT1G125" H 3900 1600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3900 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3900 1800 50  0001 C CNN
-	1    3900 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-r:R223,0603 R12
-U 1 1 5CE4623E
-P 3900 1300
-F 0 "R12" V 3650 1300 50  0000 C CNN
-F 1 "R223,0603" V 3750 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3900 1300 50  0001 C CNN
-F 3 "~" H 3900 1300 50  0001 C CNN
-	1    3900 1300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3300 1800 3600 1800
-Text HLabel 3300 1800 0    50   Input ~ 0
-STM32_PWM_OUT
 $Comp
 L Connector_Generic:Conn_01x02 J8
 U 1 1 5CE46D1B
-P 4800 1700
-F 0 "J8" H 4900 1700 50  0000 L CNN
-F 1 "PWM_OUT" H 4900 1600 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4800 1700 50  0001 C CNN
-F 3 "~" H 4800 1700 50  0001 C CNN
-	1    4800 1700
+P 4800 1800
+F 0 "J8" H 4900 1800 50  0000 L CNN
+F 1 "PWM_OUT" H 4900 1700 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4800 1800 50  0001 C CNN
+F 3 "~" H 4800 1800 50  0001 C CNN
+	1    4800 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4150 1800 4600 1800
-Wire Wire Line
-	4000 1300 4200 1300
-Wire Wire Line
-	4200 1300 4200 1700
-Wire Wire Line
-	4200 1700 4600 1700
-Text HLabel 3300 1300 0    50   Input ~ 0
+Text HLabel 3300 1800 0    50   Input ~ 0
 STM32_PWM_IN
-Wire Wire Line
-	3300 1300 3800 1300
 $Comp
 L power:GND #PWR0170
 U 1 1 5CF4DA4F
@@ -2605,4 +2573,30 @@ Wire Wire Line
 	3950 2100 3950 1850
 Wire Wire Line
 	3950 1500 3950 1750
+$Comp
+L 74xGxx:74AHCT1G125 U4
+U 1 1 5CE46064
+P 3900 1800
+F 0 "U4" H 3900 1550 50  0001 C CNN
+F 1 "74AHCT1G125" H 3900 1600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3900 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3900 1800 50  0001 C CNN
+	1    3900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0173
+U 1 1 5CF7855D
+P 4450 2150
+F 0 "#PWR0173" H 4450 1900 50  0001 C CNN
+F 1 "GND" H 4500 1950 50  0000 C CNN
+F 2 "" H 4450 2150 50  0001 C CNN
+F 3 "" H 4450 2150 50  0001 C CNN
+	1    4450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2150 4450 1900
+Wire Wire Line
+	4450 1900 4600 1900
 $EndSCHEMATC

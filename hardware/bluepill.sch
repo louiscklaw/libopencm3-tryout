@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 20
+Sheet 18 18
 Title ""
 Date ""
 Rev ""
@@ -11268,4 +11268,10 @@ Text Label 2050 4300 2    50   ~ 0
 PB4
 Wire Wire Line
 	2050 4300 1550 4300
+Text HLabel 1550 4450 0    50   Input ~ 0
+BUZZER
+Text Label 2050 4450 2    50   ~ 0
+PB5
+Wire Wire Line
+	2050 4450 1550 4450
 $EndSCHEMATC
