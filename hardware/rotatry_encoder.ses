@@ -1,0 +1,152 @@
+
+(session rotatry_encoder.ses
+  (base_design rotatry_encoder.dsn)
+  (placement
+    (resolution um 10)
+    (component "footprint-lib:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
+      (place SW3 138000 -306200 front 0)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R15 330000 -370000 front 0)
+      (place R14 330000 -330000 front 0)
+      (place R13 330000 -280000 front 0)
+      (place C16 330000 -390000 front 180)
+      (place C15 330000 -350000 front 180)
+      (place C14 328750 -300000 front 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.1.2-f72e74a~84~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path F.Cu 2500
+            312521 -356200
+            312521 -381271
+            321250 -390000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            321250 -350000
+            318721 -350000
+            312521 -356200
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            312521 -356200
+            283000 -356200
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            321250 -350000
+            330000 -341250
+            330000 -310000
+            320000 -300000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            283000 -356200
+            163000 -356200
+            138000 -331200
+          )
+        )
+      )
+      (net /A
+        (wire
+          (path F.Cu 2500
+            337500 -300000
+            338750 -298750
+            338750 -280000
+          )
+        )
+      )
+      (net /B
+        (wire
+          (path F.Cu 2500
+            338750 -350000
+            338750 -330000
+          )
+        )
+      )
+      (net /SW_OUT
+        (wire
+          (path F.Cu 2500
+            338750 -390000
+            338750 -370000
+          )
+        )
+      )
+      (net "Net-(R13-Pad1)"
+        (wire
+          (path F.Cu 2500
+            321250 -280000
+            321250 -277322
+            331829 -266743
+            345395 -266743
+            352143 -273491
+            352143 -389836
+            343531 -398448
+            296748 -398448
+            269685 -371385
+            153185 -371385
+            138000 -356200
+          )
+        )
+      )
+      (net "Net-(R14-Pad1)"
+        (wire
+          (path F.Cu 2500
+            151253 -306200
+            175053 -330000
+            321250 -330000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            138000 -306200
+            151253 -306200
+          )
+        )
+      )
+      (net "Net-(R15-Pad1)"
+        (wire
+          (path F.Cu 2500
+            321250 -370000
+            331250 -360000
+            342259 -360000
+            347451 -354808
+            347451 -275226
+            343842 -271617
+            333324 -271617
+            330000 -274941
+            330000 -285326
+            325951 -289375
+            299825 -289375
+            283000 -306200
+          )
+        )
+      )
+    )
+  )
+)
