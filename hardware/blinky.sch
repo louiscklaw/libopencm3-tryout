@@ -623,7 +623,7 @@ F 3 "" V 2550 2400 50  0001 C CNN
 	1    2550 2400
 	0    -1   -1   0   
 $EndComp
-Text HLabel 2850 2600 2    50   Input ~ 0
+Text HLabel 1000 800  0    50   Input ~ 0
 TO_PC13
 Wire Wire Line
 	2550 1750 2550 2000
@@ -631,6 +631,42 @@ Wire Wire Line
 	2550 2200 2550 2300
 Wire Wire Line
 	2550 2500 2550 2600
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5CF2F372
+P 2550 3150
+F 0 "J?" H 2400 3350 50  0000 C CNN
+F 1 "BLINK_HEADER" H 2400 3250 50  0000 C CNN
+F 2 "" H 2550 3150 50  0001 C CNN
+F 3 "~" H 2550 3150 50  0001 C CNN
+	1    2550 3150
+	-1   0    0    -1  
+$EndComp
+Text Label 1450 800  2    50   ~ 0
+TO_PC13
 Wire Wire Line
-	2550 2600 2850 2600
+	1450 800  1000 800 
+Text Label 3300 2600 2    50   ~ 0
+TO_PC13
+Wire Wire Line
+	2550 2600 3300 2600
+Text Label 3200 3250 2    50   ~ 0
+TO_PC13
+Wire Wire Line
+	3200 3250 2750 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5CF2FA83
+P 2900 3000
+F 0 "#PWR?" H 2900 2750 50  0001 C CNN
+F 1 "GND" H 2900 2800 50  0000 C CNN
+F 2 "" H 2900 3000 50  0001 C CNN
+F 3 "" H 2900 3000 50  0001 C CNN
+	1    2900 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 3000 2900 3150
+Wire Wire Line
+	2900 3150 2750 3150
 $EndSCHEMATC
