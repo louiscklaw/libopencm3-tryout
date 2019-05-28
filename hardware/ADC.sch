@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 9 23
+Sheet 11 23
 Title ""
 Date ""
 Rev ""
@@ -1004,4 +1004,38 @@ Wire Wire Line
 	850  650  1200 650 
 Wire Wire Line
 	850  750  1200 750 
+Text Label 2800 1400 2    50   ~ 0
+V_VAR
+Text Label 2800 1500 2    50   ~ 0
+V_TEMP
+Wire Wire Line
+	2450 1400 2800 1400
+Wire Wire Line
+	2450 1500 2800 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5CF31A90
+P 2550 1100
+F 0 "#PWR?" H 2550 850 50  0001 C CNN
+F 1 "GND" H 2550 900 50  0000 C CNN
+F 2 "" H 2550 1100 50  0001 C CNN
+F 3 "" H 2550 1100 50  0001 C CNN
+	1    2550 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 1100 2550 1300
+Wire Wire Line
+	2550 1300 2450 1300
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 5CF31308
+P 2250 1400
+F 0 "J?" H 2100 1700 50  0000 C CNN
+F 1 "ADC_HEADER" H 2100 1600 50  0000 C CNN
+F 2 "" H 2250 1400 50  0001 C CNN
+F 3 "~" H 2250 1400 50  0001 C CNN
+	1    2250 1400
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

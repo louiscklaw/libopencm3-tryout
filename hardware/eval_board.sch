@@ -235,52 +235,6 @@ Wire Wire Line
 Wire Wire Line
 	13550 2750 14000 2750
 Entry Wire Line
-	3700 2150 3800 2050
-Entry Wire Line
-	3800 2150 3700 2250
-Entry Wire Line
-	3800 2350 3700 2450
-Entry Wire Line
-	3800 2450 3700 2550
-Entry Wire Line
-	3800 2550 3700 2650
-Entry Wire Line
-	3800 2650 3700 2750
-Entry Wire Line
-	3800 2850 3700 2950
-Entry Wire Line
-	3800 2950 3700 3050
-Entry Wire Line
-	3800 3200 3700 3300
-Entry Wire Line
-	3800 3300 3700 3400
-Entry Wire Line
-	3800 3500 3700 3600
-Wire Wire Line
-	3050 2150 3700 2150
-Wire Wire Line
-	3050 2250 3700 2250
-Wire Wire Line
-	3050 2450 3700 2450
-Wire Wire Line
-	3050 2550 3700 2550
-Wire Wire Line
-	3050 2650 3700 2650
-Wire Wire Line
-	3050 2750 3700 2750
-Wire Wire Line
-	3050 2950 3700 2950
-Wire Wire Line
-	3050 3050 3700 3050
-Wire Wire Line
-	3050 3300 3700 3300
-Wire Wire Line
-	3050 3400 3700 3400
-Wire Wire Line
-	3050 3600 3700 3600
-Wire Bus Line
-	3800 1400 5450 1400
-Entry Wire Line
 	5350 3800 5450 3700
 Entry Wire Line
 	5350 3700 5450 3600
@@ -2398,10 +2352,6 @@ Wire Wire Line
 	12000 3250 12500 3250
 Text Label 3650 3850 2    50   ~ 0
 WS2812_OUT
-Entry Wire Line
-	3700 3850 3800 3750
-Wire Wire Line
-	3050 3850 3700 3850
 Text Label 12050 3050 0    50   ~ 0
 SS_OLED
 Text Label 3650 4150 2    50   ~ 0
@@ -2410,30 +2360,10 @@ Text Label 3650 4250 2    50   ~ 0
 OLED_RST
 Text Label 3650 4350 2    50   ~ 0
 OLED_SS
-Entry Wire Line
-	3700 4150 3800 4050
-Entry Wire Line
-	3700 4250 3800 4150
-Entry Wire Line
-	3700 4350 3800 4250
-Wire Wire Line
-	3050 4150 3700 4150
-Wire Wire Line
-	3050 4250 3700 4250
-Wire Wire Line
-	3050 4350 3700 4350
 Text Label 3650 4550 2    50   ~ 0
 DEBUG_LED
-Entry Wire Line
-	3700 4550 3800 4450
-Wire Wire Line
-	3050 4550 3700 4550
 Text Label 3650 4700 2    50   ~ 0
 BUZZER_IN
-Entry Wire Line
-	3700 4700 3800 4600
-Wire Wire Line
-	3700 4700 3050 4700
 $Sheet
 S 10600 7150 750  500 
 U 5CEBB1E8
@@ -2491,22 +2421,10 @@ Entry Wire Line
 	11900 5250 12000 5350
 Text Label 3650 5000 2    50   ~ 0
 ROT_ENC_A
-Entry Wire Line
-	3700 5000 3800 4900
-Wire Wire Line
-	3700 5000 3050 5000
 Text Label 3650 5100 2    50   ~ 0
 ROT_ENC_B
-Entry Wire Line
-	3700 5100 3800 5000
-Wire Wire Line
-	3700 5100 3050 5100
 Text Label 3650 5200 2    50   ~ 0
 ROT_ENC_SW
-Entry Wire Line
-	3700 5200 3800 5100
-Wire Wire Line
-	3700 5200 3050 5200
 Entry Wire Line
 	11900 4800 12000 4900
 Entry Wire Line
@@ -2569,34 +2487,116 @@ F25 "SS_W25Q32" I R 3050 5900 50
 $EndSheet
 Text Label 3650 5600 2    50   ~ 0
 SS_ESP
-Entry Wire Line
-	3700 5600 3800 5500
-Wire Wire Line
-	3700 5600 3050 5600
 Text Label 3650 5700 2    50   ~ 0
 SS_ARDUINO
-Entry Wire Line
-	3700 5700 3800 5600
-Wire Wire Line
-	3700 5700 3050 5700
 Text Label 3650 5800 2    50   ~ 0
 SS_OLED
-Entry Wire Line
-	3700 5800 3800 5700
-Wire Wire Line
-	3700 5800 3050 5800
 Text Label 3650 5900 2    50   ~ 0
 SS_W25Q32
-Entry Wire Line
-	3700 5900 3800 5800
-Wire Wire Line
-	3700 5900 3050 5900
 $Sheet
 S 700  9700 500  400 
 U 5CF05A5C
 F0 "spare_footprint" 50
 F1 "spare_footprint.sch" 50
 $EndSheet
+Entry Wire Line
+	3700 2150 3800 2050
+Wire Wire Line
+	3050 2150 3700 2150
+Entry Wire Line
+	3800 2150 3700 2250
+Entry Wire Line
+	3800 2350 3700 2450
+Entry Wire Line
+	3800 2450 3700 2550
+Entry Wire Line
+	3800 2550 3700 2650
+Entry Wire Line
+	3800 2650 3700 2750
+Entry Wire Line
+	3800 2850 3700 2950
+Entry Wire Line
+	3800 2950 3700 3050
+Entry Wire Line
+	3800 3200 3700 3300
+Entry Wire Line
+	3800 3300 3700 3400
+Entry Wire Line
+	3800 3500 3700 3600
+Wire Bus Line
+	3800 1400 5450 1400
+Entry Wire Line
+	3700 3850 3800 3750
+Entry Wire Line
+	3700 4150 3800 4050
+Entry Wire Line
+	3700 4250 3800 4150
+Entry Wire Line
+	3700 4350 3800 4250
+Entry Wire Line
+	3700 4550 3800 4450
+Entry Wire Line
+	3700 4700 3800 4600
+Entry Wire Line
+	3700 5000 3800 4900
+Entry Wire Line
+	3700 5100 3800 5000
+Entry Wire Line
+	3700 5200 3800 5100
+Entry Wire Line
+	3700 5600 3800 5500
+Entry Wire Line
+	3700 5700 3800 5600
+Entry Wire Line
+	3700 5800 3800 5700
+Entry Wire Line
+	3700 5900 3800 5800
+Wire Wire Line
+	3050 2250 3700 2250
+Wire Wire Line
+	3050 2450 3700 2450
+Wire Wire Line
+	3050 2550 3700 2550
+Wire Wire Line
+	3050 2650 3700 2650
+Wire Wire Line
+	3050 2750 3700 2750
+Wire Wire Line
+	3050 2950 3700 2950
+Wire Wire Line
+	3050 3050 3700 3050
+Wire Wire Line
+	3050 3300 3700 3300
+Wire Wire Line
+	3050 3400 3700 3400
+Wire Wire Line
+	3050 3600 3700 3600
+Wire Wire Line
+	3050 3850 3700 3850
+Wire Wire Line
+	3050 4150 3700 4150
+Wire Wire Line
+	3050 4250 3700 4250
+Wire Wire Line
+	3050 4350 3700 4350
+Wire Wire Line
+	3050 4550 3700 4550
+Wire Wire Line
+	3700 4700 3050 4700
+Wire Wire Line
+	3700 5000 3050 5000
+Wire Wire Line
+	3700 5100 3050 5100
+Wire Wire Line
+	3700 5200 3050 5200
+Wire Wire Line
+	3700 5600 3050 5600
+Wire Wire Line
+	3700 5700 3050 5700
+Wire Wire Line
+	3700 5800 3050 5800
+Wire Wire Line
+	3700 5900 3050 5900
 Wire Bus Line
 	13450 1400 13450 2650
 Wire Bus Line
