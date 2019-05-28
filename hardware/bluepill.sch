@@ -11345,4 +11345,10 @@ Text Label 2050 5650 2    50   ~ 0
 PB15
 Wire Wire Line
 	2050 5650 1550 5650
+Text HLabel 1550 5750 0    50   Input ~ 0
+SS_LORA
+Text Label 2050 5750 2    50   ~ 0
+PA12
+Wire Wire Line
+	2050 5750 1550 5750
 $EndSCHEMATC
