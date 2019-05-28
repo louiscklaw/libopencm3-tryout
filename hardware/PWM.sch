@@ -2513,8 +2513,6 @@ C2 84 09 3F 8C 77 75 75 85 42 A1 F1 E3 C7 A7 A5 A5 75 77 77 77 76 76 2A 27 CF 15
 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Wire Wire Line
-	3300 1800 3600 1800
 $Comp
 L Connector_Generic:Conn_01x02 J9
 U 1 1 5CE46D1B
@@ -2528,8 +2526,6 @@ F 3 "~" H 4800 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 1800 4600 1800
-Text HLabel 3300 1800 0    50   Input ~ 0
-STM32_PWM_IN
 $Comp
 L power:GND #PWR050
 U 1 1 5CF4DA4F
@@ -2599,4 +2595,14 @@ Wire Wire Line
 	4450 2150 4450 1900
 Wire Wire Line
 	4450 1900 4600 1900
+Text HLabel 1200 850  0    50   Input ~ 0
+STM32_PWM_IN
+Text Label 1650 850  2    50   ~ 0
+PWM_IN
+Wire Wire Line
+	1200 850  1650 850 
+Text Label 2850 1800 0    50   ~ 0
+PWM_IN
+Wire Wire Line
+	2850 1800 3600 1800
 $EndSCHEMATC

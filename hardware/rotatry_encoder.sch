@@ -1636,4 +1636,27 @@ Connection ~ 2800 2800
 Wire Wire Line
 	2000 3250 2800 3250
 Connection ~ 2800 3250
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 5CF225E9
+P 1100 2200
+F 0 "J?" H 950 2500 50  0000 C CNN
+F 1 "ROT_ENC_HEADER" H 950 2400 50  0000 C CNN
+F 2 "" H 1100 2200 50  0001 C CNN
+F 3 "~" H 1100 2200 50  0001 C CNN
+	1    1100 2200
+	-1   0    0    -1  
+$EndComp
+Text Label 1800 2100 2    50   ~ 0
+ROT_ENC_A
+Text Label 1800 2200 2    50   ~ 0
+ROT_ENC_B
+Text Label 1800 2300 2    50   ~ 0
+ROT_ENC_SW
+Wire Wire Line
+	1800 2100 1300 2100
+Wire Wire Line
+	1800 2200 1300 2200
+Wire Wire Line
+	1800 2300 1300 2300
 $EndSCHEMATC
