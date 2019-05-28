@@ -262,7 +262,7 @@
   )
 
   (module Connector_PinHeader_1.27mm:PinHeader_1x15_P1.27mm_Vertical (layer F.Cu) (tedit 59FED6E3) (tstamp 5CEBB18A)
-    (at 29 41)
+    (at 40 42.5)
     (descr "Through hole straight pin header, 1x15, 1.27mm pitch, single row")
     (tags "Through hole pin header THT 1x15 1.27mm single row")
     (path /5CEF7253)
@@ -330,7 +330,7 @@
   )
 
   (module Connector_PinHeader_1.27mm:PinHeader_1x15_P1.27mm_Vertical (layer F.Cu) (tedit 59FED6E3) (tstamp 5CEBB165)
-    (at 24 23)
+    (at 40 19.9)
     (descr "Through hole straight pin header, 1x15, 1.27mm pitch, single row")
     (tags "Through hole pin header THT 1x15 1.27mm single row")
     (path /5CEF6157)
@@ -530,7 +530,7 @@
   )
 
   (module footprint-lib:I2C_DEBUG (layer F.Cu) (tedit 5CEA3CF4) (tstamp 5CEBB0FF)
-    (at 38 40 180)
+    (at 45 50 180)
     (descr "Through hole straight pin header, 1x02, 1.27mm pitch, single row")
     (tags "Through hole pin header THT 1x02 1.27mm single row")
     (path /5D190CE0)
