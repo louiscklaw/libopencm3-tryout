@@ -24155,4 +24155,35 @@ Wire Wire Line
 	6300 2600 6950 2600
 Wire Wire Line
 	6300 2500 6950 2500
+$Comp
+L Connector:Conn_01x05_Female J?
+U 1 1 5D029FF9
+P 1950 4250
+F 0 "J?" H 1800 4650 50  0000 C CNN
+F 1 "OLED_HEADER" H 1800 4550 50  0000 C CNN
+F 2 "" H 1950 4250 50  0001 C CNN
+F 3 "~" H 1950 4250 50  0001 C CNN
+	1    1950 4250
+	-1   0    0    -1  
+$EndComp
+Text Label 2750 4250 2    50   ~ 0
+OLED_DC
+Text Label 2750 4350 2    50   ~ 0
+OLED_RST
+Text Label 2750 4450 2    50   ~ 0
+OLED_SS
+Wire Wire Line
+	2150 4250 2750 4250
+Wire Wire Line
+	2150 4350 2750 4350
+Wire Wire Line
+	2150 4450 2750 4450
+Text Label 2750 4150 2    50   ~ 0
+HSCLK
+Wire Wire Line
+	2150 4150 2750 4150
+Wire Wire Line
+	2150 4050 2750 4050
+Text Label 2750 4050 2    50   ~ 0
+HMOSI
 $EndSCHEMATC

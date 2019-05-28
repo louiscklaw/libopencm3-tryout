@@ -11347,8 +11347,6 @@ Wire Wire Line
 	2050 5750 1550 5750
 Text HLabel 1550 6050 0    50   Input ~ 0
 BTN_PULL_UP
-Text Label 2050 6050 2    50   ~ 0
-PB2
 Wire Wire Line
 	2050 6050 1550 6050
 Text HLabel 1550 6150 0    50   Input ~ 0
@@ -11369,4 +11367,6 @@ Text Label 2050 6650 2    50   ~ 0
 PB14
 Wire Wire Line
 	2050 6650 1550 6650
+Text Label 2050 6050 2    50   ~ 0
+PB0
 $EndSCHEMATC
