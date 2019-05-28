@@ -2362,7 +2362,7 @@ OLED_DC
 Text Label 3650 4250 2    50   ~ 0
 OLED_RST
 Text Label 3650 4350 2    50   ~ 0
-OLED_SS
+SS_OLED
 Text Label 3650 4550 2    50   ~ 0
 DEBUG_LED
 Text Label 3650 4700 2    50   ~ 0
@@ -2453,7 +2453,7 @@ Entry Wire Line
 Entry Wire Line
 	6850 3650 6950 3550
 $Sheet
-S 2350 2000 700  4550
+S 2350 2000 700  5150
 U 5CDAB6B1
 F0 "bluepill" 50
 F1 "bluepill.sch" 50
@@ -2484,13 +2484,13 @@ F25 "SS_W25Q32" I R 3050 5900 50
 F26 "SS_LORA" I R 3050 6000 50 
 F27 "BTN_PULL_UP" I R 3050 6250 50 
 F28 "BTN_PULL_DN" I R 3050 6350 50 
+F29 "LORA_DIO0" I R 3050 6650 50 
+F30 "LORA_RST" I R 3050 6750 50 
 $EndSheet
 Text Label 3650 5600 2    50   ~ 0
 SS_ESP
 Text Label 3650 5700 2    50   ~ 0
 SS_ARDUINO
-Text Label 3650 5800 2    50   ~ 0
-SS_OLED
 Text Label 3650 5900 2    50   ~ 0
 SS_W25Q32
 $Sheet
@@ -2548,8 +2548,6 @@ Entry Wire Line
 Entry Wire Line
 	3700 5700 3800 5600
 Entry Wire Line
-	3700 5800 3800 5700
-Entry Wire Line
 	3700 5900 3800 5800
 Wire Wire Line
 	3050 2250 3700 2250
@@ -2594,8 +2592,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 5700 3050 5700
 Wire Wire Line
-	3700 5800 3050 5800
-Wire Wire Line
 	3700 5900 3050 5900
 Text Label 3650 6000 2    50   ~ 0
 SS_LORA
@@ -2639,18 +2635,30 @@ Wire Wire Line
 	4750 4100 5350 4100
 Wire Wire Line
 	4750 4000 5350 4000
+Text Notes 7050 10800 0    100  ~ 20
+11 DRC error accepted
+Text Label 3650 6650 2    50   ~ 0
+LORA_DIO0
+Text Label 3650 6750 2    50   ~ 0
+LORA_RST
+Entry Wire Line
+	3700 6650 3800 6550
+Wire Wire Line
+	3700 6650 3050 6650
+Entry Wire Line
+	3700 6750 3800 6650
+Wire Wire Line
+	3700 6750 3050 6750
 Wire Bus Line
 	13450 1400 13450 2650
 Wire Bus Line
 	6950 1400 6950 3550
 Wire Bus Line
-	5450 1400 5450 4100
-Wire Bus Line
 	9850 1400 9850 7400
+Wire Bus Line
+	5450 1400 5450 4100
 Wire Bus Line
 	11900 1400 11900 5500
 Wire Bus Line
-	3800 1400 3800 6250
-Text Notes 7050 10800 0    100  ~ 20
-11 DRC error accepted
+	3800 1400 3800 6650
 $EndSCHEMATC

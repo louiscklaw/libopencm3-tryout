@@ -11333,12 +11333,6 @@ Text Label 2050 5450 2    50   ~ 0
 PB13
 Wire Wire Line
 	2050 5450 1550 5450
-Text HLabel 1550 5550 0    50   Input ~ 0
-SS_OLED
-Text Label 2050 5550 2    50   ~ 0
-PB14
-Wire Wire Line
-	2050 5550 1550 5550
 Text HLabel 1550 5650 0    50   Input ~ 0
 SS_W25Q32
 Text Label 2050 5650 2    50   ~ 0
@@ -11363,4 +11357,16 @@ Text Label 2050 6150 2    50   ~ 0
 PA3
 Wire Wire Line
 	2050 6150 1550 6150
+Text HLabel 1550 6550 0    50   Input ~ 0
+LORA_DIO0
+Text Label 2050 6550 2    50   ~ 0
+PA8
+Wire Wire Line
+	2050 6550 1550 6550
+Text HLabel 1550 6650 0    50   Input ~ 0
+LORA_RST
+Text Label 2050 6650 2    50   ~ 0
+PB14
+Wire Wire Line
+	2050 6650 1550 6650
 $EndSCHEMATC
