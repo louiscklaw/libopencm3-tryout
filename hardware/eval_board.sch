@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 22
+Sheet 1 23
 Title ""
 Date ""
 Rev ""
@@ -2591,6 +2591,12 @@ Entry Wire Line
 	3700 5900 3800 5800
 Wire Wire Line
 	3700 5900 3050 5900
+$Sheet
+S 700  9700 500  400 
+U 5CF05A5C
+F0 "spare_footprint" 50
+F1 "spare_footprint.sch" 50
+$EndSheet
 Wire Bus Line
 	13450 1400 13450 2650
 Wire Bus Line
