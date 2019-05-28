@@ -430,4 +430,79 @@ NoConn ~ 1650 3150
 NoConn ~ 1650 3300
 NoConn ~ 1650 3450
 NoConn ~ 1650 3600
+$Comp
+L Connector:Conn_01x04_Female J43
+U 1 1 5CFDD06D
+P 3550 1550
+F 0 "J43" H 3400 1850 50  0000 C CNN
+F 1 "header?" H 3400 1750 50  0000 C CNN
+F 2 "" H 3550 1550 50  0001 C CNN
+F 3 "~" H 3550 1550 50  0001 C CNN
+	1    3550 1550
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3750 1450
+NoConn ~ 3750 1550
+NoConn ~ 3750 1650
+NoConn ~ 3750 1750
+$Comp
+L Connector:Conn_01x04_Female J44
+U 1 1 5CFDE011
+P 3900 1550
+F 0 "J44" H 3750 1850 50  0000 C CNN
+F 1 "header?" H 3750 1750 50  0000 C CNN
+F 2 "" H 3900 1550 50  0001 C CNN
+F 3 "~" H 3900 1550 50  0001 C CNN
+	1    3900 1550
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4100 1450
+NoConn ~ 4100 1550
+NoConn ~ 4100 1650
+NoConn ~ 4100 1750
+$Comp
+L Connector:Conn_01x04_Female J45
+U 1 1 5CFDE347
+P 4200 1550
+F 0 "J45" H 4050 1850 50  0000 C CNN
+F 1 "header?" H 4050 1750 50  0000 C CNN
+F 2 "" H 4200 1550 50  0001 C CNN
+F 3 "~" H 4200 1550 50  0001 C CNN
+	1    4200 1550
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4400 1450
+NoConn ~ 4400 1550
+NoConn ~ 4400 1650
+NoConn ~ 4400 1750
+$Comp
+L Connector:Conn_01x04_Female J46
+U 1 1 5CFDE710
+P 4500 1550
+F 0 "J46" H 4350 1850 50  0000 C CNN
+F 1 "header?" H 4350 1750 50  0000 C CNN
+F 2 "" H 4500 1550 50  0001 C CNN
+F 3 "~" H 4500 1550 50  0001 C CNN
+	1    4500 1550
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4700 1450
+NoConn ~ 4700 1550
+NoConn ~ 4700 1650
+NoConn ~ 4700 1750
+$Comp
+L Connector:Conn_01x04_Female J47
+U 1 1 5CFDF291
+P 4800 1550
+F 0 "J47" H 4650 1850 50  0000 C CNN
+F 1 "header?" H 4650 1750 50  0000 C CNN
+F 2 "" H 4800 1550 50  0001 C CNN
+F 3 "~" H 4800 1550 50  0001 C CNN
+	1    4800 1550
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 5000 1450
+NoConn ~ 5000 1550
+NoConn ~ 5000 1650
+NoConn ~ 5000 1750
 $EndSCHEMATC

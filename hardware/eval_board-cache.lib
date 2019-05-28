@@ -1260,6 +1260,34 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# taobao-components_Vb
+#
+DEF taobao-components_Vb #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_Vb" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -25 50 25 50 N
+P 2 0 1 0 0 0 0 50 N
+X Vb 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_Vc
+#
+DEF taobao-components_Vc #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_Vc" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -25 50 25 50 N
+P 2 0 1 0 0 0 0 50 N
+X Vc 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # taobao-components_W25Q32JVSSIQ
 #
 DEF taobao-components_W25Q32JVSSIQ U 0 40 Y Y 1 F N
