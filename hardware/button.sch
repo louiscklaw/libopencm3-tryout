@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 23
+Sheet 10 23
 Title ""
 Date ""
 Rev ""
@@ -877,19 +877,11 @@ Wire Wire Line
 	4350 3950 4350 4200
 Wire Wire Line
 	5550 3950 5550 4200
-Text HLabel 4000 3450 0    50   Input ~ 0
-BTN_PULL_UP
-Text HLabel 5200 3700 0    50   Input ~ 0
-BTN_PULL_DN
-Wire Wire Line
-	5200 3700 5550 3700
 Wire Wire Line
 	5550 3700 5550 3750
 Wire Wire Line
 	5550 3550 5550 3700
 Connection ~ 5550 3700
-Wire Wire Line
-	4000 3450 4350 3450
 Wire Wire Line
 	4350 3450 4350 3550
 Wire Wire Line
@@ -921,4 +913,58 @@ Wire Wire Line
 	4350 3000 4350 3150
 Wire Wire Line
 	5550 3000 5550 3150
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 5CF29B7B
+P 2050 3600
+F 0 "J?" H 1900 3900 50  0000 C CNN
+F 1 "BTN_HEADER" H 1900 3800 50  0000 C CNN
+F 2 "" H 2050 3600 50  0001 C CNN
+F 3 "~" H 2050 3600 50  0001 C CNN
+	1    2050 3600
+	-1   0    0    -1  
+$EndComp
+Text HLabel 1350 2350 0    50   Input ~ 0
+BTN_PULL_UP
+Text HLabel 1350 2450 0    50   Input ~ 0
+BTN_PULL_DN
+Text Label 2000 2350 2    50   ~ 0
+BTN_PULL_UP
+Text Label 2000 2450 2    50   ~ 0
+BTN_PULL_DN
+Wire Wire Line
+	1350 2350 2000 2350
+Wire Wire Line
+	1350 2450 2000 2450
+Text Label 2900 3600 2    50   ~ 0
+BTN_PULL_UP
+Text Label 2900 3700 2    50   ~ 0
+BTN_PULL_DN
+Wire Wire Line
+	2250 3600 2900 3600
+Wire Wire Line
+	2250 3700 2900 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5CF2A8F8
+P 2600 3350
+F 0 "#PWR?" H 2600 3100 50  0001 C CNN
+F 1 "GND" H 2600 3150 50  0000 C CNN
+F 2 "" H 2600 3350 50  0001 C CNN
+F 3 "" H 2600 3350 50  0001 C CNN
+	1    2600 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 3350 2600 3500
+Wire Wire Line
+	2600 3500 2250 3500
+Text Label 3600 3450 0    50   ~ 0
+BTN_PULL_UP
+Text Label 4900 3700 0    50   ~ 0
+BTN_PULL_DN
+Wire Wire Line
+	3600 3450 4350 3450
+Wire Wire Line
+	4900 3700 5550 3700
 $EndSCHEMATC
