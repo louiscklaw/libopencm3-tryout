@@ -2651,4 +2651,6 @@ Wire Bus Line
 	11900 1400 11900 5500
 Wire Bus Line
 	3800 1400 3800 6250
+Text Notes 7050 10800 0    100  ~ 20
+11 DRC error accepted
 $EndSCHEMATC

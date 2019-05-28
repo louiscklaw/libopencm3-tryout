@@ -295,10 +295,10 @@ F 3 "" H 2150 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:Vb #PWR?
+L taobao-components:Vb #PWR0148
 U 1 1 5CFEEA86
 P 3600 1800
-F 0 "#PWR?" H 3600 1650 50  0001 C CNN
+F 0 "#PWR0148" H 3600 1650 50  0001 C CNN
 F 1 "Vb" H 3650 1950 50  0000 C CNN
 F 2 "" H 3600 1800 50  0001 C CNN
 F 3 "" H 3600 1800 50  0001 C CNN
@@ -306,10 +306,10 @@ F 3 "" H 3600 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:Vb #PWR?
+L taobao-components:Vb #PWR0149
 U 1 1 5CFEEC4A
 P 4850 2050
-F 0 "#PWR?" H 4850 1900 50  0001 C CNN
+F 0 "#PWR0149" H 4850 1900 50  0001 C CNN
 F 1 "Vb" H 4900 2200 50  0000 C CNN
 F 2 "" H 4850 2050 50  0001 C CNN
 F 3 "" H 4850 2050 50  0001 C CNN
@@ -317,10 +317,10 @@ F 3 "" H 4850 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:Vb #PWR?
+L taobao-components:Vb #PWR0150
 U 1 1 5CFEF000
 P 5900 1850
-F 0 "#PWR?" H 5900 1700 50  0001 C CNN
+F 0 "#PWR0150" H 5900 1700 50  0001 C CNN
 F 1 "Vb" H 5950 2000 50  0000 C CNN
 F 2 "" H 5900 1850 50  0001 C CNN
 F 3 "" H 5900 1850 50  0001 C CNN
