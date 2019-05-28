@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 11 23
+Sheet 13 23
 Title ""
 Date ""
 Rev ""
@@ -16440,4 +16440,53 @@ Wire Wire Line
 	1100 700  1400 700 
 Wire Wire Line
 	1100 800  1400 800 
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5CF2C5F9
+P 1950 3050
+F 0 "J?" H 2000 3050 50  0000 L CNN
+F 1 "UBLOX_HEADER" H 2000 2950 50  0000 L CNN
+F 2 "" H 1950 3050 50  0001 C CNN
+F 3 "~" H 1950 3050 50  0001 C CNN
+	1    1950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CF2C850
+P 1650 3400
+F 0 "#PWR?" H 1650 3150 50  0001 C CNN
+F 1 "GND" H 1700 3200 50  0000 C CNN
+F 2 "" H 1650 3400 50  0001 C CNN
+F 3 "" H 1650 3400 50  0001 C CNN
+	1    1650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3250 1650 3250
+Wire Wire Line
+	1650 3250 1650 3400
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CF2C85C
+P 1650 2850
+F 0 "#PWR?" H 1650 2700 50  0001 C CNN
+F 1 "+3V3" H 1700 3050 50  0000 C CNN
+F 2 "" H 1650 2850 50  0001 C CNN
+F 3 "" H 1650 2850 50  0001 C CNN
+	1    1650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2850 1650 2950
+Wire Wire Line
+	1650 2950 1750 2950
+Wire Wire Line
+	1300 3050 1750 3050
+Wire Wire Line
+	1300 3150 1750 3150
+Text Label 1300 3050 0    50   ~ 0
+TX
+Text Label 1300 3150 0    50   ~ 0
+RX
 $EndSCHEMATC
