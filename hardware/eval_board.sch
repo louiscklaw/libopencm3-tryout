@@ -2619,6 +2619,50 @@ Entry Wire Line
 	3700 5800 3800 5700
 Wire Wire Line
 	3700 5800 3050 5800
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CFA2F2E
+P 10600 10100
+F 0 "H1" H 10700 10150 50  0000 L CNN
+F 1 "MountingHole" H 10700 10100 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10600 10100 50  0001 C CNN
+F 3 "~" H 10600 10100 50  0001 C CNN
+	1    10600 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CFA31B1
+P 10600 10300
+F 0 "H2" H 10700 10350 50  0000 L CNN
+F 1 "MountingHole" H 10700 10300 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10600 10300 50  0001 C CNN
+F 3 "~" H 10600 10300 50  0001 C CNN
+	1    10600 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CFA861C
+P 10600 10500
+F 0 "H3" H 10700 10550 50  0000 L CNN
+F 1 "MountingHole" H 10700 10500 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10600 10500 50  0001 C CNN
+F 3 "~" H 10600 10500 50  0001 C CNN
+	1    10600 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CFA8626
+P 10600 10700
+F 0 "H4" H 10700 10750 50  0000 L CNN
+F 1 "MountingHole" H 10700 10700 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 10600 10700 50  0001 C CNN
+F 3 "~" H 10600 10700 50  0001 C CNN
+	1    10600 10700
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	13450 1400 13450 2650
 Wire Bus Line

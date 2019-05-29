@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  75229.5 -73085  27782.1 -73085  27782.1 -23675  75229.5 -23675
-            75229.5 -73085)
+      (path pcb 0  84251.5 -73085  27782.1 -73085  27782.1 -23675  84251.5 -23675
+            84251.5 -73085)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -33,27 +33,54 @@
     )
   )
   (placement
+    (component Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical
+      (place J29 79057.5 -29591 front 0 (PN OLED_HEADER))
+    )
     (component "footprint-lib:SDCARD_HEADER"
-      (place J17 34000 -45000 front 180 (PN SDCARD_HEADER))
+      (place J27 34000 -45000 front 180 (PN SDCARD_HEADER))
     )
     (component "footprint-lib:TTL_TERMINAL_1.27mm"
-      (place J16 70000 -59000 front 180 (PN TTL_HEADER))
+      (place J26 75000 -47100 front 180 (PN TTL_HEADER))
     )
     (component "footprint-lib:NodeMCU1.0(12-E)"
-      (place U7 51810 -47880 front 0 (PN nodemcu))
+      (place U10 51810 -47880 front 0 (PN nodemcu))
     )
     (component Connector_PinHeader_1.27mm:PinHeader_1x15_P1.27mm_Vertical
-      (place J20 59000 -46000 front 0 (PN NODEMCU_HEADER2))
-      (place J19 45000 -31000 front 0 (PN NODEMCU_HEADER1))
+      (place J31 70000 -30900 front 0 (PN NODEMCU_HEADER2))
+      (place J30 76073 -70104 front 180 (PN NODEMCU_HEADER1))
     )
     (component "footprint-lib:SPI_DEBUG"
-      (place J18 70000 -53000 front 180 (PN SPI_HEADER))
+      (place J28 75000 -41300 front 180 (PN SPI_HEADER))
     )
     (component "footprint-lib:I2C_DEBUG"
-      (place J15 70000 -31000 front 0 (PN I2C_DEBUG))
+      (place J25 75000 -30000 front 0 (PN I2C_DEBUG))
     )
   )
   (library
+    (image Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical
+      (outline (path signal 50  1550 1150  -1550 1150))
+      (outline (path signal 50  1550 -6250  1550 1150))
+      (outline (path signal 50  -1550 -6250  1550 -6250))
+      (outline (path signal 50  -1550 1150  -1550 -6250))
+      (outline (path signal 120  -1110 760  0 760))
+      (outline (path signal 120  -1110 0  -1110 760))
+      (outline (path signal 120  563.471 -760  1110 -760))
+      (outline (path signal 120  -1110 -760  -563.471 -760))
+      (outline (path signal 120  1110 -760  1110 -5775))
+      (outline (path signal 120  -1110 -760  -1110 -5775))
+      (outline (path signal 120  307.53 -5775  1110 -5775))
+      (outline (path signal 120  -1110 -5775  -307.53 -5775))
+      (outline (path signal 100  -1050 110  -525 635))
+      (outline (path signal 100  -1050 -5715  -1050 110))
+      (outline (path signal 100  1050 -5715  -1050 -5715))
+      (outline (path signal 100  1050 635  1050 -5715))
+      (outline (path signal 100  -525 635  1050 635))
+      (pin Oval[A]Pad_1000x1000_um 5 0 -5080)
+      (pin Oval[A]Pad_1000x1000_um 4 0 -3810)
+      (pin Oval[A]Pad_1000x1000_um 3 0 -2540)
+      (pin Oval[A]Pad_1000x1000_um 2 0 -1270)
+      (pin Rect[A]Pad_1000x1000_um 1 0 0)
+    )
     (image "footprint-lib:SDCARD_HEADER"
       (outline (path signal 100  -525 635  1050 635))
       (outline (path signal 100  1050 635  1050 -6985))
@@ -284,83 +311,83 @@
   )
   (network
     (net /SDA
-      (pins U7-30 J20-1 J15-SDA)
+      (pins U10-30 J31-1 J25-SDA)
     )
     (net /SCL
-      (pins U7-29 J20-2 J15-SCL)
+      (pins U10-29 J31-2 J25-SCL)
     )
     (net /HCS
-      (pins U7-20 J20-11 J18-NSS)
+      (pins U10-20 J31-11 J28-NSS)
     )
     (net /HMISO
-      (pins U7-22 J20-9 J18-MISO)
+      (pins U10-22 J31-9 J28-MISO)
     )
     (net /HMOSI
-      (pins U7-21 J20-10 J18-MOSI)
+      (pins J29-1 U10-21 J31-10 J28-MOSI)
     )
     (net /HSCLK
-      (pins U7-23 J20-8 J18-SCK)
+      (pins J29-2 U10-23 J31-8 J28-SCK)
     )
     (net /VIN
-      (pins U7-15 J19-15)
+      (pins U10-15 J30-15)
     )
     (net GND
-      (pins J16-GND U7-10 U7-14 U7-17 U7-24 J20-14 J20-7 J19-14 J19-10)
+      (pins J26-GND U10-10 U10-14 U10-17 U10-24 J31-14 J31-7 J30-14 J30-10)
     )
     (net /RST
-      (pins U7-13 J19-13)
+      (pins U10-13 J30-13)
     )
     (net /EN
-      (pins U7-12 J19-12)
+      (pins U10-12 J30-12)
     )
     (net +3V3
-      (pins U7-11 U7-16 U7-25 J20-15 J20-6 J19-11)
+      (pins U10-11 U10-16 U10-25 J31-15 J31-6 J30-11)
     )
     (net /SDDCLK
-      (pins J17-SDCLK U7-9 J19-9)
+      (pins J27-SDCLK U10-9 J30-9)
     )
     (net /SDD0
-      (pins J17-SDD0 U7-8 J19-8)
+      (pins J27-SDD0 U10-8 J30-8)
     )
     (net /SDDCMD
-      (pins J17-SDCMD U7-7 J19-7)
+      (pins J27-SDCMD U10-7 J30-7)
     )
     (net /SDD1
-      (pins J17-SDD1 U7-6 J19-6)
+      (pins J27-SDD1 U10-6 J30-6)
     )
     (net /SDD2
-      (pins J17-SDD2 U7-5 J19-5)
+      (pins J27-SDD2 U10-5 J30-5)
     )
     (net /SDD3
-      (pins J17-SDD3 U7-4 J19-4)
+      (pins J27-SDD3 U10-4 J30-4)
     )
     (net /RSV_3
-      (pins U7-3 J19-3)
+      (pins U10-3 J30-3)
     )
     (net /RSV_2
-      (pins U7-2 J19-2)
+      (pins U10-2 J30-2)
     )
     (net /A0
-      (pins U7-1 J19-1)
+      (pins U10-1 J30-1)
     )
     (net /TX
-      (pins J16-TX U7-18 J20-13)
+      (pins J26-TX U10-18 J31-13)
     )
     (net /RX
-      (pins J16-RX U7-19 J20-12)
+      (pins J26-RX U10-19 J31-12)
     )
-    (net /D4
-      (pins U7-26 J20-5)
+    (net /OLED_SS
+      (pins J29-5 U10-26 J31-5)
     )
-    (net /D3
-      (pins U7-27 J20-4)
+    (net /OLED_RST
+      (pins J29-4 U10-27 J31-4)
     )
-    (net /D2
-      (pins U7-28 J20-3)
+    (net /OLED_DC
+      (pins J29-3 U10-28 J31-3)
     )
-    (class kicad_default "" +3V3 /A0 /D2 /D3 /D4 /EN /HCS /HMISO /HMOSI /HSCLK
-      /RST /RSV_2 /RSV_3 /RX /SCL /SDA /SDD0 /SDD1 /SDD2 /SDD3 /SDDCLK /SDDCMD
-      /TX /VIN GND
+    (class kicad_default "" +3V3 /A0 /EN /HCS /HMISO /HMOSI /HSCLK /OLED_DC
+      /OLED_RST /OLED_SS /RST /RSV_2 /RSV_3 /RX /SCL /SDA /SDD0 /SDD1 /SDD2
+      /SDD3 /SDDCLK /SDDCMD /TX /VIN GND
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

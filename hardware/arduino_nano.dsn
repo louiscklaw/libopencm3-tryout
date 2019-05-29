@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  42527.4 -65095  8770.45 -65095  8770.45 -17072.5  42527.4 -17072.5
-            42527.4 -65095)
+      (path pcb 0  49771 -65095  8770.45 -65095  8770.45 -17072.5  49771 -17072.5
+            49771 -65095)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -33,24 +33,51 @@
     )
   )
   (placement
+    (component Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical
+      (place J40 44577 -24765 front 0 (PN OLED_HEADER))
+    )
     (component Module:Arduino_Nano
-      (place U9 19050 -22910 front 0 (PN arduino_nano_v3))
+      (place U12 19050 -22910 front 0 (PN arduino_nano_v3))
     )
     (component Connector_PinHeader_1.27mm:PinHeader_1x15_P1.27mm_Vertical
-      (place J27 29000 -41000 front 0 (PN ARDUINO_HEADER2))
-      (place J26 24000 -23000 front 0 (PN ARDUINO_HEADER1))
+      (place J42 40000 -42500 front 0 (PN ARDUINO_HEADER2))
+      (place J41 40000 -19900 front 0 (PN ARDUINO_HEADER1))
     )
     (component "footprint-lib:SPI_DEBUG"
-      (place J25 14000 -54000 front 0 (PN SPI_HEADER))
+      (place J39 14000 -54000 front 0 (PN SPI_HEADER))
     )
     (component "footprint-lib:TTL_HEADER"
-      (place J24 15000 -21000 front 0 (PN TTL_HEADER))
+      (place J38 15000 -21000 front 0 (PN TTL_HEADER))
     )
     (component "footprint-lib:I2C_DEBUG"
-      (place J23 38000 -40000 front 180 (PN I2C_HEADER))
+      (place J37 45000 -50000 front 180 (PN I2C_HEADER))
     )
   )
   (library
+    (image Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical
+      (outline (path signal 50  1550 1150  -1550 1150))
+      (outline (path signal 50  1550 -6250  1550 1150))
+      (outline (path signal 50  -1550 -6250  1550 -6250))
+      (outline (path signal 50  -1550 1150  -1550 -6250))
+      (outline (path signal 120  -1110 760  0 760))
+      (outline (path signal 120  -1110 0  -1110 760))
+      (outline (path signal 120  563.471 -760  1110 -760))
+      (outline (path signal 120  -1110 -760  -563.471 -760))
+      (outline (path signal 120  1110 -760  1110 -5775))
+      (outline (path signal 120  -1110 -760  -1110 -5775))
+      (outline (path signal 120  307.53 -5775  1110 -5775))
+      (outline (path signal 120  -1110 -5775  -307.53 -5775))
+      (outline (path signal 100  -1050 110  -525 635))
+      (outline (path signal 100  -1050 -5715  -1050 110))
+      (outline (path signal 100  1050 -5715  -1050 -5715))
+      (outline (path signal 100  1050 635  1050 -5715))
+      (outline (path signal 100  -525 635  1050 635))
+      (pin Oval[A]Pad_1000x1000_um 5 0 -5080)
+      (pin Oval[A]Pad_1000x1000_um 4 0 -3810)
+      (pin Oval[A]Pad_1000x1000_um 3 0 -2540)
+      (pin Oval[A]Pad_1000x1000_um 2 0 -1270)
+      (pin Rect[A]Pad_1000x1000_um 1 0 0)
+    )
     (image Module:Arduino_Nano
       (outline (path signal 50  16750 -42160  -1530 -42160))
       (outline (path signal 50  16750 -42160  16750 4060))
@@ -237,85 +264,85 @@
   )
   (network
     (net /SDA
-      (pins U9-23 J27-8 J23-SDA)
+      (pins U12-23 J42-8 J37-SDA)
     )
     (net /SCL
-      (pins U9-24 J27-7 J23-SCL)
+      (pins U12-24 J42-7 J37-SCL)
     )
     (net GND
-      (pins U9-29 U9-4 J27-2 J26-4 J24-GND)
+      (pins U12-29 U12-4 J42-2 J41-4 J38-GND)
     )
     (net /D1
-      (pins U9-1 J26-1 J24-TX)
+      (pins U12-1 J41-1 J38-TX)
     )
     (net /D0
-      (pins U9-2 J26-2 J24-RX)
+      (pins U12-2 J41-2 J38-RX)
     )
     (net /SS
-      (pins U9-13 J26-13 J25-NSS)
+      (pins U12-13 J41-13 J39-NSS)
     )
     (net /MISO
-      (pins U9-15 J26-15 J25-MISO)
+      (pins U12-15 J41-15 J39-MISO)
     )
     (net /MOSI
-      (pins U9-14 J26-14 J25-MOSI)
+      (pins J40-1 U12-14 J41-14 J39-MOSI)
     )
     (net /SCK
-      (pins U9-16 J27-15 J25-SCK)
+      (pins J40-2 U12-16 J42-15 J39-SCK)
     )
     (net /D9
-      (pins U9-12 J26-12)
+      (pins U12-12 J41-12)
     )
     (net /D8
-      (pins U9-11 J26-11)
+      (pins U12-11 J41-11)
     )
     (net /D7
-      (pins U9-10 J26-10)
+      (pins U12-10 J41-10)
     )
     (net /OLED_SS
-      (pins U9-9 J26-9)
+      (pins J40-5 U12-9 J41-9)
     )
     (net /OLED_RST
-      (pins U9-8 J26-8)
+      (pins J40-4 U12-8 J41-8)
     )
     (net /OLED_DC
-      (pins U9-7 J26-7)
+      (pins J40-3 U12-7 J41-7)
     )
     (net /D3
-      (pins U9-6 J26-6)
+      (pins U12-6 J41-6)
     )
     (net /D2
-      (pins U9-5 J26-5)
+      (pins U12-5 J41-5)
     )
     (net /RST
-      (pins U9-28 U9-3 J27-3 J26-3)
+      (pins U12-28 U12-3 J42-3 J41-3)
     )
     (net /3V3
-      (pins U9-17 J27-14)
+      (pins U12-17 J42-14)
     )
     (net /AREF
-      (pins U9-18 J27-13)
+      (pins U12-18 J42-13)
     )
     (net /A0
-      (pins U9-19 J27-12)
+      (pins U12-19 J42-12)
     )
     (net /A1
-      (pins U9-20 J27-11)
+      (pins U12-20 J42-11)
     )
     (net /A2
-      (pins U9-21 J27-10)
+      (pins U12-21 J42-10)
     )
     (net /A3
-      (pins U9-22 J27-9)
+      (pins U12-22 J42-9)
     )
     (net /A6
-      (pins U9-25 J27-6)
+      (pins U12-25 J42-6)
     )
     (net /A7
-      (pins U9-26 J27-5)
+      (pins U12-26 J42-5)
     )
     (net +5V
-      (pins U9-30 U9-27 J27-4 J27-1)
+      (pins U12-30 U12-27 J42-4 J42-1)
     )
     (class kicad_default "" +5V /3V3 /A0 /A1 /A2 /A3 /A6 /A7 /AREF /D0 /D1
       /D2 /D3 /D7 /D8 /D9 /MISO /MOSI /OLED_DC /OLED_RST /OLED_SS /RST /SCK

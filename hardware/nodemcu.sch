@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:nodemcu-cache
+LIBS:eval_board-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 23
 Title ""
 Date ""
 Rev ""
@@ -4646,7 +4646,7 @@ AR Path="/5CECA6C5/5CF5A3DE" Ref="#PWR0102"  Part="1"
 AR Path="/5CF61809/5CF5A3DE" Ref="#PWR?"  Part="1" 
 AR Path="/5CF61878/5CF5A3DE" Ref="#PWR?"  Part="1" 
 AR Path="/5CF5A3DE" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 1050 650 50  0001 C CNN
+F 0 "#PWR0102" H 1050 650 50  0001 C CNN
 F 1 "+3V3" V 1100 950 50  0000 L CNN
 F 2 "" H 1050 800 50  0001 C CNN
 F 3 "" H 1050 800 50  0001 C CNN
@@ -4661,7 +4661,7 @@ AR Path="/5CECA6C5/5CF5AAFF" Ref="#PWR0103"  Part="1"
 AR Path="/5CF61809/5CF5AAFF" Ref="#PWR?"  Part="1" 
 AR Path="/5CF61878/5CF5AAFF" Ref="#PWR?"  Part="1" 
 AR Path="/5CF5AAFF" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 1050 650 50  0001 C CNN
+F 0 "#PWR0103" H 1050 650 50  0001 C CNN
 F 1 "GND" V 1050 750 50  0000 R CNN
 F 2 "" H 1050 900 50  0001 C CNN
 F 3 "" H 1050 900 50  0001 C CNN
