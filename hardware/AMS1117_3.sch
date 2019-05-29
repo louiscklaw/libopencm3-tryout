@@ -211,7 +211,7 @@ AR Path="/5CDAB997/5CEC1C2E/5CF53027" Ref="JP7"  Part="1"
 AR Path="/5CF05A5C/5CEC1C2E/5CF53027" Ref="JP?"  Part="1" 
 F 0 "JP7" V 2150 1900 50  0000 L CNN
 F 1 "PWR_SRC" V 2200 1900 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 2200 1850 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2200 1850 50  0001 C CNN
 F 3 "~" H 2200 1850 50  0001 C CNN
 	1    2200 1850
 	0    1    1    0   
@@ -228,7 +228,7 @@ AR Path="/5CDAB997/5CEC1C2E/5CF53029" Ref="JP8"  Part="1"
 AR Path="/5CF05A5C/5CEC1C2E/5CF53029" Ref="JP?"  Part="1" 
 F 0 "JP8" V 3600 1900 50  0000 L CNN
 F 1 "PWR_OUT" V 3650 1900 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3650 1850 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3650 1850 50  0001 C CNN
 F 3 "~" H 3650 1850 50  0001 C CNN
 	1    3650 1850
 	0    1    1    0   
