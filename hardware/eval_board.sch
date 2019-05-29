@@ -2440,18 +2440,6 @@ Text Label 12050 4800 0    50   ~ 0
 LORA_DIO0
 Text Label 12050 4900 0    50   ~ 0
 LORA_RST
-Text Label 6750 3450 2    50   ~ 0
-OLED_DC
-Text Label 6750 3550 2    50   ~ 0
-OLED_RST
-Text Label 6750 3650 2    50   ~ 0
-SS_OLED
-Entry Wire Line
-	6850 3450 6950 3350
-Entry Wire Line
-	6850 3550 6950 3450
-Entry Wire Line
-	6850 3650 6950 3550
 $Sheet
 S 2350 2000 700  5150
 U 5CDAB6B1
@@ -2611,30 +2599,6 @@ Entry Wire Line
 	3700 6350 3800 6250
 Wire Wire Line
 	3700 6350 3050 6350
-Wire Wire Line
-	6250 3650 6850 3650
-Wire Wire Line
-	6250 3550 6850 3550
-Wire Wire Line
-	6250 3450 6850 3450
-Text Label 5250 4000 2    50   ~ 0
-OLED_DC
-Text Label 5250 4100 2    50   ~ 0
-OLED_RST
-Text Label 5250 4200 2    50   ~ 0
-SS_OLED
-Entry Wire Line
-	5350 4000 5450 3900
-Entry Wire Line
-	5350 4100 5450 4000
-Entry Wire Line
-	5350 4200 5450 4100
-Wire Wire Line
-	4750 4200 5350 4200
-Wire Wire Line
-	4750 4100 5350 4100
-Wire Wire Line
-	4750 4000 5350 4000
 Text Notes 7050 10800 0    100  ~ 20
 11 DRC error accepted
 Text Label 3650 6650 2    50   ~ 0
@@ -2649,14 +2613,20 @@ Entry Wire Line
 	3700 6750 3800 6650
 Wire Wire Line
 	3700 6750 3050 6750
+Text Label 3650 5800 2    50   ~ 0
+SS_OLED
+Entry Wire Line
+	3700 5800 3800 5700
+Wire Wire Line
+	3700 5800 3050 5800
 Wire Bus Line
 	13450 1400 13450 2650
 Wire Bus Line
 	6950 1400 6950 3550
 Wire Bus Line
-	9850 1400 9850 7400
-Wire Bus Line
 	5450 1400 5450 4100
+Wire Bus Line
+	9850 1400 9850 7400
 Wire Bus Line
 	11900 1400 11900 5500
 Wire Bus Line

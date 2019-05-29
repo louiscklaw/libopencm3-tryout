@@ -140,13 +140,13 @@ $EndComp
 Wire Wire Line
 	7550 3050 7750 3050
 $Comp
-L Connector:Conn_01x20_Male J42
+L Connector:Conn_01x20_Male J44
 U 1 1 5CEDE89A
 P 8700 4700
-AR Path="/5CDAB6B1/5CEDE89A" Ref="J42"  Part="1" 
+AR Path="/5CDAB6B1/5CEDE89A" Ref="J44"  Part="1" 
 AR Path="/5CF5AEBC/5CEDE89A" Ref="J?"  Part="1" 
 AR Path="/5CED8C20/5CEDE89A" Ref="J?"  Part="1" 
-F 0 "J42" H 8850 5800 50  0000 C CNN
+F 0 "J44" H 8850 5800 50  0000 C CNN
 F 1 "STM32_2_DEBUG2" H 8850 5700 50  0000 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical" H 8700 4700 50  0001 C CNN
 F 3 "~" H 8700 4700 50  0001 C CNN
@@ -154,13 +154,13 @@ F 3 "~" H 8700 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x20_Male J41
+L Connector:Conn_01x20_Male J43
 U 1 1 5CEDE8A4
 P 8200 4700
-AR Path="/5CDAB6B1/5CEDE8A4" Ref="J41"  Part="1" 
+AR Path="/5CDAB6B1/5CEDE8A4" Ref="J43"  Part="1" 
 AR Path="/5CF5AEBC/5CEDE8A4" Ref="J?"  Part="1" 
 AR Path="/5CED8C20/5CEDE8A4" Ref="J?"  Part="1" 
-F 0 "J41" H 8300 5800 50  0000 C CNN
+F 0 "J43" H 8300 5800 50  0000 C CNN
 F 1 "STM32_2_DEBUG1" H 8300 5700 50  0000 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical" H 8200 4700 50  0001 C CNN
 F 3 "~" H 8200 4700 50  0001 C CNN
