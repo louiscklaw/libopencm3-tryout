@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  39914 -78282.5  15306 -78282.5  15306 -23712.5  39914 -23712.5
-            39914 -78282.5)
+      (path pcb 0  53509.4 -78282.5  21526 -78282.5  21526 -23712.5  53509.4 -23712.5
+            53509.4 -78282.5)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -34,14 +34,14 @@
   )
   (placement
     (component "Package_DIP:DIP-40_W15.24mm_LongPads"
-      (place U10 23100 -26800 front 0 (PN "bluepill-stm32f103c8t6"))
+      (place U13 23100 -26800 front 0 (PN "bluepill-stm32f103c8t6"))
     )
     (component Resistor_SMD:R_Array_Concave_4x0603
-      (place RN6 19000 -60250 front 180 (PN R_Pack04))
+      (place RN6 49593.5 -62039.5 back 0 (PN R_Pack04))
     )
     (component Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical
-      (place J29 30750 -73500 front 180 (PN STM32_2_DEBUG2))
-      (place J28 33000 -49500 front 180 (PN STM32_2_DEBUG1))
+      (place J44 46482 -55818 front 0 (PN STM32_2_DEBUG2))
+      (place J43 46863 -46736 front 180 (PN STM32_2_DEBUG1))
     )
   )
   (library
@@ -192,121 +192,121 @@
   )
   (network
     (net GND
-      (pins U10-40 U10-39 U10-19 J29-2 J28-20 J28-19)
+      (pins U13-40 U13-39 U13-19 J44-2 J43-20 J43-19)
     )
     (net +3V3
-      (pins U10-20 U10-38 RN6-5 RN6-6 RN6-7 RN6-8 J29-1 J28-18)
+      (pins U13-20 U13-38 RN6-5 RN6-6 RN6-7 RN6-8 J44-1 J43-18)
     )
     (net /NRST
-      (pins U10-37 J28-17)
+      (pins U13-37 J43-17)
     )
     (net /WS2812_OUT
-      (pins U10-36 J28-16)
+      (pins U13-36 J43-16)
     )
     (net /ROT_ENC_SW
-      (pins U10-35 J28-15)
+      (pins U13-35 J43-15)
     )
     (net /OLED_DC
-      (pins U10-34 J28-14)
-    )
-    (net /PB0
-      (pins U10-33 J28-13)
+      (pins U13-34 J43-14)
     )
     (net /MOSI
-      (pins U10-32 J28-12)
+      (pins U13-32 J43-12)
     )
     (net /MISO
-      (pins U10-31 J28-11)
+      (pins U13-31 J43-11)
     )
     (net /SCK
-      (pins U10-30 J28-10)
+      (pins U13-30 J43-10)
     )
     (net /SS
-      (pins U10-29 J28-9)
-    )
-    (net /PA3
-      (pins U10-28 J28-8)
+      (pins U13-29 J43-9)
     )
     (net /PA2
-      (pins U10-27 J28-7)
+      (pins U13-27 J43-7)
     )
     (net /A_IN1
-      (pins U10-26 J28-6)
+      (pins U13-26 J43-6)
     )
     (net /A_IN0
-      (pins U10-25 J28-5)
+      (pins U13-25 J43-5)
     )
     (net /PC15
-      (pins U10-24 J28-4)
+      (pins U13-24 J43-4)
     )
     (net /PC14
-      (pins U10-23 J28-3)
+      (pins U13-23 J43-3)
     )
     (net /PC13
-      (pins U10-22 J28-2)
+      (pins U13-22 J43-2)
     )
     (net /VBAT
-      (pins U10-21 J28-1)
+      (pins U13-21 J43-1)
     )
     (net /SS_ESP
-      (pins U10-1 J29-20)
+      (pins U13-1 J44-20)
     )
     (net /SS_ARDUINO
-      (pins U10-2 J29-19)
-    )
-    (net /SS_OLED
-      (pins U10-3 J29-18)
+      (pins U13-2 J44-19)
     )
     (net /SS_W25Q32
-      (pins U10-4 J29-17)
-    )
-    (net /PA8
-      (pins U10-5 J29-16)
+      (pins U13-4 J44-17)
     )
     (net /TX
-      (pins U10-6 J29-15)
+      (pins U13-6 J44-15)
     )
     (net /RX
-      (pins U10-7 J29-14)
-    )
-    (net /PA11
-      (pins U10-8 J29-13)
-    )
-    (net /PA12
-      (pins U10-9 J29-12)
+      (pins U13-7 J44-14)
     )
     (net /PWM
-      (pins U10-10 J29-11)
+      (pins U13-10 J44-11)
     )
     (net /OLED_SS
-      (pins U10-11 J29-10)
+      (pins U13-11 J44-10)
     )
     (net /DEBUG_LED
-      (pins U10-12 J29-9)
+      (pins U13-12 J44-9)
     )
     (net /BUZZER
-      (pins U10-13 J29-8)
+      (pins U13-8 J44-13)
     )
     (net /SCL
-      (pins U10-14 RN6-2 J29-7)
+      (pins U13-14 RN6-2 J44-7)
     )
     (net /SDA
-      (pins U10-15 RN6-1 J29-6)
+      (pins U13-15 RN6-1 J44-6)
     )
     (net /ROT_ENC_A
-      (pins U10-16 J29-5)
+      (pins U13-16 J44-5)
     )
     (net /ROT_ENC_B
-      (pins U10-17 J29-4)
+      (pins U13-17 J44-4)
     )
     (net +5V
-      (pins U10-18 J29-3)
+      (pins U13-18 J44-3)
     )
-    (class kicad_default "" +3V3 +5V /A_IN0 /A_IN1 /BUZZER /DEBUG_LED /MISO
-      /MOSI /NRST /OLED_DC /OLED_SS /PA11 /PA12 /PA2 /PA3 /PA8 /PB0 /PC13
-      /PC14 /PC15 /PWM /ROT_ENC_A /ROT_ENC_B /ROT_ENC_SW /RX /SCK /SCL /SDA
-      /SS /SS_ARDUINO /SS_ESP /SS_OLED /SS_W25Q32 /TX /VBAT /WS2812_OUT GND
-      "Net-(RN6-Pad3)" "Net-(RN6-Pad4)"
+    (net /BTN_PULL_UP
+      (pins U13-33 J43-13)
+    )
+    (net /BTN_PULL_DN
+      (pins U13-28 J43-8)
+    )
+    (net /LORA_RST
+      (pins U13-3 J44-18)
+    )
+    (net /LORA_DIO0
+      (pins U13-5 J44-16)
+    )
+    (net /SS_LORA
+      (pins U13-9 J44-12)
+    )
+    (net /OLED_RST
+      (pins U13-13 J44-8)
+    )
+    (class kicad_default "" +3V3 +5V /A_IN0 /A_IN1 /BTN_PULL_DN /BTN_PULL_UP
+      /BUZZER /DEBUG_LED /LORA_DIO0 /LORA_RST /MISO /MOSI /NRST /OLED_DC /OLED_RST
+      /OLED_SS /PA11 /PA12 /PA2 /PA3 /PA8 /PB0 /PC13 /PC14 /PC15 /PWM /ROT_ENC_A
+      /ROT_ENC_B /ROT_ENC_SW /RX /SCK /SCL /SDA /SS /SS_ARDUINO /SS_ESP /SS_LORA
+      /SS_OLED /SS_W25Q32 /TX /VBAT /WS2812_OUT GND "Net-(RN6-Pad3)" "Net-(RN6-Pad4)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
