@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  37146.4 -41912.5  12525 -41912.5  12525 -25162.5  37146.4 -25162.5
-            37146.4 -41912.5)
+      (path pcb 0  45575 -41912.5  12525 -41912.5  12525 -25162.5  45575 -25162.5
+            45575 -41912.5)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -33,19 +33,44 @@
     )
   )
   (placement
+    (component Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical
+      (place J36 39000 -28000 front 0 (PN ROT_ENC_HEADER))
+    )
     (component "footprint-lib:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
       (place SW3 13800 -30620 front 0 (PN EC11_VERTICAL))
     )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place R15 33000 -37000 front 0 (PN R273,0603))
-      (place R14 33000 -33000 front 0 (PN R273,0603))
-      (place R13 33000 -28000 front 0 (PN R273,0603))
-      (place C16 33000 -39000 front 180 (PN C104,0603))
-      (place C15 33000 -35000 front 180 (PN C104,0603))
-      (place C14 32875 -30000 front 180 (PN C104,0603))
+      (place R18 33000 -37000 front 0 (PN R273,0603))
+      (place R17 33000 -33000 front 0 (PN R273,0603))
+      (place R16 33000 -28000 front 0 (PN R273,0603))
+      (place C26 33000 -39000 front 180 (PN C104,0603))
+      (place C25 33000 -35000 front 180 (PN C104,0603))
+      (place C24 32875 -30000 front 180 (PN C104,0603))
     )
   )
   (library
+    (image Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical
+      (outline (path signal 50  1550 1150  -1550 1150))
+      (outline (path signal 50  1550 -3700  1550 1150))
+      (outline (path signal 50  -1550 -3700  1550 -3700))
+      (outline (path signal 50  -1550 1150  -1550 -3700))
+      (outline (path signal 120  -1110 760  0 760))
+      (outline (path signal 120  -1110 0  -1110 760))
+      (outline (path signal 120  563.471 -760  1110 -760))
+      (outline (path signal 120  -1110 -760  -563.471 -760))
+      (outline (path signal 120  1110 -760  1110 -3235))
+      (outline (path signal 120  -1110 -760  -1110 -3235))
+      (outline (path signal 120  307.53 -3235  1110 -3235))
+      (outline (path signal 120  -1110 -3235  -307.53 -3235))
+      (outline (path signal 100  -1050 110  -525 635))
+      (outline (path signal 100  -1050 -3175  -1050 110))
+      (outline (path signal 100  1050 -3175  -1050 -3175))
+      (outline (path signal 100  1050 635  1050 -3175))
+      (outline (path signal 100  -525 635  1050 635))
+      (pin Oval[A]Pad_1000x1000_um 3 0 -2540)
+      (pin Oval[A]Pad_1000x1000_um 2 0 -1270)
+      (pin Rect[A]Pad_1000x1000_um 1 0 0)
+    )
     (image "footprint-lib:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
       (outline (path signal 120  10500 -2500  10419.1 -3191.85  10180.9 -3846.4  9798.13 -4428.36
             9291.48 -4906.37  8688.24 -5254.65  8020.94 -5454.42  7325.57 -5494.92
@@ -112,6 +137,11 @@
       (shape (circle B.Cu 2000))
       (attach off)
     )
+    (padstack Oval[A]Pad_1000x1000_um
+      (shape (path F.Cu 1000  0 0  0 0))
+      (shape (path B.Cu 1000  0 0  0 0))
+      (attach off)
+    )
     (padstack RoundRect[T]Pad_1050x950_238.404_um
       (shape (polygon F.Cu 0  328.898 472.282  369.039 461.526  406.702 443.964  440.743 420.128
             470.128 390.743  493.964 356.702  511.526 319.039  522.282 278.898
@@ -136,6 +166,11 @@
       (shape (rect B.Cu -1750 -1250 1750 1250))
       (attach off)
     )
+    (padstack Rect[A]Pad_1000x1000_um
+      (shape (rect F.Cu -500 -500 500 500))
+      (shape (rect B.Cu -500 -500 500 500))
+      (attach off)
+    )
     (padstack "Via[0-1]_800:400_um"
       (shape (circle F.Cu 800))
       (shape (circle B.Cu 800))
@@ -144,28 +179,28 @@
   )
   (network
     (net GND
-      (pins SW3-C SW3-E C16-2 C15-2 C14-2)
+      (pins SW3-C SW3-E C26-2 C25-2 C24-2)
     )
     (net /A
-      (pins R13-2 C14-1)
+      (pins J36-1 R16-2 C24-1)
     )
     (net /B
-      (pins R14-2 C15-1)
+      (pins J36-2 R17-2 C25-1)
     )
     (net /SW_OUT
-      (pins R15-2 C16-1)
+      (pins J36-3 R18-2 C26-1)
     )
-    (net "Net-(R13-Pad1)"
-      (pins SW3-B R13-1)
+    (net "Net-(R16-Pad1)"
+      (pins SW3-B R16-1)
     )
-    (net "Net-(R14-Pad1)"
-      (pins SW3-A R14-1)
+    (net "Net-(R17-Pad1)"
+      (pins SW3-A R17-1)
     )
-    (net "Net-(R15-Pad1)"
-      (pins SW3-D R15-1)
+    (net "Net-(R18-Pad1)"
+      (pins SW3-D R18-1)
     )
     (class kicad_default "" /A /B /SW_OUT GND "Net-(R13-Pad1)" "Net-(R14-Pad1)"
-      "Net-(R15-Pad1)"
+      "Net-(R15-Pad1)" "Net-(R16-Pad1)" "Net-(R17-Pad1)" "Net-(R18-Pad1)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
