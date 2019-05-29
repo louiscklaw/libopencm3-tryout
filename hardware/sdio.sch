@@ -13478,17 +13478,6 @@ Wire Wire Line
 Connection ~ 5300 2150
 Wire Wire Line
 	5300 2150 5800 2150
-$Comp
-L taobao-components:SDCARD_HEADER_10PIN J32
-U 1 1 5D089C8E
-P 5000 3350
-F 0 "J32" V 5100 3300 50  0000 C CNN
-F 1 "sdcard_header" V 5200 3300 50  0000 C CNN
-F 2 "footprint-lib:SDCARD_HEADER" H 5000 3350 50  0001 C CNN
-F 3 "~" H 5000 3350 50  0001 C CNN
-	1    5000 3350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5200 3150 5200 2250
 Connection ~ 5200 2250
@@ -13706,4 +13695,15 @@ Wire Wire Line
 	4650 2350 5100 2350
 NoConn ~ 3300 1700
 NoConn ~ 3500 1700
+$Comp
+L taobao-components:SDCARD_HEADER_10PIN J32
+U 1 1 5D089C8E
+P 5000 3350
+F 0 "J32" V 5100 3300 50  0000 C CNN
+F 1 "sdcard_header" V 5200 3300 50  0000 C CNN
+F 2 "footprint-lib:SDCARD_HEADER_10PIN" H 5000 3350 50  0001 C CNN
+F 3 "~" H 5000 3350 50  0001 C CNN
+	1    5000 3350
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
