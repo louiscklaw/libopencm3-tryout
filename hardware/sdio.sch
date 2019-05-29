@@ -13479,7 +13479,7 @@ Connection ~ 5300 2150
 Wire Wire Line
 	5300 2150 5800 2150
 $Comp
-L Connector:Conn_01x10_Female J32
+L taobao-components:SDCARD_HEADER_10PIN J32
 U 1 1 5D089C8E
 P 5000 3350
 F 0 "J32" V 5100 3300 50  0000 C CNN
