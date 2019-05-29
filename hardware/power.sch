@@ -26,7 +26,7 @@ AR Path="/5CDAB73D/5CF0E774/5CDC08AC" Ref="J?"  Part="1"
 AR Path="/5CF05A5C/5CDC08AC" Ref="J?"  Part="1" 
 F 0 "J7" V 2050 1500 50  0000 L CNN
 F 1 "A_MEAS" V 2150 1500 50  0000 L CNN
-F 2 "" H 2000 1450 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 2000 1450 50  0001 C CNN
 F 3 "~" H 2000 1450 50  0001 C CNN
 	1    2000 1450
 	0    1    1    0   
@@ -41,7 +41,7 @@ AR Path="/5CDAB73D/5CF0E774/5CDC1537" Ref="J?"  Part="1"
 AR Path="/5CF05A5C/5CDC1537" Ref="J?"  Part="1" 
 F 0 "J8" H 950 1450 50  0000 C CNN
 F 1 "5V_IN" H 950 1550 50  0000 C CNN
-F 2 "" H 1050 1800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1050 1800 50  0001 C CNN
 F 3 "~" H 1050 1800 50  0001 C CNN
 	1    1050 1800
 	-1   0    0    1   
@@ -75,7 +75,7 @@ AR Path="/5CDAB73D/5CF0E774/5CDC22C8" Ref="J?"  Part="1"
 AR Path="/5CF05A5C/5CDC22C8" Ref="J?"  Part="1" 
 F 0 "J6" H 1550 1600 50  0000 C CNN
 F 1 "V_MEAS" H 1550 1500 50  0000 C CNN
-F 2 "" H 1400 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1400 1400 50  0001 C CNN
 F 3 "~" H 1400 1400 50  0001 C CNN
 	1    1400 1400
 	1    0    0    -1  
@@ -129,7 +129,7 @@ AR Path="/5CDAB73D/5CF0E774/5CDC6A22" Ref="J?"  Part="1"
 AR Path="/5CF05A5C/5CDC6A22" Ref="J?"  Part="1" 
 F 0 "J10" V 2050 2500 50  0000 L CNN
 F 1 "A_MEAS" V 2150 2500 50  0000 L CNN
-F 2 "" H 2000 2450 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 2000 2450 50  0001 C CNN
 F 3 "~" H 2000 2450 50  0001 C CNN
 	1    2000 2450
 	0    1    1    0   
@@ -144,7 +144,7 @@ AR Path="/5CDAB73D/5CF0E774/5CDC6A2C" Ref="J?"  Part="1"
 AR Path="/5CF05A5C/5CDC6A2C" Ref="J?"  Part="1" 
 F 0 "J11" H 950 2450 50  0000 C CNN
 F 1 "3V3_IN" H 950 2550 50  0000 C CNN
-F 2 "" H 1050 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1050 2800 50  0001 C CNN
 F 3 "~" H 1050 2800 50  0001 C CNN
 	1    1050 2800
 	-1   0    0    1   
@@ -178,7 +178,7 @@ AR Path="/5CDAB73D/5CF0E774/5CDC6A42" Ref="J?"  Part="1"
 AR Path="/5CF05A5C/5CDC6A42" Ref="J?"  Part="1" 
 F 0 "J9" H 1550 2600 50  0000 C CNN
 F 1 "V_MEAS" H 1550 2500 50  0000 C CNN
-F 2 "" H 1400 2400 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1400 2400 50  0001 C CNN
 F 3 "~" H 1400 2400 50  0001 C CNN
 	1    1400 2400
 	1    0    0    -1  
