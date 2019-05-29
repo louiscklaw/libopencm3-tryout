@@ -1,0 +1,75 @@
+Cmp-Mod V01 Created by PcbNew   date = Wednesday, May 29, 2019 PM03:43:53 HKT
+
+BeginCmp
+TimeStamp = 5CEEA329
+Path = /5CF53014
+Reference = U5;
+ValeurCmp = AMS1117-3.3;
+IdModule  = footprint-lib:AMS1117_SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CEEA313
+Path = /5CF5301B
+Reference = R8;
+ValeurCmp = R102,0603;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CEEA302
+Path = /5C148F3B
+Reference = JP6;
+ValeurCmp = PWR_OUT;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CEEA2F4
+Path = /5C148323
+Reference = JP5;
+ValeurCmp = PWR_SRC;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CEEA2E6
+Path = /5C078669
+Reference = J13;
+ValeurCmp = Conn_01x03;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CEEA2CF
+Path = /5CF53025
+Reference = D10;
+ValeurCmp = LED_GREEN,0603;
+IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CEEA2BC
+Path = /5CF5300E
+Reference = C13;
+ValeurCmp = CP47uf,50V;
+IdModule  = w_smd_cap:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CEEA2A8
+Path = /5CF53024
+Reference = C12;
+ValeurCmp = C104,0603;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CEEA297
+Path = /5CF53016
+Reference = C11;
+ValeurCmp = C104,0603;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+EndListe
