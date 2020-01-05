@@ -1,3 +1,9 @@
 [submodule "libopencm3-examples"]
 	path = libopencm3-examples
 	url = git@github.com:libopencm3/libopencm3-examples.git
+[submodule "_ref/stlink"]
+	path = _ref/stlink
+	url = https://github.com/texane/stlink.git
+[submodule "_ref/libopencm3-miniblink"]
+	path = _ref/libopencm3-miniblink
+	url = https://github.com/libopencm3/libopencm3-miniblink.git
