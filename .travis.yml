@@ -1,0 +1,13 @@
+
+script:
+  - export
+  - hostname
+
+
+import:
+  - credentials.yml
+  - .travis-merger.yml
+
+stages:
+  - Build
+  - Merge
